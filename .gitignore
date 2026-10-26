@@ -1,0 +1,20 @@
+# Notebook checkpoints / caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Large simulation / intermediate artifacts (persist via Kaggle Datasets, not git)
+*.xtc
+*.trr
+*.dcd
+*.gro
+*.tpr
+*.cpt
+*.edr
+data/raw/
+data/intermediate/
+*.pdb.gz
+
+# OS / editor
+.DS_Store
+*.swp
