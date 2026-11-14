@@ -1,0 +1,24 @@
+{
+  "forward_primer": "ACGCGTCTTCTATTTATTGAGTG",
+  "forward_primer_location": {
+    "match": "minus_strand",
+    "start": 172449637,
+    "end": 172449659
+  },
+  "reverse_primer": "AGTAAACCCTGTCCAGAATCC",
+  "reverse_primer_location": {
+    "match": "plus_strand",
+    "start": 172449261,
+    "end": 172449281
+  },
+  "mapped_amplicon_start": 172449261,
+  "mapped_amplicon_end": 172449659,
+  "mapped_amplicon_size_bp": 399,
+  "reported_amplicon_size_bp": 399,
+  "size_matches_manuscript": true,
+  "variants_inside_amplicon": [
+    "rs2922126",
+    "rs115459563",
+    "rs34136054"
+  ]
+}

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="427.32pt" height="291.6pt" viewBox="0 0 427.32 291.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-14T17:47:55.688249</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 291.6 
+L 427.32 291.6 
+L 427.32 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 17.93592 98.5275 
+L 409.38408 98.5275 
+Q 413.51328 98.5275 413.51328 96.0525 
+L 413.51328 35.91 
+Q 413.51328 33.435 409.38408 33.435 
+L 17.93592 33.435 
+Q 13.80672 33.435 13.80672 35.91 
+L 13.80672 96.0525 
+Q 13.80672 98.5275 17.93592 98.5275 
+z
+" clip-path="url(#p3bb82e3f25)" style="fill: #fcfcfb; stroke: #2a78d6; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 15.4584 97.5375 
+L 20.82636 97.5375 
+L 20.82636 34.425 
+L 15.4584 34.425 
+z
+" clip-path="url(#p3bb82e3f25)" style="fill: #2a78d6"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 17.93592 185.1525 
+L 409.38408 185.1525 
+Q 413.51328 185.1525 413.51328 182.6775 
+L 413.51328 122.535 
+Q 413.51328 120.06 409.38408 120.06 
+L 17.93592 120.06 
+Q 13.80672 120.06 13.80672 122.535 
+L 13.80672 182.6775 
+Q 13.80672 185.1525 17.93592 185.1525 
+z
+" clip-path="url(#p3bb82e3f25)" style="fill: #fcfcfb; stroke: #eb6834; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 15.4584 184.1625 
+L 20.82636 184.1625 
+L 20.82636 121.05 
+L 15.4584 121.05 
+z
+" clip-path="url(#p3bb82e3f25)" style="fill: #eb6834"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 17.93592 271.7775 
+L 409.38408 271.7775 
+Q 413.51328 271.7775 413.51328 269.3025 
+L 413.51328 209.16 
+Q 413.51328 206.685 409.38408 206.685 
+L 17.93592 206.685 
+Q 13.80672 206.685 13.80672 209.16 
+L 13.80672 269.3025 
+Q 13.80672 271.7775 17.93592 271.7775 
+z
+" clip-path="url(#p3bb82e3f25)" style="fill: #fcfcfb; stroke: #1baf7a; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 15.4584 270.7875 
+L 20.82636 270.7875 
+L 20.82636 207.675 
+L 15.4584 207.675 
+z
+" clip-path="url(#p3bb82e3f25)" style="fill: #1baf7a"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8.4px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="29.9106" y="46.252687" transform="rotate(-0 29.9106 46.252687)">Level 1 - Computational regulatory prediction</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2a78d6" x="29.9106" y="57.411937" transform="rotate(-0 29.9106 57.411937)">THIS STUDY (retrospective, in silico)</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(29.9106 69.206)">AlphaGenome 2; 16 conditions, 22 scorers,</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(29.9106 78.806)">4 variant configurations; GRCh38</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 59.431)">Establishes</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 68.411)">  predicted cis-regulatory consequence</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 78.631)">Does NOT establish</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 87.611)">  measured expression, phenotype, diagnosis</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8.4px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="29.9106" y="132.877687" transform="rotate(-0 29.9106 132.877687)">Level 2 - Experimental genotype detection</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #eb6834" x="29.9106" y="144.036937" transform="rotate(-0 29.9106 144.036937)">PRIOR STUDY (PCR + Sanger sequencing, n = 100)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(29.9106 155.831)">399 bp amplicon; 100% call rate;</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(29.9106 165.431)">Hardy-Weinberg equilibrium met in controls</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 146.056)">Establishes</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 155.036)">  the genotype at each position was read correctly</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 165.256)">Does NOT establish</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 174.236)">  any effect on gene regulation</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 8.4px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="29.9106" y="219.502687" transform="rotate(-0 29.9106 219.502687)">Level 3 - Statistical phenotype association</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1baf7a" x="29.9106" y="230.661937" transform="rotate(-0 29.9106 230.661937)">PRIOR STUDY (case-control, n = 100, 6-CIT groups)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(29.9106 242.7495)">No association survived FDR correction;</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(29.9106 252.056)">rs2922126 achieved power 6.62%; rs115459563</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(29.9106 261.656)">models did not converge; rs34136054 n = 1</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 232.681)">Establishes</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 241.661)">  exploratory, underpowered association only</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 251.881)">Does NOT establish</text>
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(223.983 260.861)">  causation, mechanism, or an AD diagnosis</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 69.138 100.277856 
+Q 69.138 109.292663 69.138 117.189436 
+" style="fill: none; stroke-dasharray: 3,2; stroke-dashoffset: 0; stroke: #898781; stroke-linecap: round"/>
+    <path d="M 70.738 113.989436 
+L 69.138 117.189436 
+L 67.538 113.989436 
+z
+" style="fill: #898781; stroke-dasharray: 3,2; stroke-dashoffset: 0; stroke: #898781; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #e34948" x="89.784" y="110.9565" transform="rotate(-0 89.784 110.9565)">a null prediction does not refute an association</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 69.138 186.902856 
+Q 69.138 195.917663 69.138 203.814436 
+" style="fill: none; stroke-dasharray: 3,2; stroke-dashoffset: 0; stroke: #898781; stroke-linecap: round"/>
+    <path d="M 70.738 200.614436 
+L 69.138 203.814436 
+L 67.538 200.614436 
+z
+" style="fill: #898781; stroke-dasharray: 3,2; stroke-dashoffset: 0; stroke: #898781; stroke-linecap: round"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.4px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #e34948" x="89.784" y="197.5815" transform="rotate(-0 89.784 197.5815)">genotyping does not validate a predicted effect</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="15.4584" y="16.415859" transform="rotate(-0 15.4584 16.415859)">Three evidence levels, kept separate</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #52514e" x="15.4584" y="26.873906" transform="rotate(-0 15.4584 26.873906)">The in silico analysis was performed after the genotyping and did not guide the experimental design.</text>
+   </g>
+   <g id="line2d_1">
+    <path d="M 57.57624 109.29375 
+L 80.69976 109.29375 
+" clip-path="url(#p3bb82e3f25)" style="fill: none; stroke: #e34948; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 57.57624 195.91875 
+L 80.69976 195.91875 
+" clip-path="url(#p3bb82e3f25)" style="fill: none; stroke: #e34948; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3bb82e3f25">
+   <rect x="7.2" y="7.2" width="412.92" height="277.2"/>
+  </clipPath>
+ </defs>
+</svg>

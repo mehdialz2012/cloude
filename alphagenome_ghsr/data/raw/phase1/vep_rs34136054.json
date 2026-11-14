@@ -1,0 +1,136 @@
+[
+ {
+  "assembly_name": "GRCh38",
+  "end": 172449372,
+  "seq_region_name": "3",
+  "strand": 1,
+  "id": "rs34136054",
+  "input": "rs34136054",
+  "most_severe_consequence": "upstream_gene_variant",
+  "start": 172449372,
+  "colocated_variants": [
+   {
+    "strand": 1,
+    "allele_string": "T/C/G",
+    "id": "rs34136054",
+    "seq_region_name": "3",
+    "end": 172449372,
+    "start": 172449372,
+    "frequencies": {
+     "G": {
+      "eur": 0.008,
+      "gnomadg_eas": 0.02462,
+      "gnomadg_asj": 0.005764,
+      "sas": 0.002,
+      "af": 0.0074,
+      "gnomadg_fin": 0.001323,
+      "afr": 0.0023,
+      "gnomadg_nfe": 0.00362,
+      "gnomadg_amr": 0.009368,
+      "gnomadg_mid": 0.01701,
+      "gnomadg_remaining": 0.009013,
+      "gnomadg_ami": 0.003289,
+      "amr": 0.0014,
+      "gnomadg": 0.004981,
+      "eas": 0.0228,
+      "gnomadg_afr": 0.004007,
+      "gnomadg_sas": 0.002918
+     }
+    }
+   }
+  ],
+  "allele_string": "T/C/G",
+  "transcript_consequences": [
+   {
+    "impact": "MODIFIER",
+    "variant_allele": "C",
+    "strand": -1,
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ],
+    "distance": 916,
+    "gene_symbol": "GHSR",
+    "biotype": "protein_coding",
+    "gene_symbol_source": "HGNC",
+    "transcript_id": "ENST00000241256",
+    "gene_id": "ENSG00000121853",
+    "hgnc_id": "HGNC:4267"
+   },
+   {
+    "variant_allele": "G",
+    "impact": "MODIFIER",
+    "gene_symbol": "GHSR",
+    "distance": 916,
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ],
+    "strand": -1,
+    "biotype": "protein_coding",
+    "hgnc_id": "HGNC:4267",
+    "gene_id": "ENSG00000121853",
+    "transcript_id": "ENST00000241256",
+    "gene_symbol_source": "HGNC"
+   },
+   {
+    "biotype": "protein_coding",
+    "hgnc_id": "HGNC:4267",
+    "transcript_id": "ENST00000427970",
+    "gene_id": "ENSG00000121853",
+    "gene_symbol_source": "HGNC",
+    "variant_allele": "C",
+    "impact": "MODIFIER",
+    "gene_symbol": "GHSR",
+    "distance": 917,
+    "strand": -1,
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ]
+   },
+   {
+    "variant_allele": "G",
+    "impact": "MODIFIER",
+    "distance": 917,
+    "gene_symbol": "GHSR",
+    "strand": -1,
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ],
+    "biotype": "protein_coding",
+    "hgnc_id": "HGNC:4267",
+    "gene_id": "ENSG00000121853",
+    "transcript_id": "ENST00000427970",
+    "gene_symbol_source": "HGNC"
+   },
+   {
+    "variant_allele": "C",
+    "impact": "MODIFIER",
+    "gene_symbol": "GHSR",
+    "distance": 916,
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ],
+    "strand": -1,
+    "biotype": "protein_coding",
+    "hgnc_id": "HGNC:4267",
+    "gene_id": "ENSG00000121853",
+    "transcript_id": "ENST00001141273",
+    "gene_symbol_source": "HGNC"
+   },
+   {
+    "variant_allele": "G",
+    "impact": "MODIFIER",
+    "distance": 916,
+    "gene_symbol": "GHSR",
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ],
+    "strand": -1,
+    "biotype": "protein_coding",
+    "hgnc_id": "HGNC:4267",
+    "transcript_id": "ENST00001141273",
+    "gene_id": "ENSG00000121853",
+    "gene_symbol_source": "HGNC"
+   }
+  ]
+ }
+]

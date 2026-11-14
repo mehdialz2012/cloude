@@ -1,0 +1,102 @@
+[
+ {
+  "strand": 1,
+  "id": "rs2922126",
+  "most_severe_consequence": "upstream_gene_variant",
+  "allele_string": "T/A",
+  "assembly_name": "GRCh38",
+  "input": "rs2922126",
+  "transcript_consequences": [
+   {
+    "hgnc_id": "HGNC:4267",
+    "transcript_id": "ENST00000241256",
+    "strand": -1,
+    "gene_symbol": "GHSR",
+    "variant_allele": "A",
+    "gene_id": "ENSG00000121853",
+    "biotype": "protein_coding",
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ],
+    "impact": "MODIFIER",
+    "distance": 1015,
+    "gene_symbol_source": "HGNC"
+   },
+   {
+    "variant_allele": "A",
+    "gene_id": "ENSG00000121853",
+    "gene_symbol": "GHSR",
+    "transcript_id": "ENST00000427970",
+    "strand": -1,
+    "hgnc_id": "HGNC:4267",
+    "distance": 1016,
+    "gene_symbol_source": "HGNC",
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ],
+    "impact": "MODIFIER",
+    "biotype": "protein_coding"
+   },
+   {
+    "transcript_id": "ENST00001141273",
+    "hgnc_id": "HGNC:4267",
+    "strand": -1,
+    "gene_symbol": "GHSR",
+    "variant_allele": "A",
+    "gene_id": "ENSG00000121853",
+    "biotype": "protein_coding",
+    "consequence_terms": [
+     "upstream_gene_variant"
+    ],
+    "impact": "MODIFIER",
+    "distance": 1015,
+    "gene_symbol_source": "HGNC"
+   }
+  ],
+  "colocated_variants": [
+   {
+    "allele_string": "T/A",
+    "frequencies": {
+     "A": {
+      "eas": 0.4712,
+      "gnomadg": 0.2796,
+      "gnomadg_nfe": 0.3364,
+      "amr": 0.3545,
+      "af": 0.3151,
+      "gnomadg_afr": 0.1022,
+      "afr": 0.0514,
+      "gnomadg_asj": 0.3484,
+      "gnomadg_mid": 0.2755,
+      "gnomadg_ami": 0.4057,
+      "gnomadg_amr": 0.2925,
+      "gnomadg_sas": 0.4375,
+      "gnomadg_eas": 0.446,
+      "gnomadg_fin": 0.3992,
+      "gnomadg_remaining": 0.3089,
+      "sas": 0.4509,
+      "eur": 0.3459
+     }
+    },
+    "id": "rs2922126",
+    "strand": 1,
+    "start": 172449471,
+    "end": 172449471,
+    "seq_region_name": "3",
+    "pubmed": [
+     24340245,
+     22927710,
+     20920174,
+     22457237,
+     20404923,
+     21269581,
+     34174062,
+     19024096,
+     38137497
+    ]
+   }
+  ],
+  "start": 172449471,
+  "end": 172449471,
+  "seq_region_name": "3"
+ }
+]

@@ -1,0 +1,43 @@
+{
+  "gene_id": "ENSG00000121853",
+  "symbol": "GHSR",
+  "description": "growth hormone secretagogue receptor [Source:HGNC Symbol;Acc:HGNC:4267]",
+  "chrom": "3",
+  "start": 172442551,
+  "end": 172448456,
+  "strand": -1,
+  "biotype": "protein_coding",
+  "assembly": "GRCh38",
+  "transcripts": [
+    {
+      "transcript_id": "ENST00000241256",
+      "name": "GHSR-201",
+      "biotype": "protein_coding",
+      "start": 172443291,
+      "end": 172448456,
+      "strand": -1,
+      "tss": 172448456,
+      "is_canonical": true
+    },
+    {
+      "transcript_id": "ENST00000427970",
+      "name": "GHSR-202",
+      "biotype": "protein_coding",
+      "start": 172447544,
+      "end": 172448455,
+      "strand": -1,
+      "tss": 172448455,
+      "is_canonical": false
+    },
+    {
+      "transcript_id": "ENST00001141273",
+      "name": "GHSR-203",
+      "biotype": "protein_coding",
+      "start": 172442551,
+      "end": 172448456,
+      "strand": -1,
+      "tss": 172448456,
+      "is_canonical": false
+    }
+  ]
+}

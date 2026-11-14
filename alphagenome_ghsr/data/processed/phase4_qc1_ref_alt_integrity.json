@@ -1,0 +1,67 @@
+{
+  "per_variant": [
+    {
+      "variant_key": "rs2922126_T_A",
+      "position": 172449471,
+      "ref_declared": "T",
+      "ref_in_grch38": "T",
+      "ref_matches_grch38": true,
+      "variant_string_sent_to_api": "chr3:172449471:T>A",
+      "variant_id_returned_by_api": [
+        "chr3:172449471:T>A"
+      ],
+      "n_conditions_scored": 16,
+      "n_conditions_expected": 16,
+      "n_scorers_returned": 18,
+      "n_rows": 40432
+    },
+    {
+      "variant_key": "rs115459563_G_A",
+      "position": 172449444,
+      "ref_declared": "G",
+      "ref_in_grch38": "G",
+      "ref_matches_grch38": true,
+      "variant_string_sent_to_api": "chr3:172449444:G>A",
+      "variant_id_returned_by_api": [
+        "chr3:172449444:G>A"
+      ],
+      "n_conditions_scored": 16,
+      "n_conditions_expected": 16,
+      "n_scorers_returned": 18,
+      "n_rows": 40464
+    },
+    {
+      "variant_key": "rs34136054_T_C",
+      "position": 172449372,
+      "ref_declared": "T",
+      "ref_in_grch38": "T",
+      "ref_matches_grch38": true,
+      "variant_string_sent_to_api": "chr3:172449372:T>C",
+      "variant_id_returned_by_api": [
+        "chr3:172449372:T>C"
+      ],
+      "n_conditions_scored": 16,
+      "n_conditions_expected": 16,
+      "n_scorers_returned": 18,
+      "n_rows": 40624
+    },
+    {
+      "variant_key": "rs34136054_T_G",
+      "position": 172449372,
+      "ref_declared": "T",
+      "ref_in_grch38": "T",
+      "ref_matches_grch38": true,
+      "variant_string_sent_to_api": "chr3:172449372:T>G",
+      "variant_id_returned_by_api": [
+        "chr3:172449372:T>G"
+      ],
+      "n_conditions_scored": 16,
+      "n_conditions_expected": 16,
+      "n_scorers_returned": 18,
+      "n_rows": 40624
+    }
+  ],
+  "all_ref_match_grch38": true,
+  "all_variants_scored_in_all_conditions": true,
+  "identical_scorer_count_across_variants": true
+}

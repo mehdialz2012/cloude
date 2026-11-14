@@ -1,0 +1,289 @@
+condition_label,panel,rsid,modality,signed_log2fc_at_peak_track,imputation_mode_of_peak_track,n_tracks
+hypothalamus,Brain / neuronal,rs2922126,RNA_SEQ,-0.0035004615783691406,imputed_exploratory,5
+hypothalamus,Brain / neuronal,rs2922126,CAGE,0.01603752374649048,imputed_exploratory,4
+hypothalamus,Brain / neuronal,rs2922126,DNASE,0.006997108459472656,imputed_supported,2
+hypothalamus,Brain / neuronal,rs2922126,ATAC,-0.004320621490478516,imputed_supported,2
+hypothalamus,Brain / neuronal,rs2922126,CHIP_TF,-0.014575958251953125,imputed_exploratory,911
+hypothalamus,Brain / neuronal,rs2922126,CHIP_HISTONE,0.006146430969238281,imputed_exploratory,43
+hypothalamus,Brain / neuronal,rs115459563,RNA_SEQ,-0.010406732559204102,imputed_exploratory,5
+hypothalamus,Brain / neuronal,rs115459563,CAGE,-0.001774519681930542,imputed_exploratory,4
+hypothalamus,Brain / neuronal,rs115459563,DNASE,0.0034499168395996094,imputed_supported,2
+hypothalamus,Brain / neuronal,rs115459563,ATAC,-0.015798568725585938,imputed_supported,2
+hypothalamus,Brain / neuronal,rs115459563,CHIP_TF,-0.010884284973144531,imputed_exploratory,911
+hypothalamus,Brain / neuronal,rs115459563,CHIP_HISTONE,-0.0072994232177734375,imputed_exploratory,43
+hypothalamus,Brain / neuronal,rs34136054,RNA_SEQ,0.022495746612548828,imputed_exploratory,10
+hypothalamus,Brain / neuronal,rs34136054,CAGE,-0.02096569538116455,imputed_exploratory,8
+hypothalamus,Brain / neuronal,rs34136054,DNASE,-0.02973031997680664,imputed_supported,4
+hypothalamus,Brain / neuronal,rs34136054,ATAC,0.024713993072509766,imputed_supported,4
+hypothalamus,Brain / neuronal,rs34136054,CHIP_TF,0.03302955627441406,imputed_exploratory,1822
+hypothalamus,Brain / neuronal,rs34136054,CHIP_HISTONE,0.020560264587402344,imputed_exploratory,86
+temporal lobe,Brain / neuronal,rs2922126,RNA_SEQ,0.003368854522705078,imputed_exploratory,5
+temporal lobe,Brain / neuronal,rs2922126,CAGE,0.007208660244941711,observed,4
+temporal lobe,Brain / neuronal,rs2922126,DNASE,-0.003269195556640625,imputed_supported,2
+temporal lobe,Brain / neuronal,rs2922126,ATAC,-0.009922981262207031,imputed_supported,2
+temporal lobe,Brain / neuronal,rs2922126,CHIP_TF,-0.020374298095703125,imputed_exploratory,911
+temporal lobe,Brain / neuronal,rs2922126,CHIP_HISTONE,-0.0042552947998046875,imputed_exploratory,43
+temporal lobe,Brain / neuronal,rs115459563,RNA_SEQ,-0.003551006317138672,observed,5
+temporal lobe,Brain / neuronal,rs115459563,CAGE,0.012834340333938599,observed,4
+temporal lobe,Brain / neuronal,rs115459563,DNASE,0.04300355911254883,imputed_supported,2
+temporal lobe,Brain / neuronal,rs115459563,ATAC,0.004007816314697266,imputed_supported,2
+temporal lobe,Brain / neuronal,rs115459563,CHIP_TF,0.029198646545410156,imputed_exploratory,911
+temporal lobe,Brain / neuronal,rs115459563,CHIP_HISTONE,0.012704849243164062,imputed_exploratory,43
+temporal lobe,Brain / neuronal,rs34136054,RNA_SEQ,0.02486562728881836,observed,10
+temporal lobe,Brain / neuronal,rs34136054,CAGE,0.026594802737236023,observed,8
+temporal lobe,Brain / neuronal,rs34136054,DNASE,0.05133962631225586,imputed_supported,4
+temporal lobe,Brain / neuronal,rs34136054,ATAC,0.04140520095825195,imputed_supported,4
+temporal lobe,Brain / neuronal,rs34136054,CHIP_TF,0.04974651336669922,imputed_exploratory,1822
+temporal lobe,Brain / neuronal,rs34136054,CHIP_HISTONE,0.0322723388671875,observed,86
+layer of hippocampus,Brain / neuronal,rs2922126,RNA_SEQ,0.00202178955078125,imputed_exploratory,5
+layer of hippocampus,Brain / neuronal,rs2922126,CAGE,0.005216240882873535,imputed_exploratory,4
+layer of hippocampus,Brain / neuronal,rs2922126,DNASE,0.004477024078369141,imputed_exploratory,2
+layer of hippocampus,Brain / neuronal,rs2922126,ATAC,-0.003890514373779297,imputed_exploratory,2
+layer of hippocampus,Brain / neuronal,rs2922126,CHIP_TF,-0.02316570281982422,imputed_exploratory,911
+layer of hippocampus,Brain / neuronal,rs2922126,CHIP_HISTONE,0.006369590759277344,imputed_exploratory,43
+layer of hippocampus,Brain / neuronal,rs115459563,RNA_SEQ,-0.016414165496826172,imputed_exploratory,5
+layer of hippocampus,Brain / neuronal,rs115459563,CAGE,-0.000552937388420105,imputed_exploratory,4
+layer of hippocampus,Brain / neuronal,rs115459563,DNASE,0.004586696624755859,imputed_exploratory,2
+layer of hippocampus,Brain / neuronal,rs115459563,ATAC,-0.012406349182128906,imputed_exploratory,2
+layer of hippocampus,Brain / neuronal,rs115459563,CHIP_TF,-0.009751319885253906,imputed_exploratory,911
+layer of hippocampus,Brain / neuronal,rs115459563,CHIP_HISTONE,-0.0091552734375,imputed_exploratory,43
+layer of hippocampus,Brain / neuronal,rs34136054,RNA_SEQ,0.020749568939208984,imputed_exploratory,10
+layer of hippocampus,Brain / neuronal,rs34136054,CAGE,-0.005672186613082886,imputed_exploratory,8
+layer of hippocampus,Brain / neuronal,rs34136054,DNASE,-0.02724742889404297,imputed_exploratory,4
+layer of hippocampus,Brain / neuronal,rs34136054,ATAC,0.01748514175415039,imputed_exploratory,4
+layer of hippocampus,Brain / neuronal,rs34136054,CHIP_TF,0.02932262420654297,imputed_exploratory,1822
+layer of hippocampus,Brain / neuronal,rs34136054,CHIP_HISTONE,0.01952075958251953,imputed_exploratory,86
+brain neuron,Brain / neuronal,rs2922126,RNA_SEQ,0.0011892318725585938,imputed_supported,5
+brain neuron,Brain / neuronal,rs2922126,CAGE,0.0037446022033691406,observed,4
+brain neuron,Brain / neuronal,rs2922126,DNASE,0.004930019378662109,imputed_supported,2
+brain neuron,Brain / neuronal,rs2922126,ATAC,-0.015503883361816406,imputed_supported,2
+brain neuron,Brain / neuronal,rs2922126,CHIP_TF,-0.01995372772216797,imputed_exploratory,911
+brain neuron,Brain / neuronal,rs2922126,CHIP_HISTONE,0.0075206756591796875,imputed_supported,43
+brain neuron,Brain / neuronal,rs115459563,RNA_SEQ,-0.0028700828552246094,imputed_supported,5
+brain neuron,Brain / neuronal,rs115459563,CAGE,-0.0007944405078887939,imputed_exploratory,4
+brain neuron,Brain / neuronal,rs115459563,DNASE,0.005854129791259766,imputed_supported,2
+brain neuron,Brain / neuronal,rs115459563,ATAC,-0.009888172149658203,imputed_supported,2
+brain neuron,Brain / neuronal,rs115459563,CHIP_TF,0.0076656341552734375,imputed_exploratory,911
+brain neuron,Brain / neuronal,rs115459563,CHIP_HISTONE,-0.0031423568725585938,imputed_supported,43
+brain neuron,Brain / neuronal,rs34136054,RNA_SEQ,0.005580902099609375,imputed_supported,10
+brain neuron,Brain / neuronal,rs34136054,CAGE,0.00727236270904541,imputed_exploratory,8
+brain neuron,Brain / neuronal,rs34136054,DNASE,0.03066110610961914,imputed_supported,4
+brain neuron,Brain / neuronal,rs34136054,ATAC,0.035943031311035156,imputed_supported,4
+brain neuron,Brain / neuronal,rs34136054,CHIP_TF,0.031665802001953125,imputed_exploratory,1822
+brain neuron,Brain / neuronal,rs34136054,CHIP_HISTONE,0.023912429809570312,imputed_supported,86
+brain,Brain / neuronal,rs2922126,RNA_SEQ,0.01676034927368164,observed,5
+brain,Brain / neuronal,rs2922126,CAGE,0.007603555917739868,imputed_exploratory,4
+brain,Brain / neuronal,rs2922126,DNASE,0.01755380630493164,observed,2
+brain,Brain / neuronal,rs2922126,ATAC,-0.003807544708251953,imputed_supported,2
+brain,Brain / neuronal,rs2922126,CHIP_TF,-0.018369674682617188,imputed_exploratory,911
+brain,Brain / neuronal,rs2922126,CHIP_HISTONE,0.0077800750732421875,imputed_supported,43
+brain,Brain / neuronal,rs115459563,RNA_SEQ,-0.015271186828613281,observed,5
+brain,Brain / neuronal,rs115459563,CAGE,-0.002768412232398987,imputed_exploratory,4
+brain,Brain / neuronal,rs115459563,DNASE,0.02471446990966797,observed,2
+brain,Brain / neuronal,rs115459563,ATAC,-0.017199039459228516,imputed_supported,2
+brain,Brain / neuronal,rs115459563,CHIP_TF,-0.01563549041748047,imputed_exploratory,911
+brain,Brain / neuronal,rs115459563,CHIP_HISTONE,-0.005980491638183594,observed,43
+brain,Brain / neuronal,rs34136054,RNA_SEQ,0.01383066177368164,observed,10
+brain,Brain / neuronal,rs34136054,CAGE,-0.009223416447639465,imputed_exploratory,8
+brain,Brain / neuronal,rs34136054,DNASE,0.032853126525878906,observed,4
+brain,Brain / neuronal,rs34136054,ATAC,0.033074378967285156,imputed_supported,4
+brain,Brain / neuronal,rs34136054,CHIP_TF,0.03960990905761719,imputed_exploratory,1822
+brain,Brain / neuronal,rs34136054,CHIP_HISTONE,0.024321556091308594,observed,86
+glutamatergic neuron,Brain / neuronal,rs2922126,RNA_SEQ,0.027287960052490234,observed,5
+glutamatergic neuron,Brain / neuronal,rs2922126,CAGE,0.008956223726272583,imputed_exploratory,4
+glutamatergic neuron,Brain / neuronal,rs2922126,DNASE,0.041042327880859375,observed,2
+glutamatergic neuron,Brain / neuronal,rs2922126,ATAC,0.03003692626953125,imputed_supported,2
+glutamatergic neuron,Brain / neuronal,rs2922126,CHIP_TF,0.038959503173828125,imputed_exploratory,911
+glutamatergic neuron,Brain / neuronal,rs2922126,CHIP_HISTONE,0.02829456329345703,imputed_supported,43
+glutamatergic neuron,Brain / neuronal,rs115459563,RNA_SEQ,-0.0011010169982910156,observed,5
+glutamatergic neuron,Brain / neuronal,rs115459563,CAGE,-0.001143336296081543,imputed_exploratory,4
+glutamatergic neuron,Brain / neuronal,rs115459563,DNASE,-0.018399715423583984,observed,2
+glutamatergic neuron,Brain / neuronal,rs115459563,ATAC,-0.02472972869873047,imputed_supported,2
+glutamatergic neuron,Brain / neuronal,rs115459563,CHIP_TF,-0.012572288513183594,imputed_exploratory,911
+glutamatergic neuron,Brain / neuronal,rs115459563,CHIP_HISTONE,-0.006733894348144531,imputed_supported,43
+glutamatergic neuron,Brain / neuronal,rs34136054,RNA_SEQ,0.008629322052001953,observed,10
+glutamatergic neuron,Brain / neuronal,rs34136054,CAGE,0.003896087408065796,imputed_exploratory,8
+glutamatergic neuron,Brain / neuronal,rs34136054,DNASE,0.049596309661865234,observed,4
+glutamatergic neuron,Brain / neuronal,rs34136054,ATAC,0.03851461410522461,imputed_supported,4
+glutamatergic neuron,Brain / neuronal,rs34136054,CHIP_TF,0.032843589782714844,imputed_exploratory,1822
+glutamatergic neuron,Brain / neuronal,rs34136054,CHIP_HISTONE,0.020333290100097656,imputed_supported,86
+hippocampal astrocyte,Brain / neuronal,rs2922126,RNA_SEQ,0.0011987686157226562,imputed_supported,5
+hippocampal astrocyte,Brain / neuronal,rs2922126,CAGE,0.0008932799100875854,imputed_exploratory,4
+hippocampal astrocyte,Brain / neuronal,rs2922126,DNASE,0.015000343322753906,imputed_exploratory,2
+hippocampal astrocyte,Brain / neuronal,rs2922126,ATAC,0.0012631416320800781,imputed_supported,2
+hippocampal astrocyte,Brain / neuronal,rs2922126,CHIP_TF,-0.012042999267578125,imputed_exploratory,911
+hippocampal astrocyte,Brain / neuronal,rs2922126,CHIP_HISTONE,0.0051975250244140625,imputed_supported,43
+hippocampal astrocyte,Brain / neuronal,rs115459563,RNA_SEQ,0.000408172607421875,imputed_supported,5
+hippocampal astrocyte,Brain / neuronal,rs115459563,CAGE,0.00037747621536254883,imputed_exploratory,4
+hippocampal astrocyte,Brain / neuronal,rs115459563,DNASE,0.015454292297363281,observed,2
+hippocampal astrocyte,Brain / neuronal,rs115459563,ATAC,-0.007121086120605469,imputed_supported,2
+hippocampal astrocyte,Brain / neuronal,rs115459563,CHIP_TF,-0.008760452270507812,imputed_exploratory,911
+hippocampal astrocyte,Brain / neuronal,rs115459563,CHIP_HISTONE,0.004088401794433594,imputed_supported,43
+hippocampal astrocyte,Brain / neuronal,rs34136054,RNA_SEQ,0.0008716583251953125,imputed_supported,10
+hippocampal astrocyte,Brain / neuronal,rs34136054,CAGE,-0.0008700862526893616,imputed_exploratory,8
+hippocampal astrocyte,Brain / neuronal,rs34136054,DNASE,0.028957366943359375,observed,4
+hippocampal astrocyte,Brain / neuronal,rs34136054,ATAC,0.026607990264892578,imputed_supported,4
+hippocampal astrocyte,Brain / neuronal,rs34136054,CHIP_TF,0.02318572998046875,imputed_exploratory,1822
+hippocampal astrocyte,Brain / neuronal,rs34136054,CHIP_HISTONE,-0.014036178588867188,imputed_supported,86
+pituitary gland,Pituitary,rs2922126,RNA_SEQ,0.016637086868286133,imputed_exploratory,5
+pituitary gland,Pituitary,rs2922126,CAGE,0.026389241218566895,imputed_exploratory,4
+pituitary gland,Pituitary,rs2922126,DNASE,0.023869991302490234,imputed_supported,2
+pituitary gland,Pituitary,rs2922126,ATAC,0.016678333282470703,imputed_supported,2
+pituitary gland,Pituitary,rs2922126,CHIP_TF,0.03572273254394531,imputed_exploratory,911
+pituitary gland,Pituitary,rs2922126,CHIP_HISTONE,0.030941009521484375,imputed_exploratory,43
+pituitary gland,Pituitary,rs115459563,RNA_SEQ,-0.0026912689208984375,imputed_exploratory,5
+pituitary gland,Pituitary,rs115459563,CAGE,-0.003081381320953369,imputed_exploratory,4
+pituitary gland,Pituitary,rs115459563,DNASE,0.0040187835693359375,imputed_supported,2
+pituitary gland,Pituitary,rs115459563,ATAC,-0.017945289611816406,imputed_supported,2
+pituitary gland,Pituitary,rs115459563,CHIP_TF,-0.011936187744140625,imputed_exploratory,911
+pituitary gland,Pituitary,rs115459563,CHIP_HISTONE,-0.0076274871826171875,imputed_exploratory,43
+pituitary gland,Pituitary,rs34136054,RNA_SEQ,0.015871286392211914,imputed_exploratory,10
+pituitary gland,Pituitary,rs34136054,CAGE,-0.02107185125350952,imputed_exploratory,8
+pituitary gland,Pituitary,rs34136054,DNASE,-0.03615236282348633,imputed_supported,4
+pituitary gland,Pituitary,rs34136054,ATAC,0.03677225112915039,imputed_supported,4
+pituitary gland,Pituitary,rs34136054,CHIP_TF,0.04250812530517578,imputed_exploratory,1822
+pituitary gland,Pituitary,rs34136054,CHIP_HISTONE,0.02452850341796875,imputed_exploratory,86
+blood monocyte,Bone,rs2922126,RNA_SEQ,0.004845619201660156,imputed_exploratory,5
+blood monocyte,Bone,rs2922126,CAGE,0.0012037977576255798,imputed_exploratory,4
+blood monocyte,Bone,rs2922126,DNASE,0.00899648666381836,imputed_exploratory,2
+blood monocyte,Bone,rs2922126,ATAC,-0.010989189147949219,imputed_exploratory,2
+blood monocyte,Bone,rs2922126,CHIP_TF,-0.009999275207519531,imputed_exploratory,911
+blood monocyte,Bone,rs2922126,CHIP_HISTONE,0.005299568176269531,imputed_exploratory,43
+blood monocyte,Bone,rs115459563,RNA_SEQ,0.0011353492736816406,imputed_exploratory,5
+blood monocyte,Bone,rs115459563,CAGE,0.0008904784917831421,imputed_exploratory,4
+blood monocyte,Bone,rs115459563,DNASE,0.017343521118164062,imputed_exploratory,2
+blood monocyte,Bone,rs115459563,ATAC,0.0023603439331054688,imputed_exploratory,2
+blood monocyte,Bone,rs115459563,CHIP_TF,0.013690948486328125,imputed_exploratory,911
+blood monocyte,Bone,rs115459563,CHIP_HISTONE,0.004321098327636719,imputed_exploratory,43
+blood monocyte,Bone,rs34136054,RNA_SEQ,-0.0011773109436035156,imputed_exploratory,10
+blood monocyte,Bone,rs34136054,CAGE,-0.004582598805427551,imputed_exploratory,8
+blood monocyte,Bone,rs34136054,DNASE,0.012513160705566406,imputed_exploratory,4
+blood monocyte,Bone,rs34136054,ATAC,0.01729583740234375,imputed_exploratory,4
+blood monocyte,Bone,rs34136054,CHIP_TF,0.027009010314941406,imputed_exploratory,1822
+blood monocyte,Bone,rs34136054,CHIP_HISTONE,-0.012815475463867188,imputed_exploratory,86
+osteoblast (bone tissue),Bone,rs2922126,RNA_SEQ,0.000492095947265625,imputed_exploratory,5
+osteoblast (bone tissue),Bone,rs2922126,CAGE,0.00033248215913772583,imputed_exploratory,4
+osteoblast (bone tissue),Bone,rs2922126,DNASE,0.010910511016845703,imputed_supported,2
+osteoblast (bone tissue),Bone,rs2922126,ATAC,-0.0038805007934570312,imputed_supported,2
+osteoblast (bone tissue),Bone,rs2922126,CHIP_TF,-0.024621009826660156,observed,911
+osteoblast (bone tissue),Bone,rs2922126,CHIP_HISTONE,0.011037826538085938,observed,43
+osteoblast (bone tissue),Bone,rs115459563,RNA_SEQ,0.001010894775390625,imputed_exploratory,5
+osteoblast (bone tissue),Bone,rs115459563,CAGE,0.00012062489986419678,imputed_exploratory,4
+osteoblast (bone tissue),Bone,rs115459563,DNASE,0.01075124740600586,imputed_supported,2
+osteoblast (bone tissue),Bone,rs115459563,ATAC,-0.011127471923828125,imputed_supported,2
+osteoblast (bone tissue),Bone,rs115459563,CHIP_TF,0.011165618896484375,imputed_exploratory,911
+osteoblast (bone tissue),Bone,rs115459563,CHIP_HISTONE,0.0046329498291015625,observed,43
+osteoblast (bone tissue),Bone,rs34136054,RNA_SEQ,-0.0012636184692382812,imputed_exploratory,10
+osteoblast (bone tissue),Bone,rs34136054,CAGE,-0.000980764627456665,imputed_exploratory,8
+osteoblast (bone tissue),Bone,rs34136054,DNASE,-0.015402793884277344,imputed_supported,4
+osteoblast (bone tissue),Bone,rs34136054,ATAC,0.020131587982177734,imputed_supported,4
+osteoblast (bone tissue),Bone,rs34136054,CHIP_TF,0.02947998046875,imputed_exploratory,1822
+osteoblast (bone tissue),Bone,rs34136054,CHIP_HISTONE,-0.014473915100097656,imputed_exploratory,86
+mesenchymal stem cell,Bone,rs2922126,RNA_SEQ,0.0008101463317871094,imputed_supported,5
+mesenchymal stem cell,Bone,rs2922126,CAGE,0.000532984733581543,imputed_exploratory,4
+mesenchymal stem cell,Bone,rs2922126,DNASE,0.012612342834472656,observed,2
+mesenchymal stem cell,Bone,rs2922126,ATAC,-0.0046443939208984375,imputed_supported,2
+mesenchymal stem cell,Bone,rs2922126,CHIP_TF,-0.012754440307617188,imputed_exploratory,911
+mesenchymal stem cell,Bone,rs2922126,CHIP_HISTONE,0.005457878112792969,observed,43
+mesenchymal stem cell,Bone,rs115459563,RNA_SEQ,0.00013971328735351562,imputed_supported,5
+mesenchymal stem cell,Bone,rs115459563,CAGE,0.00012190639972686768,imputed_exploratory,4
+mesenchymal stem cell,Bone,rs115459563,DNASE,0.014586448669433594,imputed_supported,2
+mesenchymal stem cell,Bone,rs115459563,ATAC,-0.009751319885253906,imputed_supported,2
+mesenchymal stem cell,Bone,rs115459563,CHIP_TF,-0.01697540283203125,imputed_exploratory,911
+mesenchymal stem cell,Bone,rs115459563,CHIP_HISTONE,-0.0041961669921875,observed,43
+mesenchymal stem cell,Bone,rs34136054,RNA_SEQ,0.0008330345153808594,imputed_supported,10
+mesenchymal stem cell,Bone,rs34136054,CAGE,-0.0018983185291290283,imputed_exploratory,8
+mesenchymal stem cell,Bone,rs34136054,DNASE,0.016913652420043945,observed,4
+mesenchymal stem cell,Bone,rs34136054,ATAC,0.012025594711303711,imputed_supported,4
+mesenchymal stem cell,Bone,rs34136054,CHIP_TF,0.028844833374023438,imputed_exploratory,1822
+mesenchymal stem cell,Bone,rs34136054,CHIP_HISTONE,-0.009813308715820312,imputed_supported,86
+osteocyte,Bone,rs2922126,RNA_SEQ,0.00015211105346679688,imputed_supported,5
+osteocyte,Bone,rs2922126,CAGE,7.501989603042603e-05,imputed_exploratory,4
+osteocyte,Bone,rs2922126,DNASE,0.0036787986755371094,observed,2
+osteocyte,Bone,rs2922126,ATAC,-0.005999565124511719,imputed_supported,2
+osteocyte,Bone,rs2922126,CHIP_TF,-0.013552665710449219,imputed_exploratory,911
+osteocyte,Bone,rs2922126,CHIP_HISTONE,0.0072116851806640625,imputed_supported,43
+osteocyte,Bone,rs115459563,RNA_SEQ,-0.00021839141845703125,imputed_supported,5
+osteocyte,Bone,rs115459563,CAGE,-0.0003029629588127136,imputed_exploratory,4
+osteocyte,Bone,rs115459563,DNASE,-0.006618022918701172,observed,2
+osteocyte,Bone,rs115459563,ATAC,-0.01687908172607422,imputed_supported,2
+osteocyte,Bone,rs115459563,CHIP_TF,0.008565902709960938,observed,911
+osteocyte,Bone,rs115459563,CHIP_HISTONE,0.0024766921997070312,imputed_supported,43
+osteocyte,Bone,rs34136054,RNA_SEQ,-0.0003638267517089844,imputed_supported,10
+osteocyte,Bone,rs34136054,CAGE,-0.0006554797291755676,imputed_exploratory,8
+osteocyte,Bone,rs34136054,DNASE,0.01730203628540039,observed,4
+osteocyte,Bone,rs34136054,ATAC,0.016302108764648438,imputed_supported,4
+osteocyte,Bone,rs34136054,CHIP_TF,-0.027846336364746094,imputed_exploratory,1822
+osteocyte,Bone,rs34136054,CHIP_HISTONE,0.016465187072753906,imputed_supported,86
+testis,Context tissue,rs2922126,RNA_SEQ,0.016402721405029297,observed,5
+testis,Context tissue,rs2922126,CAGE,0.012236595153808594,imputed_exploratory,4
+testis,Context tissue,rs2922126,DNASE,0.01368856430053711,observed,2
+testis,Context tissue,rs2922126,ATAC,-0.0037789344787597656,imputed_supported,2
+testis,Context tissue,rs2922126,CHIP_TF,-0.013598442077636719,observed,911
+testis,Context tissue,rs2922126,CHIP_HISTONE,0.0072727203369140625,imputed_supported,43
+testis,Context tissue,rs115459563,RNA_SEQ,-0.005785942077636719,observed,5
+testis,Context tissue,rs115459563,CAGE,0.0010376572608947754,observed,4
+testis,Context tissue,rs115459563,DNASE,0.01638936996459961,observed,2
+testis,Context tissue,rs115459563,ATAC,-0.014469146728515625,imputed_supported,2
+testis,Context tissue,rs115459563,CHIP_TF,-0.009070396423339844,imputed_exploratory,911
+testis,Context tissue,rs115459563,CHIP_HISTONE,-0.004368782043457031,observed,43
+testis,Context tissue,rs34136054,RNA_SEQ,0.005099773406982422,observed,10
+testis,Context tissue,rs34136054,CAGE,-0.0076656341552734375,imputed_exploratory,8
+testis,Context tissue,rs34136054,DNASE,-0.05044841766357422,observed,4
+testis,Context tissue,rs34136054,ATAC,0.01725292205810547,imputed_supported,4
+testis,Context tissue,rs34136054,CHIP_TF,-0.02492523193359375,imputed_exploratory,1822
+testis,Context tissue,rs34136054,CHIP_HISTONE,0.008475303649902344,imputed_supported,86
+stomach,Context tissue,rs2922126,RNA_SEQ,0.007395267486572266,observed,5
+stomach,Context tissue,rs2922126,CAGE,0.0007997825741767883,imputed_exploratory,4
+stomach,Context tissue,rs2922126,DNASE,0.0122833251953125,observed,2
+stomach,Context tissue,rs2922126,ATAC,-0.008074760437011719,observed,2
+stomach,Context tissue,rs2922126,CHIP_TF,0.007828712463378906,imputed_exploratory,911
+stomach,Context tissue,rs2922126,CHIP_HISTONE,0.0067310333251953125,imputed_supported,43
+stomach,Context tissue,rs115459563,RNA_SEQ,0.0004987716674804688,observed,5
+stomach,Context tissue,rs115459563,CAGE,-0.0005093291401863098,observed,4
+stomach,Context tissue,rs115459563,DNASE,0.008561134338378906,observed,2
+stomach,Context tissue,rs115459563,ATAC,-0.014610767364501953,observed,2
+stomach,Context tissue,rs115459563,CHIP_TF,0.007565498352050781,imputed_exploratory,911
+stomach,Context tissue,rs115459563,CHIP_HISTONE,-0.0028018951416015625,observed,43
+stomach,Context tissue,rs34136054,RNA_SEQ,0.000835418701171875,observed,10
+stomach,Context tissue,rs34136054,CAGE,-0.0014377832412719727,imputed_exploratory,8
+stomach,Context tissue,rs34136054,DNASE,-0.039153099060058594,observed,4
+stomach,Context tissue,rs34136054,ATAC,0.006100654602050781,observed,4
+stomach,Context tissue,rs34136054,CHIP_TF,0.024980545043945312,imputed_exploratory,1822
+stomach,Context tissue,rs34136054,CHIP_HISTONE,0.014740943908691406,imputed_supported,86
+thyroid gland,Context tissue,rs2922126,RNA_SEQ,0.0033063888549804688,observed,5
+thyroid gland,Context tissue,rs2922126,CAGE,0.0005623996257781982,imputed_exploratory,4
+thyroid gland,Context tissue,rs2922126,DNASE,0.009406566619873047,observed,2
+thyroid gland,Context tissue,rs2922126,ATAC,-0.0026450157165527344,observed,2
+thyroid gland,Context tissue,rs2922126,CHIP_TF,-0.007708549499511719,observed,911
+thyroid gland,Context tissue,rs2922126,CHIP_HISTONE,0.004193305969238281,imputed_supported,43
+thyroid gland,Context tissue,rs115459563,RNA_SEQ,-0.0029306411743164062,observed,5
+thyroid gland,Context tissue,rs115459563,CAGE,-0.0005363821983337402,imputed_exploratory,4
+thyroid gland,Context tissue,rs115459563,DNASE,0.006258964538574219,observed,2
+thyroid gland,Context tissue,rs115459563,ATAC,-0.0090484619140625,observed,2
+thyroid gland,Context tissue,rs115459563,CHIP_TF,0.0072689056396484375,imputed_exploratory,911
+thyroid gland,Context tissue,rs115459563,CHIP_HISTONE,0.0024585723876953125,imputed_supported,43
+thyroid gland,Context tissue,rs34136054,RNA_SEQ,-0.0007710456848144531,observed,10
+thyroid gland,Context tissue,rs34136054,CAGE,-0.001080043613910675,imputed_exploratory,8
+thyroid gland,Context tissue,rs34136054,DNASE,-0.036995887756347656,observed,4
+thyroid gland,Context tissue,rs34136054,ATAC,0.009082317352294922,observed,4
+thyroid gland,Context tissue,rs34136054,CHIP_TF,0.022111892700195312,imputed_exploratory,1822
+thyroid gland,Context tissue,rs34136054,CHIP_HISTONE,0.008717536926269531,imputed_supported,86
+ovary,Context tissue,rs2922126,RNA_SEQ,0.0019202232360839844,observed,5
+ovary,Context tissue,rs2922126,CAGE,0.001034565269947052,imputed_exploratory,4
+ovary,Context tissue,rs2922126,DNASE,0.005362272262573242,observed,2
+ovary,Context tissue,rs2922126,ATAC,-0.007720947265625,observed,2
+ovary,Context tissue,rs2922126,CHIP_TF,-0.008296012878417969,observed,911
+ovary,Context tissue,rs2922126,CHIP_HISTONE,-0.0049266815185546875,observed,43
+ovary,Context tissue,rs115459563,RNA_SEQ,-0.0005669593811035156,observed,5
+ovary,Context tissue,rs115459563,CAGE,-0.0001517757773399353,imputed_exploratory,4
+ovary,Context tissue,rs115459563,DNASE,0.010572671890258789,observed,2
+ovary,Context tissue,rs115459563,ATAC,-0.017881393432617188,observed,2
+ovary,Context tissue,rs115459563,CHIP_TF,-0.009510993957519531,imputed_exploratory,911
+ovary,Context tissue,rs115459563,CHIP_HISTONE,0.001918792724609375,imputed_supported,43
+ovary,Context tissue,rs34136054,RNA_SEQ,0.0008602142333984375,observed,10
+ovary,Context tissue,rs34136054,CAGE,-0.0006103552877902985,imputed_exploratory,8
+ovary,Context tissue,rs34136054,DNASE,-0.01856398582458496,observed,4
+ovary,Context tissue,rs34136054,ATAC,0.010454177856445312,observed,4
+ovary,Context tissue,rs34136054,CHIP_TF,0.022223472595214844,imputed_exploratory,1822
+ovary,Context tissue,rs34136054,CHIP_HISTONE,0.010831832885742188,imputed_supported,86

@@ -18,3 +18,10 @@ data/intermediate/
 # OS / editor
 .DS_Store
 *.swp
+
+# AlphaGenome GHSR analysis: base-resolution REF/ALT track arrays.
+# ~590 MB, fully regenerable with `python -m ghsr_ag2.phase3b_tracks`.
+# The per-track aggregated scores (data/raw/phase3/*.parquet) and the track
+# index are committed; the raw arrays are not.
+alphagenome_ghsr/data/raw/phase3b/*.npz
+alphagenome_ghsr/data/raw/phase3b/trackmeta_*.csv

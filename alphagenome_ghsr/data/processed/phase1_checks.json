@@ -1,0 +1,9 @@
+{
+  "all_ref_alleles_match_grch38": true,
+  "all_coordinates_agree_dbsnp_vs_ensembl": true,
+  "all_alts_present_in_dbsnp": true,
+  "all_variants_inside_manuscript_amplicon": true,
+  "amplicon_size_matches_manuscript": true,
+  "no_variant_inside_ghsr_gene_body": true,
+  "no_variant_overlaps_ensembl_regulatory_feature": true
+}

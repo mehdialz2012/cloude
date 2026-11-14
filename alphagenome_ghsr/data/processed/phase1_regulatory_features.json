@@ -1,0 +1,26 @@
+[
+  {
+    "start": 172449561,
+    "id": "ENSR3_B3983C",
+    "feature_type": "regulatory",
+    "extended_end": 172450143,
+    "seq_region_name": "3",
+    "source": "Ensembl",
+    "end": 172450143,
+    "strand": 0,
+    "extended_start": 172449561,
+    "description": "enhancer"
+  },
+  {
+    "strand": 1,
+    "source": "Ensembl",
+    "end": 172449841,
+    "extended_start": 172449820,
+    "description": "CTCF_binding_site",
+    "feature_type": "regulatory",
+    "extended_end": 172449841,
+    "start": 172449820,
+    "id": "ENSR3_53HK6KS",
+    "seq_region_name": "3"
+  }
+]
