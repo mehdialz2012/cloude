@@ -1,0 +1,72 @@
+{
+  "ghsr_expression": {
+    "readout": "GHSR RNA-seq log-fold-change",
+    "n_cells_total": 48,
+    "n_sign_consistent_total": 13,
+    "fraction_sign_consistent_total": 0.271,
+    "by_rsid": {
+      "rs115459563": {
+        "n_cells": 16,
+        "n_sign_consistent": 7,
+        "fraction_sign_consistent": 0.438,
+        "n_negative_in_all_contexts": 6,
+        "n_positive_in_all_contexts": 1,
+        "median_range_across_contexts": 0.003317,
+        "max_abs_any_context": 0.026548
+      },
+      "rs2922126": {
+        "n_cells": 16,
+        "n_sign_consistent": 3,
+        "fraction_sign_consistent": 0.188,
+        "n_negative_in_all_contexts": 0,
+        "n_positive_in_all_contexts": 3,
+        "median_range_across_contexts": 0.009967,
+        "max_abs_any_context": 0.033186
+      },
+      "rs34136054": {
+        "n_cells": 16,
+        "n_sign_consistent": 3,
+        "fraction_sign_consistent": 0.188,
+        "n_negative_in_all_contexts": 0,
+        "n_positive_in_all_contexts": 3,
+        "median_range_across_contexts": 0.007102,
+        "max_abs_any_context": 0.028127
+      }
+    }
+  },
+  "observed_ctcf": {
+    "readout": "observed CTCF ChIP log2 fold change",
+    "n_cells_total": 24,
+    "n_sign_consistent_total": 19,
+    "fraction_sign_consistent_total": 0.792,
+    "by_rsid": {
+      "rs115459563": {
+        "n_cells": 8,
+        "n_sign_consistent": 7,
+        "fraction_sign_consistent": 0.875,
+        "n_negative_in_all_contexts": 1,
+        "n_positive_in_all_contexts": 6,
+        "median_range_across_contexts": 0.003143,
+        "max_abs_any_context": 0.010201
+      },
+      "rs2922126": {
+        "n_cells": 8,
+        "n_sign_consistent": 7,
+        "fraction_sign_consistent": 0.875,
+        "n_negative_in_all_contexts": 7,
+        "n_positive_in_all_contexts": 0,
+        "median_range_across_contexts": 0.008286,
+        "max_abs_any_context": 0.024621
+      },
+      "rs34136054": {
+        "n_cells": 8,
+        "n_sign_consistent": 5,
+        "fraction_sign_consistent": 0.625,
+        "n_negative_in_all_contexts": 3,
+        "n_positive_in_all_contexts": 2,
+        "median_range_across_contexts": 0.004145,
+        "max_abs_any_context": 0.011914
+      }
+    }
+  }
+}

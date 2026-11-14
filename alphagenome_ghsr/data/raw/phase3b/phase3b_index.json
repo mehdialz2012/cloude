@@ -1,0 +1,1442 @@
+[
+  {
+    "variant_key": "rs2922126_T_A",
+    "rsid": "rs2922126",
+    "condition_curie": "UBERON:0000007",
+    "condition_label": "pituitary gland",
+    "interval": "chr3:172383935-172515007:.",
+    "interval_start": 172383935,
+    "interval_end": 172515007,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.018826603889465332,
+        "n_observed_tracks": 1
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.0114288330078125,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.10133695602416992,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.1333596408367157,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 9.492431640625,
+        "n_observed_tracks": 0
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 6.47210693359375,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs2922126_T_A",
+    "rsid": "rs2922126",
+    "condition_curie": "UBERON:0001898",
+    "condition_label": "hypothalamus",
+    "interval": "chr3:172383935-172515007:.",
+    "interval_start": 172383935,
+    "interval_end": 172515007,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.02119624614715576,
+        "n_observed_tracks": 1
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.008822798728942871,
+        "n_observed_tracks": 0
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.030577659606933594,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.10620373487472534,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 6.163330078125,
+        "n_observed_tracks": 0
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 5.9034423828125,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs2922126_T_A",
+    "rsid": "rs2922126",
+    "condition_curie": "UBERON:0000955",
+    "condition_label": "brain",
+    "interval": "chr3:172383935-172515007:.",
+    "interval_start": 172383935,
+    "interval_end": 172515007,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.022499561309814453,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.0030747056007385254,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.1257457733154297,
+        "n_observed_tracks": 2
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.20310860872268677,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 13.351806640625,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 29.573974609375,
+        "n_observed_tracks": 5
+      }
+    }
+  },
+  {
+    "variant_key": "rs2922126_T_A",
+    "rsid": "rs2922126",
+    "condition_curie": "UBERON:0002481_CL:0000062",
+    "condition_label": "osteoblast (bone tissue)",
+    "interval": "chr3:172383935-172515007:.",
+    "interval_start": 172383935,
+    "interval_end": 172515007,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.028683781623840332,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.010247766971588135,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.17387771606445312,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.09014411270618439,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 64.8212890625,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 17.794921875,
+        "n_observed_tracks": 9
+      }
+    }
+  },
+  {
+    "variant_key": "rs2922126_T_A",
+    "rsid": "rs2922126",
+    "condition_curie": "CL:0000137",
+    "condition_label": "osteocyte",
+    "interval": "chr3:172383935-172515007:.",
+    "interval_start": 172383935,
+    "interval_end": 172515007,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.030663728713989258,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.0014421194791793823,
+        "n_observed_tracks": 0
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.03613315522670746,
+        "n_observed_tracks": 1
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.09772098064422607,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 66.2265625,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 11.532958984375,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs2922126_T_A",
+    "rsid": "rs2922126",
+    "condition_curie": "UBERON:0000945",
+    "condition_label": "stomach",
+    "interval": "chr3:172383935-172515007:.",
+    "interval_start": 172383935,
+    "interval_end": 172515007,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.04678177833557129,
+        "n_observed_tracks": 6
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.014260947704315186,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.22400283813476562,
+        "n_observed_tracks": 2
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.17517468333244324,
+        "n_observed_tracks": 1
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 9.1907958984375,
+        "n_observed_tracks": 4
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 9.0880126953125,
+        "n_observed_tracks": 6
+      }
+    }
+  },
+  {
+    "variant_key": "rs115459563_G_A",
+    "rsid": "rs115459563",
+    "condition_curie": "UBERON:0000007",
+    "condition_label": "pituitary gland",
+    "interval": "chr3:172383908-172514980:.",
+    "interval_start": 172383908,
+    "interval_end": 172514980,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.024698495864868164,
+        "n_observed_tracks": 1
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.012393683195114136,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.04447714984416962,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.08918360620737076,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 3.953369140625,
+        "n_observed_tracks": 0
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 5.14605712890625,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs115459563_G_A",
+    "rsid": "rs115459563",
+    "condition_curie": "UBERON:0001898",
+    "condition_label": "hypothalamus",
+    "interval": "chr3:172383908-172514980:.",
+    "interval_start": 172383908,
+    "interval_end": 172514980,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.017899751663208008,
+        "n_observed_tracks": 1
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.010457992553710938,
+        "n_observed_tracks": 0
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.032708942890167236,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.07439374923706055,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 8.25732421875,
+        "n_observed_tracks": 0
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 3.79937744140625,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs115459563_G_A",
+    "rsid": "rs115459563",
+    "condition_curie": "UBERON:0000955",
+    "condition_label": "brain",
+    "interval": "chr3:172383908-172514980:.",
+    "interval_start": 172383908,
+    "interval_end": 172514980,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.016494274139404297,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.007468909025192261,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.3085746765136719,
+        "n_observed_tracks": 2
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.11050619184970856,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 13.9429931640625,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 16.4508056640625,
+        "n_observed_tracks": 5
+      }
+    }
+  },
+  {
+    "variant_key": "rs115459563_G_A",
+    "rsid": "rs115459563",
+    "condition_curie": "UBERON:0002481_CL:0000062",
+    "condition_label": "osteoblast (bone tissue)",
+    "interval": "chr3:172383908-172514980:.",
+    "interval_start": 172383908,
+    "interval_end": 172514980,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.024913430213928223,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.005328774452209473,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.10883045196533203,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.052761614322662354,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 93.064453125,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 11.422119140625,
+        "n_observed_tracks": 9
+      }
+    }
+  },
+  {
+    "variant_key": "rs115459563_G_A",
+    "rsid": "rs115459563",
+    "condition_curie": "CL:0000137",
+    "condition_label": "osteocyte",
+    "interval": "chr3:172383908-172514980:.",
+    "interval_start": 172383908,
+    "interval_end": 172514980,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.021414637565612793,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.0008818730711936951,
+        "n_observed_tracks": 0
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.06449060142040253,
+        "n_observed_tracks": 1
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.06802195310592651,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 20.0654296875,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 6.9619140625,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs115459563_G_A",
+    "rsid": "rs115459563",
+    "condition_curie": "UBERON:0000945",
+    "condition_label": "stomach",
+    "interval": "chr3:172383908-172514980:.",
+    "interval_start": 172383908,
+    "interval_end": 172514980,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.08115839958190918,
+        "n_observed_tracks": 6
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.005613863468170166,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.3778572082519531,
+        "n_observed_tracks": 2
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.09085418283939362,
+        "n_observed_tracks": 1
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 7.9219970703125,
+        "n_observed_tracks": 4
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 12.9393310546875,
+        "n_observed_tracks": 6
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_C",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0000007",
+    "condition_label": "pituitary gland",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.02580249309539795,
+        "n_observed_tracks": 1
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.013258934020996094,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.042107582092285156,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.10309559851884842,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 11.169677734375,
+        "n_observed_tracks": 0
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 10.711624145507812,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_C",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0001898",
+    "condition_label": "hypothalamus",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.016199350357055664,
+        "n_observed_tracks": 1
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.019964754581451416,
+        "n_observed_tracks": 0
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.056133270263671875,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.07710666209459305,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 7.291748046875,
+        "n_observed_tracks": 0
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 13.32745361328125,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_C",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0000955",
+    "condition_label": "brain",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.013250172138214111,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.010033726692199707,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.15474891662597656,
+        "n_observed_tracks": 2
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.14130011200904846,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 22.791259765625,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 22.3621826171875,
+        "n_observed_tracks": 5
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_C",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0002481_CL:0000062",
+    "condition_label": "osteoblast (bone tissue)",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.020671963691711426,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.005977630615234375,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.1302490234375,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.059812888503074646,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 53.603515625,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 13.4688720703125,
+        "n_observed_tracks": 9
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_C",
+    "rsid": "rs34136054",
+    "condition_curie": "CL:0000137",
+    "condition_label": "osteocyte",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.02617943286895752,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.0013936758041381836,
+        "n_observed_tracks": 0
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.03757977485656738,
+        "n_observed_tracks": 1
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.07206620275974274,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 40.197509765625,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 9.792236328125,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_C",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0000945",
+    "condition_label": "stomach",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.03927755355834961,
+        "n_observed_tracks": 6
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.015197396278381348,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.28374290466308594,
+        "n_observed_tracks": 2
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.10318002104759216,
+        "n_observed_tracks": 1
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 5.37060546875,
+        "n_observed_tracks": 4
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 15.210205078125,
+        "n_observed_tracks": 6
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_G",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0000007",
+    "condition_label": "pituitary gland",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.019988536834716797,
+        "n_observed_tracks": 1
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.018393009901046753,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.044849395751953125,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.07003536820411682,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 12.62939453125,
+        "n_observed_tracks": 0
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 7.09979248046875,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_G",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0001898",
+    "condition_label": "hypothalamus",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.016528964042663574,
+        "n_observed_tracks": 1
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.02098768949508667,
+        "n_observed_tracks": 0
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.04054737091064453,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.060417696833610535,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 11.912353515625,
+        "n_observed_tracks": 0
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 4.073638916015625,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_G",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0000955",
+    "condition_label": "brain",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.016667723655700684,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.008720338344573975,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.1300497055053711,
+        "n_observed_tracks": 2
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.11819617450237274,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 19.06103515625,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 46.530029296875,
+        "n_observed_tracks": 5
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_G",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0002481_CL:0000062",
+    "condition_label": "osteoblast (bone tissue)",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.022295475006103516,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.03900986909866333,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.09391593933105469,
+        "n_observed_tracks": 0
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.04829953610897064,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 104.1767578125,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 19.0958251953125,
+        "n_observed_tracks": 9
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_G",
+    "rsid": "rs34136054",
+    "condition_curie": "CL:0000137",
+    "condition_label": "osteocyte",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.015901565551757812,
+        "n_observed_tracks": 2
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.001367807388305664,
+        "n_observed_tracks": 0
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.09167036414146423,
+        "n_observed_tracks": 1
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.05850960314273834,
+        "n_observed_tracks": 0
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 19.9296875,
+        "n_observed_tracks": 1
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 10.918701171875,
+        "n_observed_tracks": 0
+      }
+    }
+  },
+  {
+    "variant_key": "rs34136054_T_G",
+    "rsid": "rs34136054",
+    "condition_curie": "UBERON:0000945",
+    "condition_label": "stomach",
+    "interval": "chr3:172383836-172514908:.",
+    "interval_start": 172383836,
+    "interval_end": 172514908,
+    "sequence_length_key": "SEQUENCE_LENGTH_100KB",
+    "outputs": {
+      "RNA_SEQ": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 12,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.03980660438537598,
+        "n_observed_tracks": 6
+      },
+      "CAGE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 4,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.023406505584716797,
+        "n_observed_tracks": 2
+      },
+      "DNASE": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.2485980987548828,
+        "n_observed_tracks": 2
+      },
+      "ATAC": {
+        "available": true,
+        "n_positions": 131072,
+        "n_tracks": 2,
+        "resolution_bp": 1,
+        "max_abs_alt_minus_ref": 0.09231740236282349,
+        "n_observed_tracks": 1
+      },
+      "CHIP_TF": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 911,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 9.29046630859375,
+        "n_observed_tracks": 4
+      },
+      "CHIP_HISTONE": {
+        "available": true,
+        "n_positions": 1024,
+        "n_tracks": 43,
+        "resolution_bp": 128,
+        "max_abs_alt_minus_ref": 20.058837890625,
+        "n_observed_tracks": 6
+      }
+    }
+  }
+]

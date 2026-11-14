@@ -1,0 +1,5 @@
+{
+  "anchored_limit_log2fc": 0.1,
+  "observed_max_abs_log2fc": 0.05133962631225586,
+  "scale": "fixed, not auto-scaled"
+}

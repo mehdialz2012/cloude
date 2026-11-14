@@ -1,0 +1,8 @@
+biological_priority,n_conditions_in_model,available_in_model,n_with_observed_rna_seq,conditions_selected_for_this_study,resolution
+hippocampal neurons,2,True,0,layer of hippocampus; hippocampal astrocyte,available and represented in the analysis panel
+hypothalamic neurons,1,True,1,hypothalamus,available and represented in the analysis panel
+other brain neuronal populations,127,True,2,brain neuron; glutamatergic neuron,available and represented in the analysis panel
+pituitary cells,1,True,1,pituitary gland,available and represented in the analysis panel
+osteoblasts,1,True,1,osteoblast (bone tissue),available and represented in the analysis panel
+osteocytes,1,True,1,osteocyte,available and represented in the analysis panel
+osteoclast-lineage cells,0,False,0,none,no condition of this type exists in the AlphaGenome 2 human condition set; a surrogate was used and is flagged in the condition table

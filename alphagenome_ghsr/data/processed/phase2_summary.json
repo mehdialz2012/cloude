@@ -1,0 +1,24 @@
+{
+  "n_supported_conditions": 2799,
+  "selected": [
+    "UBERON:0001898",
+    "UBERON:0002305",
+    "UBERON:0002421_CL:0002604",
+    "UBERON:0000955",
+    "UBERON:0001871",
+    "UBERON:0000955_CL:0000540",
+    "CL:0000679",
+    "UBERON:0000007",
+    "UBERON:0002481_CL:0000062",
+    "CL:0000137",
+    "CL:0000134",
+    "UBERON:0000178_CL:0000576",
+    "UBERON:0000945",
+    "UBERON:0000473",
+    "UBERON:0002046",
+    "UBERON:0000992"
+  ],
+  "unavailable_priorities": [
+    "osteoclast-lineage cells"
+  ]
+}

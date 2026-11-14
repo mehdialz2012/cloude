@@ -1,0 +1,42 @@
+{
+  "step": "phase1",
+  "recorded_utc": "2026-11-14T16:59:41+00:00",
+  "python": "3.13.18",
+  "platform": "Linux-6.18.44-fc-v470-x86_64-with-glibc2.39",
+  "packages": {
+    "alphagenome": "2.0.0",
+    "anndata": "0.13.4",
+    "grpcio": "1.85.1",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pyarrow": "26.0.1",
+    "requests": "2.34.2",
+    "scipy": "1.18.1",
+    "seaborn": "0.13.2"
+  },
+  "alphagenome_model_family": "AlphaGenome 2 (alphagenome.models.v2)",
+  "alphagenome_api_host": "gdmscience.googleapis.com:443",
+  "genome_build": "GRCh38",
+  "api_key_source": "environment variable ALPHA_GENOME_API_KEY (value never recorded)",
+  "databases": {
+    "NCBI dbSNP": {
+      "endpoint": "https://api.ncbi.nlm.nih.gov/variation/v0/refsnp",
+      "build": "157"
+    },
+    "Ensembl REST": {
+      "endpoint": "https://rest.ensembl.org",
+      "assembly": "GRCh38"
+    }
+  },
+  "checks": {
+    "all_ref_alleles_match_grch38": true,
+    "all_coordinates_agree_dbsnp_vs_ensembl": true,
+    "all_alts_present_in_dbsnp": true,
+    "all_variants_inside_manuscript_amplicon": true,
+    "amplicon_size_matches_manuscript": true,
+    "no_variant_inside_ghsr_gene_body": true,
+    "no_variant_overlaps_ensembl_regulatory_feature": true
+  },
+  "raw_response_dir": "/home/user/cloude/alphagenome_ghsr/data/raw/phase1"
+}

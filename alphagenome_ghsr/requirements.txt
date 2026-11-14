@@ -1,0 +1,27 @@
+# Exact versions used for the reported analysis (execution date 2026-11-14).
+# Python 3.13.18 on Linux x86_64.
+#
+# The AlphaGenome API key must be supplied via the ALPHA_GENOME_API_KEY
+# environment variable. It is never read from, or written to, any file in
+# this repository.
+
+alphagenome==2.0.0
+anndata==0.13.4
+grpcio==1.85.1
+matplotlib==3.11.2
+numpy==2.5.3
+pandas==3.0.5
+pyarrow==26.0.1
+requests==2.34.2
+scipy==1.18.1
+seaborn==0.13.2
+
+# Notebook execution (optional; needed only for notebooks/)
+ipykernel==7.4.0
+jupyter-core==5.9.1
+nbconvert==7.17.2
+nbformat==5.11.1
+
+# Manuscript text extraction (optional; needed only to re-read the source
+# .docx when auditing the Level 2 / Level 3 transcription)
+python-docx==1.2.0

@@ -1,0 +1,33 @@
+{
+  "step": "phase4",
+  "recorded_utc": "2026-11-14T17:31:55+00:00",
+  "python": "3.13.18",
+  "platform": "Linux-6.18.44-fc-v470-x86_64-with-glibc2.39",
+  "packages": {
+    "alphagenome": "2.0.0",
+    "anndata": "0.13.4",
+    "grpcio": "1.85.1",
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "pyarrow": "26.0.1",
+    "requests": "2.34.2",
+    "scipy": "1.18.1",
+    "seaborn": "0.13.2"
+  },
+  "alphagenome_model_family": "AlphaGenome 2 (alphagenome.models.v2)",
+  "alphagenome_api_host": "gdmscience.googleapis.com:443",
+  "genome_build": "GRCh38",
+  "api_key_source": "environment variable ALPHA_GENOME_API_KEY (value never recorded)",
+  "qc1_summary": {
+    "all_ref_match_grch38": true,
+    "all_variants_scored_in_all_conditions": true,
+    "identical_scorer_count_across_variants": true
+  },
+  "ism_run": false,
+  "ism_conditions": [],
+  "ism_scorers": [],
+  "seqlen_run": false,
+  "n_qc4_rows": 860,
+  "n_qc5_rows": 16
+}
