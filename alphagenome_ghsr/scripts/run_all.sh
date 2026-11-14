@@ -45,11 +45,21 @@ else
   python -m ghsr_ag2.phase4_qc --ism --seqlen
 fi
 
+step "Phase IV-b - cross-sequence-context stability"
+if [[ "${FAST:-0}" == "1" ]]; then
+  echo "FAST=1: skipped (requires the sequence-context runs from Phase IV)."
+else
+  python -m ghsr_ag2.phase4b_stability
+fi
+
 step "Phase V - integration with the existing experimental findings"
 python -m ghsr_ag2.phase5_integration
 
 step "Phase VI - figures"
 python -m ghsr_ag2.phase6_figures
+
+step "CSV exports of the raw model output"
+python scripts/export_csv.py
 
 step "Done"
 echo "Tables:  results/tables/"

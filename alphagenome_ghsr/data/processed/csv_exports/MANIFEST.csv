@@ -1,0 +1,6 @@
+file,rows,columns,size_mb,source_parquet,description
+raw_scores_main_1Mb.csv.gz,162144,45,2.41,phase3/phase3_raw_scores_main.parquet,"Raw per-track AlphaGenome 2 variant scores, 1 Mb context (the headline analysis)."
+raw_scores_16kb.csv.gz,132960,45,2.01,phase3/phase3_raw_scores_SEQUENCE_LENGTH_16KB.parquet,Raw per-track scores at 16 kb sequence context.
+raw_scores_100kb.csv.gz,134496,45,2.03,phase3/phase3_raw_scores_SEQUENCE_LENGTH_100KB.parquet,Raw per-track scores at 131 kb sequence context.
+raw_scores_500kb.csv.gz,152032,45,2.27,phase3/phase3_raw_scores_SEQUENCE_LENGTH_500KB.parquet,Raw per-track scores at 524 kb sequence context.
+ism_reference_distribution.csv.gz,86184,28,0.92,phase4/phase4_ism_reference_distribution.parquet,"Raw per-track scores for all 1,197 single-base substitutions across the sequenced amplicon, in four conditions."
