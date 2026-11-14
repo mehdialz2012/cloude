@@ -139,7 +139,7 @@ const table17 = new Table({
 });
 
 // ---------- Figure ----------
-const figPath = "/home/user/cloude/alphagenome_ghsr/results/figures/figure2_predicted_effects.png";
+const figPath = require("path").join(__dirname, "..", "results", "figures", "figure2_predicted_effects.png");
 const figure = new Paragraph({
   alignment: AlignmentType.CENTER,
   spacing: { before: 120, after: 120 },
@@ -354,6 +354,6 @@ const doc = new Document({
 });
 
 Packer.toBuffer(doc).then((b) => {
-  fs.writeFileSync("/home/user/cloude/alphagenome_ghsr/docs/Manuscript_insertions_AlphaGenome2.docx", b);
+  fs.writeFileSync(require("path").join(__dirname, "..", "docs", "Manuscript_insertions_AlphaGenome2.docx"), b);
   console.log("written");
 });

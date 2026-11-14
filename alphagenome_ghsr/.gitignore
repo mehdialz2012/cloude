@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Base-resolution REF/ALT arrays (~590 MB); regenerate with
+# `python -m ghsr_ag2.phase3b_tracks`
+data/raw/phase3b/*.npz
+data/raw/phase3b/trackmeta_*.csv
