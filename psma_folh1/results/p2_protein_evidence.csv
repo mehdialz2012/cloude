@@ -1,0 +1,37 @@
+gene,ihc_prostate_cancer_n,ihc_pca_frac_positive,ihc_pca_frac_medium_high,ihc_dose_limiting_max,ihc_worst_organ,ihc_salivary,ihc_kidney,ihc_liver,subcellular_main,ihc_reliability,membrane_annotated
+ABCB6,9,0.7777777777777778,0.6666666666666666,2.0,small intestine,2.0,2.0,2.0,Golgi apparatus,Approved,False
+ACTN1,0,,,,,,,,"Actin filaments, Focal adhesion sites",,False
+ADAM19,0,,,,,,,,Vesicles,,False
+ANO7,11,0.8181818181818182,0.8181818181818182,2.0,salivary gland,2.0,0.0,0.0,,Enhanced,False
+ATP2B4,20,0.6,0.25,3.0,kidney,1.0,3.0,2.0,"Plasma membrane, Primary cilium",Enhanced,True
+CANX,34,1.0,1.0,3.0,spleen,3.0,3.0,2.0,Endoplasmic reticulum,Enhanced,False
+CD276,32,1.0,1.0,2.0,small intestine,1.0,1.0,2.0,Vesicles,Enhanced,False
+CD46,22,1.0,0.9090909090909091,3.0,duodenum,2.0,2.0,2.0,Plasma membrane,Enhanced,True
+CLDN3,12,1.0,1.0,3.0,small intestine,2.0,3.0,3.0,Cell Junctions,Enhanced,False
+CLDN4,12,1.0,1.0,3.0,small intestine,2.0,3.0,0.0,Plasma membrane,Enhanced,True
+DCHS1,23,1.0,1.0,3.0,spleen,2.0,3.0,3.0,Plasma membrane,Approved,True
+EPCAM,44,0.9545454545454546,0.7954545454545454,3.0,small intestine,0.0,3.0,0.0,Plasma membrane,Enhanced,True
+ERBB2,45,0.28888888888888886,0.044444444444444446,2.0,lung,1.0,1.0,1.0,Plasma membrane,Enhanced,True
+FOLH1,18,1.0,0.9444444444444444,3.0,small intestine,1.0,3.0,1.0,,Enhanced,False
+GPC2,0,,,,,,,,,,False
+MRC2,12,0.08333333333333333,0.0,2.0,spleen,1.0,2.0,0.0,,Enhanced,False
+MUC1,80,0.45,0.2375,3.0,small intestine,1.0,3.0,0.0,Plasma membrane,Enhanced,True
+MXRA5,9,0.6666666666666666,0.0,0.0,spleen,0.0,0.0,0.0,Mitochondria,Uncertain,False
+NEU1,22,0.45454545454545453,0.22727272727272727,3.0,small intestine,0.0,3.0,3.0,Vesicles,Approved,False
+PAQR8,0,,,,,,,,Plasma membrane,,True
+PLAUR,9,0.0,0.0,2.0,colon,0.0,1.0,0.0,Plasma membrane,Uncertain,True
+PSCA,12,0.0,0.0,1.0,pancreas,0.0,1.0,0.0,Plasma membrane,Approved,True
+RELT,0,,,,,,,,Cytosol,,False
+SLC12A4,12,0.8333333333333334,0.3333333333333333,2.0,small intestine,2.0,2.0,2.0,"Nucleoplasm, Cell Junctions",Approved,False
+SLC16A3,21,0.47619047619047616,0.3333333333333333,3.0,small intestine,3.0,2.0,2.0,Plasma membrane,Approved,True
+SLC20A1,22,1.0,0.7272727272727273,3.0,liver,2.0,2.0,3.0,Plasma membrane,Approved,True
+SLC44A4,22,0.9090909090909091,0.5909090909090909,2.0,small intestine,1.0,2.0,0.0,,Approved,False
+SLC6A6,21,0.9523809523809523,0.9523809523809523,2.0,small intestine,2.0,2.0,1.0,"Cell Junctions, Cytosol",Enhanced,False
+SLC7A5,12,1.0,0.9166666666666666,3.0,small intestine,3.0,3.0,2.0,"Plasma membrane, Cytosol",Approved,True
+STEAP1,9,0.1111111111111111,0.0,3.0,lung,0.0,0.0,0.0,Plasma membrane,Uncertain,True
+STEAP2,12,1.0,0.9166666666666666,2.0,small intestine,2.0,2.0,2.0,Vesicles,Uncertain,False
+TACSTD2,32,0.5625,0.46875,2.0,kidney,1.0,2.0,0.0,Plasma membrane,Enhanced,True
+TMED9,12,1.0,1.0,3.0,small intestine,3.0,2.0,2.0,,Approved,False
+TRPM8,0,,,,,,,,,,False
+UNC5B,12,0.3333333333333333,0.08333333333333333,3.0,small intestine,0.0,1.0,0.0,,Approved,False
+VCAN,12,0.3333333333333333,0.0,2.0,spleen,0.0,0.0,0.0,"Vesicles, Mid piece, Principal piece, End piece",Supported,False

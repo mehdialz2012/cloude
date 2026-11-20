@@ -1,0 +1,16 @@
+{
+ "benchmark_contrast": 1.2074576813961242,
+ "tiers": {
+  "C - retained but poor tumour-to-normal contrast": 19,
+  "E - not supported for PSMA-low disease": 7,
+  "X - excluded (not confidently plasma membrane)": 6,
+  "A - meets all suitability criteria": 2,
+  "D - enriched but not therapeutically suitable": 2
+ },
+ "criteria": {
+  "abundance": ">=50% of PSMA-low tumours at log2(FPKM+1)>=2",
+  "selectivity": "tumour-to-normal contrast within 2 log2 of PSMA's own",
+  "specificity": "<25% of single-cell expression in immune/stromal cells",
+  "protein": "HPA IHC detected in >=50% of prostate cancers and plasma-membrane localisation"
+ }
+}

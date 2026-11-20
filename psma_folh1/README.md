@@ -24,10 +24,26 @@ direction Joe's review indicates.
 
 ![alphagenome](figures/fig_alphagenome_validation.png)
 
-## Phase 2 — not started
+## Phase 2 (this directory) — done
 
-Restructuring and re-analysis along the reframed question, plus the reply to Joe. Scoped in §5 of
-the report; awaiting go-ahead.
+Re-analysis along the reviewer's five-step structure, a restructured manuscript, and a
+point-by-point reply.
+
+- [`docs/manuscript_v2.md`](docs/manuscript_v2.md) — the restructured paper
+- [`docs/reply_to_joe.md`](docs/reply_to_joe.md) — point-by-point response
+
+FOLH1 is modelled continuously with explicit adjustment for biopsy site, tumour composition and
+neuroendocrine differentiation. Of 6,438 crude associations, 1,557 survive adjustment and 251
+reproduce in an independent patient cohort. EMT, inflammation and hypoxia reverse sign on
+adjustment. PSMA-low is overwhelmingly AR-low/neuroendocrine disease (6 of 60 AR-positive non-NE
+metastases are PSMA-low). On the surfaceome, B7-H3 is the only antigen meeting all four
+pre-specified suitability criteria; uPAR, LAT1, MCT4 and GPC2 each fail at least two. The TXNRD1
+dependency does not survive validation.
+
+![discovery](figures/p2_fig1_discovery.png)
+![validation](figures/p2_fig2_validation.png)
+![targets](figures/p2_fig3_targets.png)
+![exploratory](figures/p2_fig4_depmap_tcga.png)
 
 ## Layout
 
@@ -51,6 +67,8 @@ python -m venv venv && ./venv/bin/pip install numpy scipy pandas scikit-learn st
 PYTHONPATH=code python code/s00_meth_extract.py
 PYTHONPATH=code python code/s01_landscape.py
 ...                                    # s02, s02b, s02c, s03 ... s08 in order
+# phase 2:
+PYTHONPATH=code python code/p2_01_discovery.py    # then p2_02, p2_02b, p2_03, p2_03b, p2_04, p2_05
 # AlphaGenome stages need a key in a file OUTSIDE this repository:
 ALPHAGENOME_KEY_FILE=/path/to/key PYTHONPATH=code python code/s09_alphagenome.py \
     landscape variants allele ism ism_control window determinism contact loci

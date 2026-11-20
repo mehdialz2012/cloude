@@ -1,0 +1,25 @@
+{
+ "rho_folh1_immune": -0.18033030424269278,
+ "rho_folh1_stromal": -0.10992108212018281,
+ "rho_folh1_hepatocyte": -0.13350048855443675,
+ "rho_folh1_osteoblast": -0.19941405347160568,
+ "rho_folh1_epithelial": -0.41577241811333504,
+ "rho_folh1_AR": 0.5457983521449372,
+ "rho_folh1_NE": -0.33598295080503887,
+ "n_sig_M1": 6438,
+ "n_sig_M2": 4653,
+ "n_sig_M3": 1557,
+ "classes": {
+  "ns": 5209,
+  "NE-dependent": 3232,
+  "composition/site-dependent": 2140,
+  "robust": 1557
+ },
+ "shrink_M1_M2": 23.49525926321252,
+ "shrink_M2_M3": 35.43316466657343,
+ "cut_bottom/top decile": 0.914351946749742,
+ "cut_quartile (as published)": 0.9441262522338113,
+ "cut_tercile": 0.9366931984844877,
+ "cut_median split": 0.9168709583055008,
+ "gsea_M1_M3_concordance": 0.5156782713085234
+}

@@ -1,0 +1,90 @@
+{
+ "gse_n_samples": 98,
+ "gse_n_patients": 55,
+ "gse_folh1_ARlow_NEneg": 5.03353634049397,
+ "gse_folh1_ARneg_NEneg": 1.2293039227881497,
+ "gse_folh1_ARneg_NEpos": 1.595160981073886,
+ "gse_folh1_ARpos_NEneg": 7.135545081759929,
+ "gse_folh1_ARpos_NEpos": 7.862921978946408,
+ "gse_n_sig_M1": 3749,
+ "gse_n_sig_M2": 821,
+ "gse_n_sig_M3": 144,
+ "gse_n_patients_model": 55,
+ "gse_n_sig_patient_M3": 36,
+ "beltran_n_sig_M1": 2981,
+ "beltran_n_sig_M3": 5487,
+ "crosscohort": {
+  "su2c_M1": {
+   "su2c_M1": 1.0,
+   "su2c_M3": 0.7737,
+   "gse_M1": 0.7693,
+   "gse_M3": 0.4297,
+   "gse_patient_M3": 0.3676,
+   "beltran_M1": 0.6536,
+   "beltran_M3": 0.5958
+  },
+  "su2c_M3": {
+   "su2c_M1": 0.7737,
+   "su2c_M3": 1.0,
+   "gse_M1": 0.6068,
+   "gse_M3": 0.4748,
+   "gse_patient_M3": 0.3978,
+   "beltran_M1": 0.4167,
+   "beltran_M3": 0.3621
+  },
+  "gse_M1": {
+   "su2c_M1": 0.7693,
+   "su2c_M3": 0.6068,
+   "gse_M1": 1.0,
+   "gse_M3": 0.7421,
+   "gse_patient_M3": 0.6813,
+   "beltran_M1": 0.514,
+   "beltran_M3": 0.3922
+  },
+  "gse_M3": {
+   "su2c_M1": 0.4297,
+   "su2c_M3": 0.4748,
+   "gse_M1": 0.7421,
+   "gse_M3": 1.0,
+   "gse_patient_M3": 0.8054,
+   "beltran_M1": 0.1925,
+   "beltran_M3": 0.1722
+  },
+  "gse_patient_M3": {
+   "su2c_M1": 0.3676,
+   "su2c_M3": 0.3978,
+   "gse_M1": 0.6813,
+   "gse_M3": 0.8054,
+   "gse_patient_M3": 1.0,
+   "beltran_M1": 0.2008,
+   "beltran_M3": 0.1562
+  },
+  "beltran_M1": {
+   "su2c_M1": 0.6536,
+   "su2c_M3": 0.4167,
+   "gse_M1": 0.514,
+   "gse_M3": 0.1925,
+   "gse_patient_M3": 0.2008,
+   "beltran_M1": 1.0,
+   "beltran_M3": 0.7664
+  },
+  "beltran_M3": {
+   "su2c_M1": 0.5958,
+   "su2c_M3": 0.3621,
+   "gse_M1": 0.3922,
+   "gse_M3": 0.1722,
+   "gse_patient_M3": 0.1562,
+   "beltran_M1": 0.7664,
+   "beltran_M3": 1.0
+  }
+ },
+ "n_su2c_robust": 715,
+ "n_rep_gse": 251,
+ "n_rep_patient": 202,
+ "n_rep_all3": 191,
+ "nes_rho_gse": 0.6101800720288115,
+ "nes_rho_beltran": 0.12048019207683074,
+ "arpos_neneg_n": 60,
+ "arpos_neneg_n_sig": 15,
+ "arpos_neneg_concordance": 0.3175148369400131
+}
