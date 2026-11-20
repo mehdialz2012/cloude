@@ -1,0 +1,70 @@
+section,claim,manuscript_value,independent_replication,verdict,note
+Results 1,TCGA FOLH1 vs AR score (Spearman),0.332,0.332,EXACT,"cohort as used = all 550 Xena columns (497 tumours + 52 normals + 1 metastasis); tumour-only value is 0.262"
+Results 1,SU2C FOLH1 vs AR score,0.546,0.546,EXACT,
+Results 1,Beltran FOLH1 vs AR score,0.752,0.752,EXACT,
+Results 1,TCGA FOLH1 vs NE score,0.022,0.022,EXACT,tumour-only -0.056; still null
+Results 1,SU2C FOLH1 vs NE score,-0.336 (p=1.9e-8),-0.336 (p=1.9e-8),EXACT,
+Results 1,FOLH1 by NE features (SU2C medians),1.81 vs 7.57 (p=9.5e-7),1.81 vs 7.57 (p=9.5e-7),EXACT,
+Results 1,ARSI exposure vs FOLH1,p=0.91,p=0.910,EXACT,
+Results 1,Gleason association (TCGA),p=0.03 non-monotonic,p=0.014 (tumour-only) / 0.023,CLOSE,"direction reproduces; the 'drop at GS10' rests on n=4 patients"
+Results 2,cg06980460 methylation vs FOLH1,-0.287,-0.287,EXACT,
+Results 2,cg10006235 methylation vs FOLH1,-0.238,-0.238,EXACT,
+Results 2,cg25346915 methylation vs FOLH1,-0.123,-0.123,EXACT,
+Results 2,paired methylation/expression tumours,497,497,EXACT,
+Results 2,TF-FOLH1 cross-cohort concordance,0.502,0.502,EXACT,
+Results 2,TFs significant and same sign in both,367/766,367/766,EXACT,
+Results 2,TFs same sign regardless of significance,594/766,594/766,EXACT,
+Results 2,TFs significant in both with opposite sign,39,39,EXACT,
+Results 2,AR regulon FOLH1 coupling,-0.052 -> +0.259 (Fisher z=-4.22; p=2.4e-5),-0.052 -> +0.259 (z=-4.22; p=2.4e-5),EXACT,
+Results 2,FOXA1 sign inversion,+0.246 -> -0.196 (z=+5.99),+0.246 -> -0.196 (z=+5.99),EXACT,
+Results 2,MYCN sign inversion,+0.114 -> -0.338 (z=+6.22),+0.114 -> -0.338 (z=+6.22),EXACT,
+Results 2,Model A nested-CV R2 (TF + methylation),0.717,0.719,EXACT,
+Results 2,Model A nested-CV R2 (TF only),0.712,0.714,EXACT,methylation-only R2 = 0.108 (not reported by the authors)
+Results 2,Model B external R2 (z-space),0.662 (95% CI 0.559-0.736),0.662 (95% CI 0.563-0.735),EXACT,
+Results 2,Model B external Spearman,0.802,0.802,EXACT,
+Results 2,AR-only external baseline R2,0.382,0.382,EXACT,
+Results 2,ELF5 dominant positive weight,+0.655,+0.655,EXACT,next-largest absolute weight is -0.118; ELF5 dominates the model
+Results 2,most negative weights,"ZNF24, YBX1, SOX4","ZNF24 (-0.118), YBX1 (-0.109), SOX4 (-0.104)",EXACT,
+Results 2,ChIP-Atlas binding at FOLH1 (AR/FOXA1/HOXB13/EZH2),"confirmed, all four","FOLH1 present in all four target lists",TECHNICALLY TRUE BUT UNINFORMATIVE,"those lists contain 10961 (AR) to 17578 (EZH2) genes; EZH2 list = ~88% of all genes. AR average binding score at FOLH1 = 17.2 vs FOXA1 51.1 and HOXB13 58.2"
+Results 3,PSMA-low / PSMA-high group sizes,67 / 67,67 / 67,EXACT,
+Results 3,liver biopsies in Q1 vs Q4,33% vs 1%,32.8% vs 1.5%,EXACT,
+Results 3,FOLH1 vs hepatocyte score,-0.537,-0.537,EXACT,
+Results 3,liver-adjusted DE gene count,"1002 (168 up, 834 down)","1002 (168 up, 834 down)",EXACT,
+Results 3,raw vs liver-adjusted DE concordance,0.955,0.955,EXACT,
+Results 3,Beltran AUC (NEPC vs CRPC-adeno),0.82 (p=4.2e-4),0.820 (p=4.2e-4),EXACT,
+Results 3,Beltran AUC without FOLH1 in the signature,0.814,0.814,EXACT,
+Results 3,GSE126078 signature vs FOLH1 (pooled),-0.757 (p=1.1e-29),-0.757 (p=1.1e-29),EXACT,"pool includes 12 siRNA-perturbation samples; the 98 patient samples come from 55 patients"
+Results 3,GSE126078 patient-only,-0.824,-0.824,EXACT,
+Results 3,GSE126078 without FOLH1,-0.753,-0.753,EXACT,
+Results 3,GSE126078 signature vs NE / AR markers,+0.470 / -0.879,+0.470 / -0.879,EXACT,
+Results 3,Hallmark GSEA normalized enrichment scores,"E2F 3.60, G2M 3.12, EMT 2.99, androgen response -2.17","E2F 3.60, G2M 3.12, EMT 2.99, androgen response -2.17",EXACT,
+Results 3,GSEA p-values for the up-regulated sets,p=0 reported as p<1e-3,"p=0.08 (1000 permutations); p=0.010 (10000 permutations)",NOT REPRODUCED,"NES replicate exactly; the permutation p-values do not. BH-FDR at 10k permutations is 0.021-0.022, so the sets remain significant but not at p<1e-3"
+Results 3,OS log-rank across FOLH1 quartiles,p=0.89 (n=81),p=0.893 (n=81; 47 events),EXACT,
+Results 3,univariable Cox HR per SD FOLH1,1.03 (0.77-1.38),1.03 (0.77-1.38),EXACT,
+Results 3,multivariable Cox HR per SD FOLH1,1.06 (0.76-1.47); n=69; PSA imputed 13%,1.06 (0.76-1.47); n=69; PSA imputed 13%,EXACT,
+Results 3,tercile-vs-quartile DE concordance,0.966,0.969,EXACT,
+Results 3,signature vs continuous FOLH1,-0.761,-0.761,EXACT,
+Results 3,shuffled-signature null 95th percentile,0.301,0.301,EXACT,
+Results 4,curated plasma-membrane surfaceome size,3701,3702,EXACT,one-gene difference from a UniProt release update
+Results 4,surface genes up in PSMA-low,78,78,EXACT,
+Results 4,STEAP1 / STEAP2 rank-biserial (liver-adjusted),-0.65 / -0.67,-0.663 / -0.681,EXACT,
+Results 4,CD276 / TACSTD2 / KLK3,-0.29 / -0.41 / -0.62,-0.293 / -0.404 / -0.624,EXACT,
+Results 4,GPC2 / SLC16A3 / SLC7A5 / PLAUR,0.43 / 0.49 / 0.46 / 0.47,0.425 / 0.489 / 0.464 / 0.471,EXACT,
+Results 4,NCAM1 raw -> liver-adjusted,0.61 -> 0.35 (FDR 0.001),0.610 -> 0.353 (FDR 0.0010),EXACT,
+Results 4,DLL3 raw and adjusted,0.07 (p=0.49) / -0.02 (p=0.87),0.070 (p=0.486) / -0.017 (p=0.866),EXACT,
+Results 4,SSTR2 liver-adjusted,0.21 (FDR 0.055),0.209 (FDR 0.055),EXACT,
+Results 4,CEACAM5 raw -> adjusted,0.31 -> 0.07 (p=0.50),0.313 -> 0.068 (p=0.499),EXACT,
+Results 5,DepMap models with CRISPR and expression,1103,1103,EXACT,
+Results 5,TXNRD1 dependency correlation (pan-lineage),-0.227,-0.227,EXACT,
+Results 5,SEPSECS dependency correlation,-0.234,-0.234,EXACT,
+Results 5,TXNRD1 / SEPSECS epithelial-restricted,-0.255 / -0.154 (n=621),-0.255 / -0.154 (n=621),EXACT,
+Results 5,"ranks of SEPSECS, TXNRD1, EEFSEC, PSTK","1, 2, 4, 15 of 17293","1, 2, 4, 15 of 17293",EXACT,
+Results 5,positive controls FOXA1 / CCND1 / CDK4,+0.221 / +0.212 / +0.181,+0.221 / +0.212 / +0.181,EXACT,
+Results 5,screen-fitness adjustment,change in rho <= 0.02,change in rho <= 0.02,EXACT,
+Results 5,GPX4 rank and TXNRD1|GPX4 partial,rank 13; -0.201,rank 13; -0.201,EXACT,
+Results 5,KEAP1 opposite sign; GAPDH benchmark,+0.088; -0.195,+0.088; -0.195,EXACT,
+Results 5,prostate cell-line ordering,"NCIH660 highest cancer line; LNCaP/VCaP/MDA-PCa-2b/22Rv1 lowest; benign lines at or above cancer lines",reproduced exactly,EXACT,
+Results 6,FOLH1 GRCh38 coordinates and strand,"chr11:49145092-49208641, minus strand","chr11:49145092-49208641, minus strand (Ensembl 115)",EXACT,audit-corrected coordinates are right
+Results 6,three scored CpG-disruption positions,"49208996, 49208484, 49204818 (C>T)",all three are genuine CpG cytosines on the plus strand,VERIFIED,"the in-code comment says the cytosine sits 1 bp BELOW the lifted coordinate; the code uses +1, which is the correct one"
+Results 6,gene-body regulatory element,chr11:49177981-49178322,inside the gene body; 30.3 kb from the TSS,VERIFIED,
+Results 6,AlphaGenome variant-effect magnitudes,"up to +0.12 / +0.29 / -0.23 log2FC",NOT TESTED,NOT REPLICABLE,"requires a Google AlphaGenome API key. NOTE: a live API key is hard-coded in the delivered notebook (cell 41) and must be revoked"

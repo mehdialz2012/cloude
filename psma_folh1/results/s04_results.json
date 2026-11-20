@@ -1,0 +1,977 @@
+{
+ "A1_surfaceome_n": 3702,
+ "A2": {
+  "n_tested": 1425,
+  "n_up": 78,
+  "n_down": 248,
+  "top20": {
+   "PAQR8": 0.6039206950323013,
+   "ATP2B4": 0.5451102695477834,
+   "SLC12A4": 0.5148139897527289,
+   "SLC6A6": 0.5063488527511695,
+   "SLC16A3": 0.488527511695255,
+   "PLAUR": 0.4707061706393405,
+   "SLC7A5": 0.4635776342169748,
+   "DCHS1": 0.4586767654265984,
+   "ADAM19": 0.4519937625306305,
+   "MRC2": 0.4457562931610603,
+   "SLCO3A1": 0.4417464914234796,
+   "RELT": 0.4413009578970817,
+   "MXRA5": 0.4270438850523501,
+   "GPC2": 0.4248162174203609,
+   "ACTN1": 0.4199153486299845,
+   "MFSD2A": 0.418133214524393,
+   "BMP1": 0.4172421474715972,
+   "GPR153": 0.415014479839608,
+   "SLC20A1": 0.4065493428380486,
+   "ACSL5": 0.4025395411004677
+  }
+ },
+ "A3": {
+  "FOLH1": {
+   "median_log2FPKM": 7.31333,
+   "passes_filter": true,
+   "rbc_raw": -1.0,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.99376,
+   "p_liver_adj": 0.0,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.0
+  },
+  "STEAP1": {
+   "median_log2FPKM": 6.97423,
+   "passes_filter": true,
+   "rbc_raw": -0.8258,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.66273,
+   "p_liver_adj": 0.0,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.0
+  },
+  "STEAP2": {
+   "median_log2FPKM": 6.11115,
+   "passes_filter": true,
+   "rbc_raw": -0.83292,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.68144,
+   "p_liver_adj": 0.0,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.0
+  },
+  "CD276": {
+   "median_log2FPKM": 5.08893,
+   "passes_filter": true,
+   "rbc_raw": -0.4716,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.29294,
+   "p_liver_adj": 0.00346,
+   "padj_raw": 1e-05,
+   "padj_liver_adj": 0.00649
+  },
+  "TACSTD2": {
+   "median_log2FPKM": 6.45999,
+   "passes_filter": true,
+   "rbc_raw": -0.51348,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.40388,
+   "p_liver_adj": 6e-05,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.00017
+  },
+  "DLL3": {
+   "median_log2FPKM": 0.44216,
+   "passes_filter": false,
+   "rbc_raw": 0.06995,
+   "p_raw": 0.48617,
+   "rbc_liver_adj": -0.01715,
+   "p_liver_adj": 0.86572,
+   "padj_raw": 0.5209,
+   "padj_liver_adj": 0.86572
+  },
+  "SSTR2": {
+   "median_log2FPKM": 0.44089,
+   "passes_filter": false,
+   "rbc_raw": 0.22878,
+   "p_raw": 0.02244,
+   "rbc_liver_adj": 0.20918,
+   "p_liver_adj": 0.03689,
+   "padj_raw": 0.03206,
+   "padj_liver_adj": 0.05533
+  },
+  "CEACAM5": {
+   "median_log2FPKM": 0.19861,
+   "passes_filter": false,
+   "rbc_raw": 0.31343,
+   "p_raw": 0.00175,
+   "rbc_liver_adj": 0.06794,
+   "p_liver_adj": 0.4988,
+   "padj_raw": 0.00277,
+   "padj_liver_adj": 0.55422
+  },
+  "PSCA": {
+   "median_log2FPKM": 2.79921,
+   "passes_filter": true,
+   "rbc_raw": -0.22344,
+   "p_raw": 0.02579,
+   "rbc_liver_adj": -0.07329,
+   "p_liver_adj": 0.46552,
+   "padj_raw": 0.03516,
+   "padj_liver_adj": 0.53714
+  },
+  "GRPR": {
+   "median_log2FPKM": 0.27505,
+   "passes_filter": false,
+   "rbc_raw": -0.14948,
+   "p_raw": 0.13598,
+   "rbc_liver_adj": 0.11339,
+   "p_liver_adj": 0.25836,
+   "padj_raw": 0.1569,
+   "padj_liver_adj": 0.31003
+  },
+  "NCAM1": {
+   "median_log2FPKM": 0.2378,
+   "passes_filter": false,
+   "rbc_raw": 0.60971,
+   "p_raw": 0.0,
+   "rbc_liver_adj": 0.35309,
+   "p_liver_adj": 0.00042,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.00098
+  },
+  "SEZ6": {
+   "median_log2FPKM": 0.22837,
+   "passes_filter": false,
+   "rbc_raw": -0.0029,
+   "p_raw": 0.9787,
+   "rbc_liver_adj": -0.12141,
+   "p_liver_adj": 0.22614,
+   "padj_raw": 0.9787,
+   "padj_liver_adj": 0.28267
+  },
+  "ENPP3": {
+   "median_log2FPKM": 0.80682,
+   "passes_filter": false,
+   "rbc_raw": -0.18868,
+   "p_raw": 0.0598,
+   "rbc_liver_adj": -0.14992,
+   "p_liver_adj": 0.13487,
+   "padj_raw": 0.07175,
+   "padj_liver_adj": 0.17592
+  },
+  "CD46": {
+   "median_log2FPKM": 6.32726,
+   "passes_filter": true,
+   "rbc_raw": -0.38605,
+   "p_raw": 0.00012,
+   "rbc_liver_adj": -0.29918,
+   "p_liver_adj": 0.00283,
+   "padj_raw": 0.00022,
+   "padj_liver_adj": 0.00566
+  },
+  "SLC44A4": {
+   "median_log2FPKM": 6.66818,
+   "passes_filter": true,
+   "rbc_raw": -0.69704,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.5616,
+   "p_liver_adj": 0.0,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.0
+  },
+  "ANO7": {
+   "median_log2FPKM": 1.3357,
+   "passes_filter": true,
+   "rbc_raw": -0.19759,
+   "p_raw": 0.04869,
+   "rbc_liver_adj": -0.05903,
+   "p_liver_adj": 0.55695,
+   "padj_raw": 0.0615,
+   "padj_liver_adj": 0.59673
+  },
+  "OR51E2": {
+   "median_log2FPKM": 3.40765,
+   "passes_filter": true,
+   "rbc_raw": -0.58833,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.50056,
+   "p_liver_adj": 0.0,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.0
+  },
+  "TRPM8": {
+   "median_log2FPKM": 1.55238,
+   "passes_filter": true,
+   "rbc_raw": -0.26197,
+   "p_raw": 0.00894,
+   "rbc_liver_adj": -0.26933,
+   "p_liver_adj": 0.00719,
+   "padj_raw": 0.01341,
+   "padj_liver_adj": 0.0127
+  },
+  "KLK3": {
+   "median_log2FPKM": 10.36378,
+   "passes_filter": true,
+   "rbc_raw": -0.80129,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.62352,
+   "p_liver_adj": 0.0,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.0
+  },
+  "KLK2": {
+   "median_log2FPKM": 9.01288,
+   "passes_filter": true,
+   "rbc_raw": -0.80619,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.62976,
+   "p_liver_adj": 0.0,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.0
+  },
+  "ACPP": {
+   "median_log2FPKM": 7.21016,
+   "passes_filter": true,
+   "rbc_raw": -0.75095,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.67209,
+   "p_liver_adj": 0.0,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.0
+  },
+  "CLDN3": {
+   "median_log2FPKM": 7.27474,
+   "passes_filter": true,
+   "rbc_raw": -0.46358,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.39096,
+   "p_liver_adj": 0.0001,
+   "padj_raw": 1e-05,
+   "padj_liver_adj": 0.00024
+  },
+  "CLDN4": {
+   "median_log2FPKM": 5.92937,
+   "passes_filter": true,
+   "rbc_raw": -0.3464,
+   "p_raw": 0.00055,
+   "rbc_liver_adj": -0.25507,
+   "p_liver_adj": 0.01092,
+   "padj_raw": 0.00096,
+   "padj_liver_adj": 0.0182
+  },
+  "EPCAM": {
+   "median_log2FPKM": 7.16302,
+   "passes_filter": true,
+   "rbc_raw": -0.3317,
+   "p_raw": 0.00093,
+   "rbc_liver_adj": -0.21274,
+   "p_liver_adj": 0.03379,
+   "padj_raw": 0.00155,
+   "padj_liver_adj": 0.05335
+  },
+  "MUC1": {
+   "median_log2FPKM": 2.03095,
+   "passes_filter": true,
+   "rbc_raw": 0.48318,
+   "p_raw": 0.0,
+   "rbc_liver_adj": 0.39407,
+   "p_liver_adj": 8e-05,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.00023
+  },
+  "ERBB2": {
+   "median_log2FPKM": 5.09478,
+   "passes_filter": true,
+   "rbc_raw": -0.69526,
+   "p_raw": 0.0,
+   "rbc_liver_adj": -0.61372,
+   "p_liver_adj": 0.0,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.0
+  },
+  "EGFR": {
+   "median_log2FPKM": 2.88088,
+   "passes_filter": true,
+   "rbc_raw": -0.12675,
+   "p_raw": 0.20631,
+   "rbc_liver_adj": -0.17933,
+   "p_liver_adj": 0.07364,
+   "padj_raw": 0.22924,
+   "padj_liver_adj": 0.10042
+  },
+  "MET": {
+   "median_log2FPKM": 0.92356,
+   "passes_filter": false,
+   "rbc_raw": 0.56338,
+   "p_raw": 0.0,
+   "rbc_liver_adj": 0.33393,
+   "p_liver_adj": 0.00086,
+   "padj_raw": 0.0,
+   "padj_liver_adj": 0.00184
+  },
+  "AXL": {
+   "median_log2FPKM": 2.36063,
+   "passes_filter": true,
+   "rbc_raw": 0.19715,
+   "p_raw": 0.0492,
+   "rbc_liver_adj": 0.18735,
+   "p_liver_adj": 0.06163,
+   "padj_raw": 0.0615,
+   "padj_liver_adj": 0.08804
+  },
+  "INSM1": {
+   "median_log2FPKM": 0.65686,
+   "passes_filter": false,
+   "rbc_raw": 0.05658,
+   "p_raw": 0.57336,
+   "rbc_liver_adj": -0.02027,
+   "p_liver_adj": 0.84129,
+   "padj_raw": 0.59313,
+   "padj_liver_adj": 0.86572
+  }
+ },
+ "A4_top15": {
+  "GPC2": {
+   "rbc": 0.4248,
+   "padj": 0.0004,
+   "max_vital_nTPM": 2.2,
+   "max_any_normal_nTPM": 11.4,
+   "salivary": 0.8,
+   "kidney": 0.4,
+   "prostate_nTPM": 0.6,
+   "tumor_low_median": 1.3171,
+   "tumor_high_median": 0.6579,
+   "safety": 0.4623,
+   "composite": 0.165
+  },
+  "ATP2B4": {
+   "rbc": 0.5451,
+   "padj": 0.0,
+   "max_vital_nTPM": 56.1,
+   "max_any_normal_nTPM": 164.7,
+   "salivary": 6.7,
+   "kidney": 9.2,
+   "prostate_nTPM": 31.1,
+   "tumor_low_median": 3.324,
+   "tumor_high_median": 2.416,
+   "safety": 0.1982,
+   "composite": 0.1582
+  },
+  "SLC12A4": {
+   "rbc": 0.5148,
+   "padj": 0.0,
+   "max_vital_nTPM": 39.5,
+   "max_any_normal_nTPM": 40.7,
+   "salivary": 17.0,
+   "kidney": 20.4,
+   "prostate_nTPM": 26.5,
+   "tumor_low_median": 3.1316,
+   "tumor_high_median": 2.2568,
+   "safety": 0.2127,
+   "composite": 0.1554
+  },
+  "BMP1": {
+   "rbc": 0.4172,
+   "padj": 0.0005,
+   "max_vital_nTPM": 16.1,
+   "max_any_normal_nTPM": 25.7,
+   "salivary": 4.5,
+   "kidney": 8.3,
+   "prostate_nTPM": 9.7,
+   "tumor_low_median": 2.8612,
+   "tumor_high_median": 1.9519,
+   "safety": 0.2605,
+   "composite": 0.1468
+  },
+  "SLC16A3": {
+   "rbc": 0.4885,
+   "padj": 0.0,
+   "max_vital_nTPM": 40.3,
+   "max_any_normal_nTPM": 134.4,
+   "salivary": 19.1,
+   "kidney": 28.7,
+   "prostate_nTPM": 14.0,
+   "tumor_low_median": 2.9348,
+   "tumor_high_median": 1.528,
+   "safety": 0.2118,
+   "composite": 0.1418
+  },
+  "DCHS1": {
+   "rbc": 0.4587,
+   "padj": 0.0001,
+   "max_vital_nTPM": 18.0,
+   "max_any_normal_nTPM": 26.9,
+   "salivary": 3.3,
+   "kidney": 5.1,
+   "prostate_nTPM": 8.8,
+   "tumor_low_median": 2.1008,
+   "tumor_high_median": 1.4126,
+   "safety": 0.2535,
+   "composite": 0.1316
+  },
+  "SLC7A5": {
+   "rbc": 0.4636,
+   "padj": 0.0001,
+   "max_vital_nTPM": 104.4,
+   "max_any_normal_nTPM": 104.4,
+   "salivary": 27.3,
+   "kidney": 17.0,
+   "prostate_nTPM": 8.9,
+   "tumor_low_median": 3.9046,
+   "tumor_high_median": 2.4992,
+   "safety": 0.1767,
+   "composite": 0.1303
+  },
+  "ACTN1": {
+   "rbc": 0.4199,
+   "padj": 0.0004,
+   "max_vital_nTPM": 178.7,
+   "max_any_normal_nTPM": 499.3,
+   "salivary": 94.6,
+   "kidney": 22.9,
+   "prostate_nTPM": 158.1,
+   "tumor_low_median": 5.5647,
+   "tumor_high_median": 4.8708,
+   "safety": 0.1615,
+   "composite": 0.1276
+  },
+  "SLC20A1": {
+   "rbc": 0.4065,
+   "padj": 0.0006,
+   "max_vital_nTPM": 70.4,
+   "max_any_normal_nTPM": 70.4,
+   "salivary": 12.7,
+   "kidney": 21.0,
+   "prostate_nTPM": 12.8,
+   "tumor_low_median": 4.2065,
+   "tumor_high_median": 3.7977,
+   "safety": 0.1898,
+   "composite": 0.1273
+  },
+  "UNC5B": {
+   "rbc": 0.3798,
+   "padj": 0.0014,
+   "max_vital_nTPM": 26.2,
+   "max_any_normal_nTPM": 26.2,
+   "salivary": 5.0,
+   "kidney": 7.5,
+   "prostate_nTPM": 9.4,
+   "tumor_low_median": 3.1783,
+   "tumor_high_median": 2.3982,
+   "safety": 0.2324,
+   "composite": 0.1262
+  },
+  "MRC2": {
+   "rbc": 0.4458,
+   "padj": 0.0002,
+   "max_vital_nTPM": 47.7,
+   "max_any_normal_nTPM": 60.4,
+   "salivary": 9.2,
+   "kidney": 18.1,
+   "prostate_nTPM": 26.5,
+   "tumor_low_median": 2.7668,
+   "tumor_high_median": 1.9032,
+   "safety": 0.2047,
+   "composite": 0.121
+  },
+  "BTN2A1": {
+   "rbc": 0.3985,
+   "padj": 0.0008,
+   "max_vital_nTPM": 35.4,
+   "max_any_normal_nTPM": 35.4,
+   "salivary": 9.6,
+   "kidney": 13.1,
+   "prostate_nTPM": 12.9,
+   "tumor_low_median": 3.0123,
+   "tumor_high_median": 2.7599,
+   "safety": 0.2176,
+   "composite": 0.1205
+  },
+  "VCAN": {
+   "rbc": 0.3869,
+   "padj": 0.0012,
+   "max_vital_nTPM": 43.3,
+   "max_any_normal_nTPM": 171.7,
+   "salivary": 7.2,
+   "kidney": 6.3,
+   "prostate_nTPM": 6.3,
+   "tumor_low_median": 3.4459,
+   "tumor_high_median": 2.5316,
+   "safety": 0.2087,
+   "composite": 0.1205
+  },
+  "GPR153": {
+   "rbc": 0.415,
+   "padj": 0.0005,
+   "max_vital_nTPM": 20.2,
+   "max_any_normal_nTPM": 20.2,
+   "salivary": 2.9,
+   "kidney": 2.6,
+   "prostate_nTPM": 5.9,
+   "tumor_low_median": 2.1411,
+   "tumor_high_median": 1.3511,
+   "safety": 0.2467,
+   "composite": 0.1172
+  },
+  "PAQR8": {
+   "rbc": 0.6039,
+   "padj": 0.0,
+   "max_vital_nTPM": 138.7,
+   "max_any_normal_nTPM": 138.7,
+   "salivary": 2.0,
+   "kidney": 7.1,
+   "prostate_nTPM": 4.0,
+   "tumor_low_median": 2.1225,
+   "tumor_high_median": 1.1985,
+   "safety": 0.1684,
+   "composite": 0.1158
+  }
+ },
+ "B1_celltype": {
+  "FOLH1": {
+   "top_cell_types": "prostatic glandular cells; oligodendrocytes; lacrimal acinar cells",
+   "frac_immune": 0.002097475402333918,
+   "frac_stromal": 0.004461902219510335
+  },
+  "PLAUR": {
+   "top_cell_types": "neutrophils; epididymal basal cells; monocytes",
+   "frac_immune": 0.38617722199811755,
+   "frac_stromal": 0.01277042950255833
+  },
+  "SLC16A3": {
+   "top_cell_types": "extravillous trophoblasts; syncytiotrophoblasts; retinal pigment epithelial cells",
+   "frac_immune": 0.19242525159441978,
+   "frac_stromal": 0.013868486601399624
+  },
+  "SLC7A5": {
+   "top_cell_types": "retinal pigment epithelial cells; pdcs; plasma cells",
+   "frac_immune": 0.19024454959536552,
+   "frac_stromal": 0.043794867259246154
+  },
+  "GPC2": {
+   "top_cell_types": "early spermatids; oligodendrocyte progenitor cells; late primary spermatocytes",
+   "frac_immune": 0.05871559633027523,
+   "frac_stromal": 0.026146788990825683
+  },
+  "ATP2B4": {
+   "top_cell_types": "suprabasal keratinocytes; basal keratinocytes; alveolar cells type 1",
+   "frac_immune": 0.07486225302397656,
+   "frac_stromal": 0.09536825793121258
+  },
+  "SLC12A4": {
+   "top_cell_types": "syncytiotrophoblasts; alveolar cells type 1; bergmann glia",
+   "frac_immune": 0.033116349617645195,
+   "frac_stromal": 0.12254313341338555
+  },
+  "ADAM19": {
+   "top_cell_types": "cone photoreceptor cells; basophils; neutrophils",
+   "frac_immune": 0.2241438459830889,
+   "frac_stromal": 0.09926745101204772
+  },
+  "MRC2": {
+   "top_cell_types": "fibro-adipogenic progenitors; bone marrow mscs; peritubular myoid cells",
+   "frac_immune": 0.024938675388389217,
+   "frac_stromal": 0.12410933302184327
+  },
+  "STEAP1": {
+   "top_cell_types": "prostatic glandular cells; gastric progenitor cells; respiratory secretory cells",
+   "frac_immune": 0.003248200751544487,
+   "frac_stromal": 0.057002738679065024
+  },
+  "STEAP2": {
+   "top_cell_types": "prostatic glandular cells; mesothelial cells; prostatic club cells",
+   "frac_immune": 0.0018780905287181441,
+   "frac_stromal": 0.042435336629897305
+  },
+  "TACSTD2": {
+   "top_cell_types": "epididymal basal cells; esophageal apical cells; esophageal suprabasal cells",
+   "frac_immune": 0.0028143923486459756,
+   "frac_stromal": 0.002015118468645434
+  },
+  "CD276": {
+   "top_cell_types": "extravillous trophoblasts; hofbauer cells; adrenal cortex cells",
+   "frac_immune": 0.07785634536657983,
+   "frac_stromal": 0.06066244882768887
+  },
+  "SSTR2": {
+   "top_cell_types": "proximal tubule cells; papillary tip epithelial cells; renal collecting duct principal cells",
+   "frac_immune": 0.006012024048096193,
+   "frac_stromal": 0.19639278557114226
+  },
+  "NCAM1": {
+   "top_cell_types": "oligodendrocytes; oligodendrocyte progenitor cells; bergmann glia",
+   "frac_immune": 0.02951159489343308,
+   "frac_stromal": 0.016622376351427683
+  },
+  "DLL3": {
+   "top_cell_types": "oocytes; oligodendrocyte progenitor cells; differentiating spermatogonia",
+   "frac_immune": 0.019281563655573163,
+   "frac_stromal": 0.013734812466983621
+  },
+  "MUC1": {
+   "top_cell_types": "foveolar cells; alveolar cells type 2; breast lactating cells",
+   "frac_immune": 0.0023600013485721993,
+   "frac_stromal": 0.0027982873133070366
+  }
+ },
+ "B2": {
+  "FOLH1": {
+   "rbc": -0.992,
+   "padj": 0.0,
+   "max_vital_nTPM": 78.3,
+   "max_any_normal_nTPM": 250.9,
+   "salivary": 49.8,
+   "kidney": 12.1,
+   "prostate_nTPM": 71.4,
+   "tumor_low_median": 1.959,
+   "tumor_high_median": 9.184,
+   "log2_max_vital": 6.309,
+   "contrast_low_vs_vital": -4.35,
+   "contrast_high_vs_vital": 2.875
+  },
+  "PLAUR": {
+   "rbc": 0.471,
+   "padj": 0.0,
+   "max_vital_nTPM": 650.6,
+   "max_any_normal_nTPM": 650.6,
+   "salivary": 22.6,
+   "kidney": 17.5,
+   "prostate_nTPM": 11.7,
+   "tumor_low_median": 2.565,
+   "tumor_high_median": 1.644,
+   "log2_max_vital": 9.348,
+   "contrast_low_vs_vital": -6.783,
+   "contrast_high_vs_vital": -7.704
+  },
+  "SLC16A3": {
+   "rbc": 0.489,
+   "padj": 0.0,
+   "max_vital_nTPM": 40.3,
+   "max_any_normal_nTPM": 134.4,
+   "salivary": 19.1,
+   "kidney": 28.7,
+   "prostate_nTPM": 14.0,
+   "tumor_low_median": 2.935,
+   "tumor_high_median": 1.528,
+   "log2_max_vital": 5.368,
+   "contrast_low_vs_vital": -2.433,
+   "contrast_high_vs_vital": -3.84
+  },
+  "SLC7A5": {
+   "rbc": 0.464,
+   "padj": 0.0,
+   "max_vital_nTPM": 104.4,
+   "max_any_normal_nTPM": 104.4,
+   "salivary": 27.3,
+   "kidney": 17.0,
+   "prostate_nTPM": 8.9,
+   "tumor_low_median": 3.905,
+   "tumor_high_median": 2.499,
+   "log2_max_vital": 6.72,
+   "contrast_low_vs_vital": -2.815,
+   "contrast_high_vs_vital": -4.22
+  },
+  "GPC2": {
+   "rbc": 0.425,
+   "padj": 0.0,
+   "max_vital_nTPM": 2.2,
+   "max_any_normal_nTPM": 11.4,
+   "salivary": 0.8,
+   "kidney": 0.4,
+   "prostate_nTPM": 0.6,
+   "tumor_low_median": 1.317,
+   "tumor_high_median": 0.658,
+   "log2_max_vital": 1.678,
+   "contrast_low_vs_vital": -0.361,
+   "contrast_high_vs_vital": -1.02
+  },
+  "ATP2B4": {
+   "rbc": 0.545,
+   "padj": 0.0,
+   "max_vital_nTPM": 56.1,
+   "max_any_normal_nTPM": 164.7,
+   "salivary": 6.7,
+   "kidney": 9.2,
+   "prostate_nTPM": 31.1,
+   "tumor_low_median": 3.324,
+   "tumor_high_median": 2.416,
+   "log2_max_vital": 5.835,
+   "contrast_low_vs_vital": -2.511,
+   "contrast_high_vs_vital": -3.419
+  },
+  "SLC12A4": {
+   "rbc": 0.515,
+   "padj": 0.0,
+   "max_vital_nTPM": 39.5,
+   "max_any_normal_nTPM": 40.7,
+   "salivary": 17.0,
+   "kidney": 20.4,
+   "prostate_nTPM": 26.5,
+   "tumor_low_median": 3.132,
+   "tumor_high_median": 2.257,
+   "log2_max_vital": 5.34,
+   "contrast_low_vs_vital": -2.208,
+   "contrast_high_vs_vital": -3.083
+  },
+  "ADAM19": {
+   "rbc": 0.452,
+   "padj": 0.0,
+   "max_vital_nTPM": 23.8,
+   "max_any_normal_nTPM": 28.3,
+   "salivary": 1.9,
+   "kidney": 1.9,
+   "prostate_nTPM": 7.2,
+   "tumor_low_median": 1.875,
+   "tumor_high_median": 1.059,
+   "log2_max_vital": 4.632,
+   "contrast_low_vs_vital": -2.758,
+   "contrast_high_vs_vital": -3.573
+  },
+  "MRC2": {
+   "rbc": 0.446,
+   "padj": 0.0,
+   "max_vital_nTPM": 47.7,
+   "max_any_normal_nTPM": 60.4,
+   "salivary": 9.2,
+   "kidney": 18.1,
+   "prostate_nTPM": 26.5,
+   "tumor_low_median": 2.767,
+   "tumor_high_median": 1.903,
+   "log2_max_vital": 5.606,
+   "contrast_low_vs_vital": -2.839,
+   "contrast_high_vs_vital": -3.703
+  },
+  "STEAP1": {
+   "rbc": -0.654,
+   "padj": 0.0,
+   "max_vital_nTPM": 27.7,
+   "max_any_normal_nTPM": 78.6,
+   "salivary": 16.2,
+   "kidney": 6.2,
+   "prostate_nTPM": 78.6,
+   "tumor_low_median": 4.136,
+   "tumor_high_median": 7.751,
+   "log2_max_vital": 4.843,
+   "contrast_low_vs_vital": -0.707,
+   "contrast_high_vs_vital": 2.908
+  },
+  "STEAP2": {
+   "rbc": -0.668,
+   "padj": 0.0,
+   "max_vital_nTPM": 19.8,
+   "max_any_normal_nTPM": 119.9,
+   "salivary": 11.5,
+   "kidney": 6.4,
+   "prostate_nTPM": 119.9,
+   "tumor_low_median": 3.049,
+   "tumor_high_median": 7.191,
+   "log2_max_vital": 4.379,
+   "contrast_low_vs_vital": -1.33,
+   "contrast_high_vs_vital": 2.813
+  },
+  "TACSTD2": {
+   "rbc": -0.407,
+   "padj": 0.001,
+   "max_vital_nTPM": 585.3,
+   "max_any_normal_nTPM": 1245.4,
+   "salivary": 585.3,
+   "kidney": 185.9,
+   "prostate_nTPM": 120.8,
+   "tumor_low_median": 5.454,
+   "tumor_high_median": 7.112,
+   "log2_max_vital": 9.195,
+   "contrast_low_vs_vital": -3.741,
+   "contrast_high_vs_vital": -2.083
+  },
+  "CD276": {
+   "rbc": -0.294,
+   "padj": 0.015,
+   "max_vital_nTPM": 16.8,
+   "max_any_normal_nTPM": 26.8,
+   "salivary": 16.8,
+   "kidney": 6.0,
+   "prostate_nTPM": 15.7,
+   "tumor_low_median": 4.462,
+   "tumor_high_median": 5.296,
+   "log2_max_vital": 4.154,
+   "contrast_low_vs_vital": 0.309,
+   "contrast_high_vs_vital": 1.143
+  },
+  "SSTR2": {
+   "rbc": NaN,
+   "padj": NaN,
+   "max_vital_nTPM": 17.7,
+   "max_any_normal_nTPM": 17.7,
+   "salivary": 0.6,
+   "kidney": 5.4,
+   "prostate_nTPM": 1.3,
+   "tumor_low_median": 0.549,
+   "tumor_high_median": 0.367,
+   "log2_max_vital": 4.225,
+   "contrast_low_vs_vital": -3.676,
+   "contrast_high_vs_vital": -3.858
+  },
+  "NCAM1": {
+   "rbc": NaN,
+   "padj": NaN,
+   "max_vital_nTPM": 187.4,
+   "max_any_normal_nTPM": 187.4,
+   "salivary": 3.4,
+   "kidney": 3.7,
+   "prostate_nTPM": 14.2,
+   "tumor_low_median": 1.133,
+   "tumor_high_median": 0.11,
+   "log2_max_vital": 7.558,
+   "contrast_low_vs_vital": -6.425,
+   "contrast_high_vs_vital": -7.448
+  },
+  "DLL3": {
+   "rbc": NaN,
+   "padj": NaN,
+   "max_vital_nTPM": 27.1,
+   "max_any_normal_nTPM": 27.1,
+   "salivary": 0.0,
+   "kidney": 0.0,
+   "prostate_nTPM": 0.0,
+   "tumor_low_median": 0.463,
+   "tumor_high_median": 0.538,
+   "log2_max_vital": 4.812,
+   "contrast_low_vs_vital": -4.349,
+   "contrast_high_vs_vital": -4.275
+  },
+  "MUC1": {
+   "rbc": 0.395,
+   "padj": 0.001,
+   "max_vital_nTPM": 998.2,
+   "max_any_normal_nTPM": 998.2,
+   "salivary": 127.2,
+   "kidney": 416.9,
+   "prostate_nTPM": 42.0,
+   "tumor_low_median": 2.988,
+   "tumor_high_median": 1.452,
+   "log2_max_vital": 9.965,
+   "contrast_low_vs_vital": -6.977,
+   "contrast_high_vs_vital": -8.513
+  }
+ },
+ "B4": {
+  "FOLH1": {
+   "median_PSMA_low": 1.9594,
+   "median_PSMA_high": 9.1842,
+   "pct_of_FOLH1_high_level": 0.4975,
+   "frac_low_samples_above_2log2": 0.4925,
+   "rbc_liver_adj": -0.9915
+  },
+  "PLAUR": {
+   "median_PSMA_low": 2.5648,
+   "median_PSMA_high": 1.6439,
+   "pct_of_FOLH1_high_level": 0.8467,
+   "frac_low_samples_above_2log2": 0.7313,
+   "rbc_liver_adj": 0.4707
+  },
+  "SLC16A3": {
+   "median_PSMA_low": 2.9348,
+   "median_PSMA_high": 1.528,
+   "pct_of_FOLH1_high_level": 1.1445,
+   "frac_low_samples_above_2log2": 0.7761,
+   "rbc_liver_adj": 0.4885
+  },
+  "SLC7A5": {
+   "median_PSMA_low": 3.9046,
+   "median_PSMA_high": 2.4992,
+   "pct_of_FOLH1_high_level": 2.4067,
+   "frac_low_samples_above_2log2": 0.8955,
+   "rbc_liver_adj": 0.4636
+  },
+  "GPC2": {
+   "median_PSMA_low": 1.3171,
+   "median_PSMA_high": 0.6579,
+   "pct_of_FOLH1_high_level": 0.2569,
+   "frac_low_samples_above_2log2": 0.2985,
+   "rbc_liver_adj": 0.4248
+  },
+  "ATP2B4": {
+   "median_PSMA_low": 3.324,
+   "median_PSMA_high": 2.416,
+   "pct_of_FOLH1_high_level": 1.5523,
+   "frac_low_samples_above_2log2": 0.9701,
+   "rbc_liver_adj": 0.5451
+  },
+  "SLC12A4": {
+   "median_PSMA_low": 3.1316,
+   "median_PSMA_high": 2.2568,
+   "pct_of_FOLH1_high_level": 1.337,
+   "frac_low_samples_above_2log2": 0.8955,
+   "rbc_liver_adj": 0.5148
+  },
+  "ADAM19": {
+   "median_PSMA_low": 1.8748,
+   "median_PSMA_high": 1.0592,
+   "pct_of_FOLH1_high_level": 0.4593,
+   "frac_low_samples_above_2log2": 0.4478,
+   "rbc_liver_adj": 0.452
+  },
+  "MRC2": {
+   "median_PSMA_low": 2.7668,
+   "median_PSMA_high": 1.9032,
+   "pct_of_FOLH1_high_level": 0.9998,
+   "frac_low_samples_above_2log2": 0.7164,
+   "rbc_liver_adj": 0.4458
+  },
+  "STEAP1": {
+   "median_PSMA_low": 4.1356,
+   "median_PSMA_high": 7.7508,
+   "pct_of_FOLH1_high_level": 2.8546,
+   "frac_low_samples_above_2log2": 0.7761,
+   "rbc_liver_adj": -0.6543
+  },
+  "STEAP2": {
+   "median_PSMA_low": 3.0486,
+   "median_PSMA_high": 7.1912,
+   "pct_of_FOLH1_high_level": 1.2526,
+   "frac_low_samples_above_2log2": 0.6269,
+   "rbc_liver_adj": -0.6681
+  },
+  "TACSTD2": {
+   "median_PSMA_low": 5.454,
+   "median_PSMA_high": 7.112,
+   "pct_of_FOLH1_high_level": 7.3764,
+   "frac_low_samples_above_2log2": 0.8657,
+   "rbc_liver_adj": -0.4074
+  },
+  "CD276": {
+   "median_PSMA_low": 4.4624,
+   "median_PSMA_high": 5.2964,
+   "pct_of_FOLH1_high_level": 3.6241,
+   "frac_low_samples_above_2log2": 0.9254,
+   "rbc_liver_adj": -0.2938
+  },
+  "SSTR2": {
+   "median_PSMA_low": 0.5487,
+   "median_PSMA_high": 0.367,
+   "pct_of_FOLH1_high_level": 0.0797,
+   "frac_low_samples_above_2log2": 0.0896,
+   "rbc_liver_adj": NaN
+  },
+  "NCAM1": {
+   "median_PSMA_low": 1.1327,
+   "median_PSMA_high": 0.1096,
+   "pct_of_FOLH1_high_level": 0.2054,
+   "frac_low_samples_above_2log2": 0.3731,
+   "rbc_liver_adj": NaN
+  },
+  "DLL3": {
+   "median_PSMA_low": 0.4633,
+   "median_PSMA_high": 0.5376,
+   "pct_of_FOLH1_high_level": 0.0652,
+   "frac_low_samples_above_2log2": 0.2239,
+   "rbc_liver_adj": NaN
+  },
+  "MUC1": {
+   "median_PSMA_low": 2.9879,
+   "median_PSMA_high": 1.4521,
+   "pct_of_FOLH1_high_level": 1.1939,
+   "frac_low_samples_above_2log2": 0.6716,
+   "rbc_liver_adj": 0.395
+  }
+ }
+}

@@ -1,0 +1,201 @@
+CRISPR (1178, 17916); expression (1673, 19193)
+models with both: 1103   [manuscript 1,103]
+signature genes present in DepMap: up 49/50, down 48/50
+[A1] prostate models with expression: 13
+         line  score  FOLH1                       disease
+         P4E6   0.42   0.00                 Non-Cancerous
+      NCIH660   0.31   0.10 Prostate Small Cell Carcinoma
+         BPH1   0.08   0.00                 Non-Cancerous
+       PRECLH   0.05   0.26                 Non-Cancerous
+       SHMAC5   0.01   0.00                 Non-Cancerous
+       SHMAC4  -0.15   0.00                 Non-Cancerous
+        DU145  -0.18   0.00       Prostate Adenocarcinoma
+          PC3  -0.21   0.23       Prostate Adenocarcinoma
+     WPE1NA22  -0.61   0.04                 Non-Cancerous
+        22RV1  -1.96   6.08       Prostate Adenocarcinoma
+         VCAP  -3.55   7.77       Prostate Adenocarcinoma
+LNCAPCLONEFGC  -3.67   9.79       Prostate Adenocarcinoma
+     MDAPCA2B  -3.97   9.31       Prostate Adenocarcinoma
+[A2] pan-lineage n=1103; genes tested 17787; FDR<0.05 1301
+[A2] top 12 negative (dependency of PSMA-low-like cells):
+            rho     n  padj
+gene                       
+SEPSECS -0.2345  1103   0.0
+TXNRD1  -0.2265  1103   0.0
+RPP21   -0.2195  1103   0.0
+EEFSEC  -0.2154  1103   0.0
+NCKAP1L -0.2098  1103   0.0
+NSMCE1  -0.2084  1103   0.0
+POP7    -0.2069  1103   0.0
+WDR24   -0.2007  1103   0.0
+CDS2    -0.1993  1103   0.0
+GAPDH   -0.1949  1103   0.0
+EMC3    -0.1916  1103   0.0
+CHMP4B  -0.1902  1103   0.0
+[A2] top 8 positive:
+            rho     n    padj
+gene                         
+FOXA1    0.2211  1103  0.0000
+CCND1    0.2123  1103  0.0000
+UXS1     0.2076  1103  0.0000
+CDK4     0.1813  1103  0.0000
+PTP4A1   0.1804  1103  0.0000
+PLEKHG2  0.1765  1103  0.0000
+NUP153   0.1604  1103  0.0000
+NUTM2A   0.1595  1031  0.0001
+[A3] common essentials (Chronos<-1 in >=90% lines): 494; non-essential universe 17293   [manuscript 17,293]
+   SEPSECS  rho=-0.234 rank 1/17293 (common-essential: False)
+   TXNRD1   rho=-0.227 rank 2/17293 (common-essential: False)
+   EEFSEC   rho=-0.215 rank 4/17293 (common-essential: False)
+   PSTK     rho=-0.186 rank 15/17293 (common-essential: False)
+   GPX4     rho=-0.188 rank 13/17293 (common-essential: False)
+   GAPDH    rho=-0.195 rank 10/17293 (common-essential: False)
+[A4] score vs epithelial marker score: rho=-0.268
+[A4] per-line mean gene effect vs score: rho=-0.051
+[A4] epithelial-restricted n=621   [manuscript 621]
+         rho_pan  rho_epithelial  rho_fitness_adj
+gene                                             
+TXNRD1    -0.227          -0.255           -0.216
+SEPSECS   -0.234          -0.154           -0.229
+EEFSEC    -0.215          -0.132           -0.212
+PSTK      -0.186          -0.108           -0.180
+GPX4      -0.188          -0.074           -0.191
+RHOA      -0.188          -0.121           -0.184
+ANGPT2    -0.184          -0.116           -0.185
+NCKAP1L   -0.210          -0.178           -0.210
+GAPDH     -0.195          -0.143           -0.194
+MTF1      -0.184          -0.077           -0.176
+KEAP1      0.088           0.125            0.098
+NFE2L2     0.067           0.055            0.065
+FOXA1      0.221           0.247            0.219
+CCND1      0.212           0.131            0.212
+CDK4       0.181           0.221            0.182
+[A4] partial correlations vs GPX4:
+   TXNRD1|GPX4=-0.201   GPX4|TXNRD1=-0.156
+   SEPSECS|GPX4=-0.160   GPX4|SEPSECS=-0.075
+   EEFSEC|GPX4=-0.133   GPX4|EEFSEC=-0.080
+   PSTK|GPX4=-0.093   GPX4|PSTK=-0.098
+==================== B1  WHAT IS THE SCORE ACROSS LINEAGES? ====================
+                           count  mean
+lineage                               
+Myeloid                       74  0.64
+Lymphoid                     186  0.23
+Kidney                        52  0.14
+Head and Neck                 74  0.08
+Pleura                        22  0.07
+CNS/Brain                    100  0.06
+Bladder/Urinary Tract         37  0.05
+Fibroblast                    39  0.03
+Testis                        10  0.03
+Soft Tissue                   76  0.02
+Ovary/Fallopian Tube          67  0.01
+Bone                          55  0.00
+Uterus                        43 -0.01
+Peripheral Nervous System     45 -0.02
+Cervix                        20 -0.04
+Thyroid                       22 -0.05
+Esophagus/Stomach             77 -0.06
+Pancreas                      55 -0.07
+Lung                         214 -0.07
+Liver                         27 -0.11
+Skin                         120 -0.15
+Bowel                         86 -0.21
+Biliary Tract                 44 -0.24
+Eye                           23 -0.27
+Breast                        70 -0.28
+Prostate                      13 -1.03
+[B1] Kruskal-Wallis across lineages: H=388, p=0.00e+00
+[B1] variance of the score explained by lineage alone = 29.8%
+==================== B2  WITHIN-LINEAGE (lineage-demeaned) ====================
+[B2] lineages with >=15 screened lines: 22 covering 1070 models
+         rho_pan  rho_within_lineage       p     n
+gene                                              
+TXNRD1   -0.2265             -0.1856  0.0000  1070
+SEPSECS  -0.2345             -0.1465  0.0000  1070
+EEFSEC   -0.2154             -0.1250  0.0000  1070
+PSTK     -0.1862             -0.0945  0.0020  1070
+GPX4     -0.1885             -0.0809  0.0081  1070
+RHOA     -0.1884             -0.0878  0.0041  1070
+ANGPT2   -0.1844             -0.1428  0.0000  1070
+NCKAP1L  -0.2098             -0.1759  0.0000  1070
+GAPDH    -0.1949             -0.1333  0.0000  1070
+MTF1     -0.1842             -0.1058  0.0005  1070
+KEAP1     0.0880              0.1068  0.0005  1070
+NFE2L2    0.0670              0.0776  0.0111  1070
+FOXA1     0.2211              0.2106  0.0000  1070
+CCND1     0.2123              0.1142  0.0002  1070
+CDK4      0.1813              0.1142  0.0002  1070
+[B2] genome-wide within-lineage recomputation (this takes a minute)...
+   TXNRD1   within-lineage rho=-0.186  rank 1/17293  (pan-lineage rank was 2)
+   SEPSECS  within-lineage rho=-0.147  rank 9/17293  (pan-lineage rank was 1)
+   EEFSEC   within-lineage rho=-0.125  rank 38/17293  (pan-lineage rank was 4)
+   PSTK     within-lineage rho=-0.095  rank 265/17293  (pan-lineage rank was 15)
+   GPX4     within-lineage rho=-0.081  rank 602/17293  (pan-lineage rank was 13)
+   GAPDH    within-lineage rho=-0.133  rank 24/17293  (pan-lineage rank was 10)
+==================== B3  WITHOUT HAEMATOPOIETIC/LYMPHOID LINES ====================
+[B3] removed 130 blood-lineage lines, n=973
+         rho_pan  rho_no_blood
+gene                          
+TXNRD1    -0.227        -0.236
+SEPSECS   -0.234        -0.200
+EEFSEC    -0.215        -0.180
+PSTK      -0.186        -0.151
+GPX4      -0.188        -0.133
+RHOA      -0.188        -0.094
+ANGPT2    -0.184        -0.143
+NCKAP1L   -0.210        -0.150
+GAPDH     -0.195        -0.159
+MTF1      -0.184        -0.111
+KEAP1      0.088         0.169
+NFE2L2     0.067         0.046
+FOXA1      0.221         0.223
+CCND1      0.212         0.111
+CDK4       0.181         0.160
+==================== B4  THE ACTUAL CONSTRUCT: FOLH1 EXPRESSION ====================
+[B4] FOLH1 expression in DepMap models: median=0.04, frac >1 log2TPM = 0.14, max=9.79
+[B4] direct correlation of FOLH1 mRNA with dependency (sign convention: negative rho
+     = more dependent when FOLH1 is HIGH; the manuscript's claim predicts POSITIVE rho)
+         rho_FOLH1_vs_dependency       p     n  rho_in_FOLH1_expressing  n_expr
+gene                                                                           
+TXNRD1                   -0.0902  0.0027  1103                  -0.0986     150
+SEPSECS                   0.0150  0.6193  1103                  -0.0931     150
+EEFSEC                   -0.0069  0.8188  1103                  -0.0890     150
+PSTK                      0.0024  0.9378  1103                  -0.0673     150
+GPX4                      0.0804  0.0075  1103                   0.0324     150
+FOXA1                    -0.0148  0.6231  1103                  -0.1458     150
+==================== B5  PROSTATE LINEAGE ONLY ====================
+         line  score  FOLH1                 disease  TXNRD1  SEPSECS  GPX4  FOXA1
+         P4E6   0.42   0.00           Non-Cancerous   -0.37    -0.37 -0.79  -0.22
+         BPH1   0.08   0.00           Non-Cancerous   -0.42    -0.61 -1.11  -0.06
+       SHMAC5   0.01   0.00           Non-Cancerous   -0.15     0.04 -0.53  -0.05
+       SHMAC4  -0.15   0.00           Non-Cancerous   -0.52    -0.14 -0.42  -0.10
+        DU145  -0.18   0.00 Prostate Adenocarcinoma   -0.31    -0.33 -1.04  -0.14
+          PC3  -0.21   0.23 Prostate Adenocarcinoma   -0.26    -0.78 -1.00  -0.60
+     WPE1NA22  -0.61   0.04           Non-Cancerous    0.00    -0.05 -1.30  -0.10
+        22RV1  -1.96   6.08 Prostate Adenocarcinoma   -0.23    -0.32 -1.54  -1.86
+         VCAP  -3.55   7.77 Prostate Adenocarcinoma   -0.06    -0.01 -0.24  -2.00
+LNCAPCLONEFGC  -3.67   9.79 Prostate Adenocarcinoma   -0.70    -0.25 -0.95  -1.13
+[B5] prostate-only (n=10): score vs TXNRD1 rho=-0.212 (p=0.56) | FOLH1 vs TXNRD1 rho=+0.162 (p=0.66)
+[B5] prostate-only (n=10): score vs SEPSECS rho=-0.309 (p=0.38) | FOLH1 vs SEPSECS rho=+0.149 (p=0.68)
+[B5] prostate-only (n=10): score vs GPX4 rho=+0.091 (p=0.80) | FOLH1 vs GPX4 rho=-0.058 (p=0.87)
+==================== B6  EFFECT-SIZE YARDSTICK ====================
+    For reference: how strongly does a gene's OWN expression predict its OWN
+    dependency across the same 1,103 models? That is what a real selective
+    dependency looks like.
+CCND1     -0.625
+MDM2      -0.456
+ERBB2     -0.346
+EGFR      -0.309
+CTNNB1    -0.236
+MITF      -0.218
+KRAS      -0.212
+FOXA1     -0.208
+SOX10     -0.151
+BRAF      -0.088
+AR        -0.077
+GPX4      -0.054
+ESR1      -0.025
+SEPSECS    0.009
+TXNRD1     0.147
+[B6] the manuscript's headline TXNRD1 signal is rho=-0.227 (R2=5.1% of variance)
+saved s05 outputs

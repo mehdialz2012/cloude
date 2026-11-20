@@ -1,0 +1,64 @@
+{
+ "tcga_n_total": 550,
+ "tcga_suffix_counts": {
+  "01": 497,
+  "11": 52,
+  "06": 1
+ },
+ "tcga_n_tumor": 497,
+ "tcga_n_normal": 52,
+ "su2c_n": 266,
+ "beltran_n": 49,
+ "landscape": [
+  {
+   "cohort": "TCGA_all550",
+   "n": 550,
+   "rho_FOLH1_AR": 0.332,
+   "p_AR": 1.2838267159619516e-15,
+   "rho_FOLH1_NE": 0.022,
+   "p_NE": 0.6002965597273558
+  },
+  {
+   "cohort": "TCGA_tumoronly",
+   "n": 497,
+   "rho_FOLH1_AR": 0.262,
+   "p_AR": 3.1521543869773448e-09,
+   "rho_FOLH1_NE": -0.056,
+   "p_NE": 0.21022075494677464
+  },
+  {
+   "cohort": "SU2C",
+   "n": 266,
+   "rho_FOLH1_AR": 0.546,
+   "p_AR": 4.730767804342529e-22,
+   "rho_FOLH1_NE": -0.336,
+   "p_NE": 1.9310119558344604e-08
+  },
+  {
+   "cohort": "Beltran",
+   "n": 49,
+   "rho_FOLH1_AR": 0.752,
+   "p_AR": 4.5563877565566834e-10,
+   "rho_FOLH1_NE": -0.271,
+   "p_NE": 0.05958955230904587
+  }
+ ],
+ "beltran_matched": 49,
+ "beltran_path_counts": {
+  "Castration-Resistant Prostate Cancer": 34,
+  "Prostate Neuroendocrine Carcinoma": 15
+ },
+ "su2c_NEUROENDOCRINE_FEATURES_kruskal_p": 9.516929466728239e-07,
+ "su2c_NEUROENDOCRINE_FEATURES_medians": {
+  "No": 7.568706816746641,
+  "Yes": 1.8056342598419053
+ },
+ "su2c_ABI_ENZA_EXPOSURE_STATUS_kruskal_p": 0.9102134618250046,
+ "su2c_ABI_ENZA_EXPOSURE_STATUS_medians": {
+  "Exposed": 7.1309043340631835,
+  "Naive": 7.407816755883803,
+  "On treatment": 7.171349302143656,
+  "UNK": 7.9303527270682865
+ },
+ "beltran_frac_negative": 0.5932268310107679
+}

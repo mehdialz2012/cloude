@@ -1,0 +1,18 @@
+gene,top_cell_types,frac_immune,frac_stromal
+FOLH1,prostatic glandular cells; oligodendrocytes; lacrimal acinar cells,0.002097475402333918,0.004461902219510335
+PLAUR,neutrophils; epididymal basal cells; monocytes,0.38617722199811755,0.01277042950255833
+SLC16A3,extravillous trophoblasts; syncytiotrophoblasts; retinal pigment epithelial cells,0.19242525159441978,0.013868486601399624
+SLC7A5,retinal pigment epithelial cells; pdcs; plasma cells,0.19024454959536552,0.043794867259246154
+GPC2,early spermatids; oligodendrocyte progenitor cells; late primary spermatocytes,0.05871559633027523,0.026146788990825683
+ATP2B4,suprabasal keratinocytes; basal keratinocytes; alveolar cells type 1,0.07486225302397656,0.09536825793121258
+SLC12A4,syncytiotrophoblasts; alveolar cells type 1; bergmann glia,0.033116349617645195,0.12254313341338555
+ADAM19,cone photoreceptor cells; basophils; neutrophils,0.2241438459830889,0.09926745101204772
+MRC2,fibro-adipogenic progenitors; bone marrow mscs; peritubular myoid cells,0.024938675388389217,0.12410933302184327
+STEAP1,prostatic glandular cells; gastric progenitor cells; respiratory secretory cells,0.003248200751544487,0.057002738679065024
+STEAP2,prostatic glandular cells; mesothelial cells; prostatic club cells,0.0018780905287181441,0.042435336629897305
+TACSTD2,epididymal basal cells; esophageal apical cells; esophageal suprabasal cells,0.0028143923486459756,0.002015118468645434
+CD276,extravillous trophoblasts; hofbauer cells; adrenal cortex cells,0.07785634536657983,0.06066244882768887
+SSTR2,proximal tubule cells; papillary tip epithelial cells; renal collecting duct principal cells,0.006012024048096193,0.19639278557114226
+NCAM1,oligodendrocytes; oligodendrocyte progenitor cells; bergmann glia,0.02951159489343308,0.016622376351427683
+DLL3,oocytes; oligodendrocyte progenitor cells; differentiating spermatogonia,0.019281563655573163,0.013734812466983621
+MUC1,foveolar cells; alveolar cells type 2; breast lactating cells,0.0023600013485721993,0.0027982873133070366

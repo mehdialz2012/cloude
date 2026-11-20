@@ -1,0 +1,284 @@
+{
+ "C1": {
+  "n_samples": 266,
+  "n_patients": 262,
+  "n_multi": 4,
+  "max_per_patient": 2,
+  "low_patients": 67,
+  "high_patients": 66
+ },
+ "C1_STEAP1": {
+  "rbc": -0.8213957759412305,
+  "p": 3.961718688160132e-16
+ },
+ "C1_PLAUR": {
+  "rbc": 0.4990817263544536,
+  "p": 7.62137602789427e-07
+ },
+ "C1_SLC16A3": {
+  "rbc": 0.5215794306703398,
+  "p": 2.3683078347949428e-07
+ },
+ "C1_SLC7A5": {
+  "rbc": 0.5482093663911847,
+  "p": 5.579030798947738e-08
+ },
+ "C1_GPC2": {
+  "rbc": 0.45087235996326913,
+  "p": 7.934236079216488e-06
+ },
+ "C1_NCAM1": {
+  "rbc": 0.6005509641873279,
+  "p": 2.6712087480319036e-09
+ },
+ "C2": {
+  "n_total": 153,
+  "n_patient": 98,
+  "n_lucap": 43,
+  "n_cell": 12,
+  "cell_samples": [
+   "GSM3590965_C42B_siCont_1",
+   "GSM3590966_C42B-siNCT_2",
+   "GSM3590967_C42B_siREST_1",
+   "GSM3590968_C42B-siREST_2",
+   "GSM3590969_PacMetUT1-KO1-siNCT",
+   "GSM3590970_PacMetUT1-KO2-siNCT",
+   "GSM3590971_PacMetUT1-KO1-siREST",
+   "GSM3590972_PacMetUT1-KO2-siREST",
+   "GSM3590973_PC3_siCont_1",
+   "GSM3590974_PC3-siNCT_2",
+   "GSM3590975_PC3_siREST_1",
+   "GSM3590976_PC3-siREST_2"
+  ],
+  "n_distinct_case_ids": 98,
+  "example_cases": [
+   "03-027P3",
+   "03-139E5",
+   "03-139M5",
+   "03-163S5",
+   "03-192C3",
+   "04-050P1",
+   "04-050S1",
+   "05-011D5",
+   "05-011G2",
+   "05-144E6",
+   "05-144V3",
+   "05-165K1",
+   "05-165O1",
+   "05-214E2",
+   "05-217F4",
+   "05-217I3",
+   "06-127G3",
+   "06-131TT1",
+   "07-042K2",
+   "07-042L3"
+  ]
+ },
+ "C3": {
+  "n_liver": 39,
+  "liverscore_auc": 0.942957189653225,
+  "rho_within_nonliver": -0.4940466053442054,
+  "folh1_liver_median": 4.069527730199267,
+  "folh1_nonliver_median": 7.6363413837310405,
+  "sig_liver_auc": 0.7235965209533491
+ },
+ "C4_times1000": {
+  "E2F_TARGETS": {
+   "NES": 3.75419,
+   "p": 0.08117,
+   "padj": 0.13221
+  },
+  "G2M_CHECKPOINT": {
+   "NES": 3.08719,
+   "p": 0.08117,
+   "padj": 0.13221
+  },
+  "EPITHELIAL_MESENCHYMAL_TRANSITION": {
+   "NES": 2.9221,
+   "p": 0.08489,
+   "padj": 0.13221
+  },
+  "ANDROGEN_RESPONSE": {
+   "NES": -2.16528,
+   "p": 0.00611,
+   "padj": 0.03395
+  },
+  "OXIDATIVE_PHOSPHORYLATION": {
+   "NES": -2.07948,
+   "p": 0.00611,
+   "padj": 0.03395
+  }
+ },
+ "C4_times10000": {
+  "E2F_TARGETS": {
+   "NES": 3.58935,
+   "p": 0.01079,
+   "padj": 0.02192
+  },
+  "G2M_CHECKPOINT": {
+   "NES": 3.13453,
+   "p": 0.00924,
+   "padj": 0.021
+  },
+  "EPITHELIAL_MESENCHYMAL_TRANSITION": {
+   "NES": 3.01772,
+   "p": 0.00914,
+   "padj": 0.021
+  },
+  "ANDROGEN_RESPONSE": {
+   "NES": -2.16427,
+   "p": 0.00108,
+   "padj": 0.01079
+  },
+  "OXIDATIVE_PHOSPHORYLATION": {
+   "NES": -2.07219,
+   "p": 0.00108,
+   "padj": 0.01079
+  }
+ },
+ "C5": {
+  "PAQR8": {
+   "rbc_liver_adj": 0.6039,
+   "rbc_epi_adj": 0.5104,
+   "p_epi_adj": 0.0,
+   "padj_epi_adj": 0.0,
+   "shrinkage_pct": 15.4924
+  },
+  "ATP2B4": {
+   "rbc_liver_adj": 0.5451,
+   "rbc_epi_adj": 0.4279,
+   "p_epi_adj": 0.0,
+   "padj_epi_adj": 0.0,
+   "shrinkage_pct": 21.4957
+  },
+  "SLC12A4": {
+   "rbc_liver_adj": 0.5148,
+   "rbc_epi_adj": 0.4747,
+   "p_epi_adj": 0.0,
+   "padj_epi_adj": 0.0,
+   "shrinkage_pct": 7.7888
+  },
+  "SLC16A3": {
+   "rbc_liver_adj": 0.4885,
+   "rbc_epi_adj": 0.4444,
+   "p_epi_adj": 0.0,
+   "padj_epi_adj": 0.0,
+   "shrinkage_pct": 9.0287
+  },
+  "PLAUR": {
+   "rbc_liver_adj": 0.4707,
+   "rbc_epi_adj": 0.354,
+   "p_epi_adj": 0.0004,
+   "padj_epi_adj": 0.0007,
+   "shrinkage_pct": 24.7989
+  },
+  "SLC7A5": {
+   "rbc_liver_adj": 0.4636,
+   "rbc_epi_adj": 0.4836,
+   "p_epi_adj": 0.0,
+   "padj_epi_adj": 0.0,
+   "shrinkage_pct": -4.3248
+  },
+  "ADAM19": {
+   "rbc_liver_adj": 0.452,
+   "rbc_epi_adj": 0.305,
+   "p_epi_adj": 0.0023,
+   "padj_epi_adj": 0.0033,
+   "shrinkage_pct": 32.5283
+  },
+  "MRC2": {
+   "rbc_liver_adj": 0.4458,
+   "rbc_epi_adj": 0.2364,
+   "p_epi_adj": 0.0184,
+   "padj_epi_adj": 0.0213,
+   "shrinkage_pct": 46.9765
+  },
+  "GPC2": {
+   "rbc_liver_adj": 0.4248,
+   "rbc_epi_adj": 0.3437,
+   "p_epi_adj": 0.0006,
+   "padj_epi_adj": 0.0009,
+   "shrinkage_pct": 19.0876
+  },
+  "MUC1": {
+   "rbc_liver_adj": 0.395,
+   "rbc_epi_adj": 0.6155,
+   "p_epi_adj": 0.0,
+   "padj_epi_adj": 0.0,
+   "shrinkage_pct": -55.8376
+  },
+  "ACTN1": {
+   "rbc_liver_adj": 0.4199,
+   "rbc_epi_adj": 0.399,
+   "p_epi_adj": 0.0001,
+   "padj_epi_adj": 0.0001,
+   "shrinkage_pct": 4.9867
+  },
+  "VCAN": {
+   "rbc_liver_adj": 0.3869,
+   "rbc_epi_adj": 0.162,
+   "p_epi_adj": 0.1062,
+   "padj_epi_adj": 0.1062,
+   "shrinkage_pct": 58.1462
+  },
+  "MXRA5": {
+   "rbc_liver_adj": 0.427,
+   "rbc_epi_adj": 0.2355,
+   "p_epi_adj": 0.0188,
+   "padj_epi_adj": 0.0213,
+   "shrinkage_pct": 44.8618
+  },
+  "STEAP1": {
+   "rbc_liver_adj": -0.6543,
+   "rbc_epi_adj": -0.7425,
+   "p_epi_adj": 0.0,
+   "padj_epi_adj": 0.0,
+   "shrinkage_pct": -13.4831
+  },
+  "STEAP2": {
+   "rbc_liver_adj": -0.6681,
+   "rbc_epi_adj": -0.7425,
+   "p_epi_adj": 0.0,
+   "padj_epi_adj": 0.0,
+   "shrinkage_pct": -11.137
+  },
+  "TACSTD2": {
+   "rbc_liver_adj": -0.4074,
+   "rbc_epi_adj": -0.2809,
+   "p_epi_adj": 0.0051,
+   "padj_epi_adj": 0.0066,
+   "shrinkage_pct": 31.0552
+  },
+  "CD276": {
+   "rbc_liver_adj": -0.2938,
+   "rbc_epi_adj": -0.2248,
+   "p_epi_adj": 0.0249,
+   "padj_epi_adj": 0.0265,
+   "shrinkage_pct": 23.5027
+  }
+ },
+ "C6": {
+  "n_tissues": 51,
+  "n_genes": 20151
+ },
+ "C7::clip at 0, log2(x+1)  [authors]": {
+  "auc": 0.8196078431372549,
+  "genes": "44+46",
+  "ne_auc": 0.9294117647058824
+ },
+ "C7::shift by global min, log2(x+1)": {
+  "auc": 0.8274509803921569,
+  "genes": "48+48",
+  "ne_auc": 0.9313725490196078
+ },
+ "C7::rank-based (per-sample ranks)": {
+  "auc": 0.8333333333333334,
+  "genes": "48+48",
+  "ne_auc": 0.9392156862745098
+ },
+ "C7::no transform (raw FPKM-like)": {
+  "auc": 0.8137254901960783,
+  "genes": "48+48",
+  "ne_auc": 0.9235294117647059
+ }
+}

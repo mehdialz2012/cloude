@@ -1,0 +1,49 @@
+[ref] Model B external R2=0.662 rho=0.802; non-zero TFs=144
+[B0] ELF5 weight = +0.655   [manuscript +0.655 dominant positive]
+[B0] most negative weights: {'ZNF24': -0.118, 'YBX1': -0.109, 'SOX4': -0.104, 'KLF8': -0.087}   [manuscript ZNF24, YBX1, SOX4]
+[B0] AR-score-only external R2 = 0.382   [manuscript 0.382]
+==================== B1  TARGET-LEAKAGE TEST ====================
+[B1] external R2  0.662 -> 0.561   (rho 0.802 -> 0.727)
+[B1] ELF5 weight  +0.655 -> +0.040
+[B1] ELF5  TF-FOLH1 rho: TCGA +0.267 -> -0.043 | SU2C +0.666 -> +0.350
+[B1] ELF3  TF-FOLH1 rho: TCGA +0.204 -> +0.043 | SU2C +0.391 -> +0.201
+[B1] AR    TF-FOLH1 rho: TCGA -0.052 -> -0.082 | SU2C +0.259 -> +0.224
+[B1] VDR   TF-FOLH1 rho: TCGA -0.350 -> -0.293 | SU2C -0.348 -> -0.269
+[B1] ELF5 regulon = 11 genes (11 measured in SU2C): ['FOLH1', 'KLK3', 'LYZ', 'STAT5A', 'CCND2', 'KRT77', 'MUC4', 'ITGB3', 'FOXA1', 'EGFR', 'LARGE1']
+[B1] correlation between ELF5 activity and FOLH1 alone (SU2C) = +0.666; with FOLH1 removed from the regulon = +0.350
+==================== B2  RANDOM-REGULON NULL ====================
+   null  1: 772 pseudo-regulons -> external R2=0.460  rho=0.694
+   null  2: 769 pseudo-regulons -> external R2=0.397  rho=0.618
+   null  3: 771 pseudo-regulons -> external R2=0.536  rho=0.707
+   null  4: 770 pseudo-regulons -> external R2=0.315  rho=0.579
+   null  5: 770 pseudo-regulons -> external R2=0.370  rho=0.676
+   null  6: 772 pseudo-regulons -> external R2=0.530  rho=0.717
+   null  7: 770 pseudo-regulons -> external R2=0.574  rho=0.746
+   null  8: 771 pseudo-regulons -> external R2=0.401  rho=0.643
+   null  9: 772 pseudo-regulons -> external R2=0.505  rho=0.697
+   null 10: 769 pseudo-regulons -> external R2=0.505  rho=0.677
+   null 11: 772 pseudo-regulons -> external R2=0.522  rho=0.698
+   null 12: 772 pseudo-regulons -> external R2=0.474  rho=0.686
+[B2] random-regulon null: R2 mean 0.466 (range 0.315-0.574) | real CollecTRI model 0.662
+==================== B3  RANDOM-GENE EXPRESSION BASELINE ====================
+   766 random genes, rep 1: external R2=0.429  rho=0.653
+   766 random genes, rep 2: external R2=0.599  rho=0.761
+   766 random genes, rep 3: external R2=0.544  rho=0.736
+   766 random genes, rep 4: external R2=0.570  rho=0.744
+   766 random genes, rep 5: external R2=0.540  rho=0.727
+   766 random genes, rep 6: external R2=0.508  rho=0.723
+   766 random genes, rep 7: external R2=0.495  rho=0.683
+   766 random genes, rep 8: external R2=0.388  rho=0.673
+[B3] mean external R2 = 0.509 | real TF model 0.662
+==================== B4  LINEAGE-ONLY BASELINES ====================
+   AR score : external R2=+0.382  rho=+0.546
+   NE score : external R2=-0.083  rho=-0.336
+   AR + NE  : external R2=+0.290  rho=+0.509
+[B4] predicted vs observed r=0.817; partial r controlling AR+NE scores = 0.683
+==================== B5  CLINICAL-UTILITY FRAMING ====================
+[B5] AUC for identifying the bottom-FOLH1 quartile = 0.929
+[B5] calling the model's own bottom quartile 'PSMA-low': PPV=0.79, sensitivity=0.79
+[B5] residual SD = 0.582 SD units -> 95% prediction interval +/-1.14 SD of FOLH1 (= 8.5-fold in FPKM)
+==================== B6  RAW-SPACE TRANSFER ====================
+[B6] raw-space (unstandardized) external R2 = -11.98   [manuscript 'R2<0'; naive transfer -12]
+saved s02b outputs

@@ -1,0 +1,29 @@
+CollecTRI: 42990 edges, 1185 TFs
+TFs whose CollecTRI regulon CONTAINS FOLH1: ['ELF3', 'ELF5', 'AR', 'VDR']
+   ELF3: regulon size 33 -> FOLH1 is 1/33 = 3.0% of the set
+   ELF5: regulon size 11 -> FOLH1 is 1/11 = 9.1% of the set
+   AR: regulon size 514 -> FOLH1 is 1/514 = 0.2% of the set
+   VDR: regulon size 152 -> FOLH1 is 1/152 = 0.7% of the set
+TF activities: TCGA (550, 766), SU2C (266, 769)
+[A2] n TFs compared = 766
+[A2] cross-cohort concordance rho = 0.502 (p=4.4e-50)   [manuscript 0.502]
+[A2] significant & same sign in both = 367/766  [manuscript 367/766]
+[A2] same sign regardless of significance = 594/766  [manuscript 594/766]
+[A2] significant in both, OPPOSITE sign = 39  [manuscript 39]
+   AR      TCGA rho=-0.052  SU2C rho=+0.259  Fisher z=-4.22 p=2.4e-05
+   FOXA1   TCGA rho=+0.246  SU2C rho=-0.196  Fisher z=+5.99 p=2.1e-09
+   MYCN    TCGA rho=+0.114  SU2C rho=-0.338  Fisher z=+6.22 p=4.9e-10
+   EZH2    TCGA rho=-0.274  SU2C rho=-0.372  Fisher z=+1.46 p=1.4e-01
+   HOXB13  TCGA rho=+0.270  SU2C rho=+0.183  Fisher z=+1.22 p=2.2e-01
+   ELF5    TCGA rho=+0.267  SU2C rho=+0.666  Fisher z=-7.07 p=1.5e-12
+   ELF3    TCGA rho=+0.204  SU2C rho=+0.391  Fisher z=-2.74 p=6.1e-03
+   VDR     TCGA rho=-0.350  SU2C rho=-0.348  Fisher z=-0.03 p=9.8e-01
+[A3] paired methylation/expression patients: 497  [manuscript 497]
+[A3] Model A  (TF+methylation) nested-CV R2 = 0.719   [manuscript 0.717]
+[A3] Model A  (TF only)        nested-CV R2 = 0.714   [manuscript 0.712]
+[A3] methylation-only          nested-CV R2 = 0.108  [not reported]
+[A4] Model B external R2 = 0.662  95% CI [0.563, 0.735]  rho=0.802   [manuscript R2 0.662 CI 0.559-0.736 rho 0.802]
+
+[run note] this run was stopped during the unstandardized raw-space transfer fit, which
+converges very slowly; parts A1-A4 above completed. The raw-space value (-11.98) and all of
+part B were produced by s02b_leakage_nulls.py / s02c_baselines.py (see s02b.log, s02c_results.json).
