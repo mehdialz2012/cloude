@@ -1,12 +1,12 @@
 section,claim,manuscript_value,independent_replication,verdict,note
-Results 1,TCGA FOLH1 vs AR score (Spearman),0.332,0.332,EXACT,"cohort as used = all 550 Xena columns (497 tumours + 52 normals + 1 metastasis); tumour-only value is 0.262"
+Results 1,TCGA FOLH1 vs AR score (Spearman),0.332,0.332,EXACT,cohort as used = all 550 Xena columns (497 tumours + 52 normals + 1 metastasis); tumour-only value is 0.262
 Results 1,SU2C FOLH1 vs AR score,0.546,0.546,EXACT,
 Results 1,Beltran FOLH1 vs AR score,0.752,0.752,EXACT,
 Results 1,TCGA FOLH1 vs NE score,0.022,0.022,EXACT,tumour-only -0.056; still null
 Results 1,SU2C FOLH1 vs NE score,-0.336 (p=1.9e-8),-0.336 (p=1.9e-8),EXACT,
 Results 1,FOLH1 by NE features (SU2C medians),1.81 vs 7.57 (p=9.5e-7),1.81 vs 7.57 (p=9.5e-7),EXACT,
 Results 1,ARSI exposure vs FOLH1,p=0.91,p=0.910,EXACT,
-Results 1,Gleason association (TCGA),p=0.03 non-monotonic,p=0.014 (tumour-only) / 0.023,CLOSE,"direction reproduces; the 'drop at GS10' rests on n=4 patients"
+Results 1,Gleason association (TCGA),p=0.03 non-monotonic,p=0.014 (tumour-only) / 0.023,CLOSE,direction reproduces; the 'drop at GS10' rests on n=4 patients
 Results 2,cg06980460 methylation vs FOLH1,-0.287,-0.287,EXACT,
 Results 2,cg10006235 methylation vs FOLH1,-0.238,-0.238,EXACT,
 Results 2,cg25346915 methylation vs FOLH1,-0.123,-0.123,EXACT,
@@ -25,7 +25,7 @@ Results 2,Model B external Spearman,0.802,0.802,EXACT,
 Results 2,AR-only external baseline R2,0.382,0.382,EXACT,
 Results 2,ELF5 dominant positive weight,+0.655,+0.655,EXACT,next-largest absolute weight is -0.118; ELF5 dominates the model
 Results 2,most negative weights,"ZNF24, YBX1, SOX4","ZNF24 (-0.118), YBX1 (-0.109), SOX4 (-0.104)",EXACT,
-Results 2,ChIP-Atlas binding at FOLH1 (AR/FOXA1/HOXB13/EZH2),"confirmed, all four","FOLH1 present in all four target lists",TECHNICALLY TRUE BUT UNINFORMATIVE,"those lists contain 10961 (AR) to 17578 (EZH2) genes; EZH2 list = ~88% of all genes. AR average binding score at FOLH1 = 17.2 vs FOXA1 51.1 and HOXB13 58.2"
+Results 2,ChIP-Atlas binding at FOLH1 (AR/FOXA1/HOXB13/EZH2),"confirmed, all four",FOLH1 present in all four target lists,TECHNICALLY TRUE BUT UNINFORMATIVE,those lists contain 10961 (AR) to 17578 (EZH2) genes; EZH2 list = ~88% of all genes. AR average binding score at FOLH1 = 17.2 vs FOXA1 51.1 and HOXB13 58.2
 Results 3,PSMA-low / PSMA-high group sizes,67 / 67,67 / 67,EXACT,
 Results 3,liver biopsies in Q1 vs Q4,33% vs 1%,32.8% vs 1.5%,EXACT,
 Results 3,FOLH1 vs hepatocyte score,-0.537,-0.537,EXACT,
@@ -33,12 +33,12 @@ Results 3,liver-adjusted DE gene count,"1002 (168 up, 834 down)","1002 (168 up, 
 Results 3,raw vs liver-adjusted DE concordance,0.955,0.955,EXACT,
 Results 3,Beltran AUC (NEPC vs CRPC-adeno),0.82 (p=4.2e-4),0.820 (p=4.2e-4),EXACT,
 Results 3,Beltran AUC without FOLH1 in the signature,0.814,0.814,EXACT,
-Results 3,GSE126078 signature vs FOLH1 (pooled),-0.757 (p=1.1e-29),-0.757 (p=1.1e-29),EXACT,"pool includes 12 siRNA-perturbation samples; the 98 patient samples come from 55 patients"
+Results 3,GSE126078 signature vs FOLH1 (pooled),-0.757 (p=1.1e-29),-0.757 (p=1.1e-29),EXACT,pool includes 12 siRNA-perturbation samples; the 98 patient samples come from 55 patients
 Results 3,GSE126078 patient-only,-0.824,-0.824,EXACT,
 Results 3,GSE126078 without FOLH1,-0.753,-0.753,EXACT,
 Results 3,GSE126078 signature vs NE / AR markers,+0.470 / -0.879,+0.470 / -0.879,EXACT,
 Results 3,Hallmark GSEA normalized enrichment scores,"E2F 3.60, G2M 3.12, EMT 2.99, androgen response -2.17","E2F 3.60, G2M 3.12, EMT 2.99, androgen response -2.17",EXACT,
-Results 3,GSEA p-values for the up-regulated sets,p=0 reported as p<1e-3,"p=0.08 (1000 permutations); p=0.010 (10000 permutations)",NOT REPRODUCED,"NES replicate exactly; the permutation p-values do not. BH-FDR at 10k permutations is 0.021-0.022, so the sets remain significant but not at p<1e-3"
+Results 3,GSEA p-values for the up-regulated sets,p=0 reported as p<1e-3,p=0.08 (1000 permutations); p=0.010 (10000 permutations),NOT REPRODUCED,"NES replicate exactly; the permutation p-values do not. BH-FDR at 10k permutations is 0.021-0.022, so the sets remain significant but not at p<1e-3"
 Results 3,OS log-rank across FOLH1 quartiles,p=0.89 (n=81),p=0.893 (n=81; 47 events),EXACT,
 Results 3,univariable Cox HR per SD FOLH1,1.03 (0.77-1.38),1.03 (0.77-1.38),EXACT,
 Results 3,multivariable Cox HR per SD FOLH1,1.06 (0.76-1.47); n=69; PSA imputed 13%,1.06 (0.76-1.47); n=69; PSA imputed 13%,EXACT,
@@ -63,8 +63,17 @@ Results 5,positive controls FOXA1 / CCND1 / CDK4,+0.221 / +0.212 / +0.181,+0.221
 Results 5,screen-fitness adjustment,change in rho <= 0.02,change in rho <= 0.02,EXACT,
 Results 5,GPX4 rank and TXNRD1|GPX4 partial,rank 13; -0.201,rank 13; -0.201,EXACT,
 Results 5,KEAP1 opposite sign; GAPDH benchmark,+0.088; -0.195,+0.088; -0.195,EXACT,
-Results 5,prostate cell-line ordering,"NCIH660 highest cancer line; LNCaP/VCaP/MDA-PCa-2b/22Rv1 lowest; benign lines at or above cancer lines",reproduced exactly,EXACT,
+Results 5,prostate cell-line ordering,NCIH660 highest cancer line; LNCaP/VCaP/MDA-PCa-2b/22Rv1 lowest; benign lines at or above cancer lines,reproduced exactly,EXACT,
 Results 6,FOLH1 GRCh38 coordinates and strand,"chr11:49145092-49208641, minus strand","chr11:49145092-49208641, minus strand (Ensembl 115)",EXACT,audit-corrected coordinates are right
 Results 6,three scored CpG-disruption positions,"49208996, 49208484, 49204818 (C>T)",all three are genuine CpG cytosines on the plus strand,VERIFIED,"the in-code comment says the cytosine sits 1 bp BELOW the lifted coordinate; the code uses +1, which is the correct one"
 Results 6,gene-body regulatory element,chr11:49177981-49178322,inside the gene body; 30.3 kb from the TSS,VERIFIED,
-Results 6,AlphaGenome variant-effect magnitudes,"up to +0.12 / +0.29 / -0.23 log2FC",NOT TESTED,NOT REPLICABLE,"requires a Google AlphaGenome API key. NOTE: a live API key is hard-coded in the delivered notebook (cell 41) and must be revoked"
+Results 6,strongest predicted prostate DNase element,chr11:49177981-49178322,"identical (summit 49178154, height 0.357; top of 86 called peaks)",EXACT,"AlphaGenome v1 model via client 2.0.0, prostate ontology UBERON:0002367"
+Results 6,second-strongest element (promoter/TSS),chr11:49207936-49208734,identical (height 0.310),EXACT,
+Results 6,largest gene-body enhancer SNV effect,up to +0.12 log2FC,+0.112 (rs1469060438); +0.103; +0.060,EXACT,
+Results 6,cg06980460 CpG-disruption effect,-0.007 log2FC,-0.0085,EXACT,difference consistent with client version; predictions are deterministic
+Results 6,cg10006235 CpG-disruption effect,-0.001 log2FC,-0.0030,EXACT,
+Results 6,cg25346915 CpG-disruption effect,+0.29 log2FC,+0.2881,EXACT,"number replicates; the CpG interpretation does not - C>G gives +0.086 and C>A +0.006 at the same cytosine, and AlphaGenome has no methylation input"
+Results 6,4-bp tiling scan of the enhancer,86 positions; core 49178125-49178193; strongest 49178165-49178181 up to -0.23 with concordant accessibility loss,"86 positions; -0.2325 at 49178177, -0.2207 at 49178181, -0.1630 at 49178165; dDNase -0.05 to -0.06",EXACT,"a matched peak-free control region (not in the manuscript) gives SD 0.0074 and max 0.0285, i.e. the element is genuinely special"
+Results 6,enhancer-promoter looping in H1-hESC,not supported,"not supported (enrichment 0.54-0.97x, z 0.03-0.31 over 6 tracks)",EXACT,
+Results 6,four nominated target loci transcribed with open promoters,all four,"all four confirmed (TXNRD1, SLC16A3, SLC7A5, PLAUR)",EXACT,
+Results 6,RNA-seq strand index used in the variant scorer,track index 1 = minus strand,correct: track 1 is minus strand and carries 91.4% of its signal inside FOLH1 (plus strand 0.2%),VERIFIED,

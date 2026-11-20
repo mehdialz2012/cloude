@@ -11,11 +11,11 @@ read only afterwards, to explain discrepancies and to audit choices that the Met
 
 **Two separate questions are answered below, and they have different answers:**
 
-1. *Do the numbers reproduce?* — **Yes, essentially perfectly.** 69 numerical claims were
-   catalogued. One is not testable here (AlphaGenome, no API key). Of the other 68, **65 reproduce
-   exactly**, most to three decimal places; one reproduces in direction with a different p-value
-   (Gleason); one is technically correct but uninformative as stated (ChIP-Atlas); and **one does
-   not reproduce** (GSEA permutation p-values).
+1. *Do the numbers reproduce?* — **Yes, essentially perfectly.** 78 numerical claims were
+   catalogued, including the AlphaGenome work (re-run with the API key the PI supplied). **75
+   reproduce exactly**, most to three decimal places; one reproduces in direction with a different
+   p-value (Gleason); one is technically correct but uninformative as stated (ChIP-Atlas); and
+   **one does not reproduce** (GSEA permutation p-values).
 2. *Do the numbers support the conclusions?* — **For the three headline conclusions, no.** A set of
    validation tests the manuscript does not contain changes the interpretation of the TF model, the
    external validation and the therapeutic claims. These are new analyses, not failures to
@@ -38,8 +38,9 @@ reproducible**; the problem is **inferential**, which is exactly what he says.
 | HPA | `rna_tissue_consensus.tsv` (51 tissues) + `rna_single_cell_type.tsv` | yes (51 tissues) |
 | Surfaceome | SURFY + CSPA high-confidence + UniProt cell-membrane w/ TM or GPI | 3,702 vs 3,701 genes |
 | CollecTRI | decoupleR / OmniPath | yes (42,990 edges, 1,185 TFs) |
+| AlphaGenome | v1 model via client 2.0.0, prostate ontology UBERON:0002367 | yes (authors ran client 1.x) |
 
-Code: `psma_folh1/code/` (`s01`–`s08`). Machine-readable outputs: `psma_folh1/results/`.
+Code: `psma_folh1/code/` (`s00`–`s09`). Machine-readable outputs: `psma_folh1/results/`.
 Claim-by-claim table: `psma_folh1/results/claim_by_claim_verdicts.csv`.
 
 ---
@@ -81,17 +82,34 @@ All 31 DOIs in the reference list resolve through Crossref to papers whose title
 years match the citations as written. Given the disclosed use of generative AI in drafting, this is
 worth stating in the reply — there are no fabricated or mismatched references.
 
-### 2.3 Claims not testable here
+### 2.3 AlphaGenome (Figure 5, Results §6)
 
-**AlphaGenome (Figure 5, Results §6).** Requires a Google AlphaGenome API key. The coordinate work
-*is* verifiable and is correct: FOLH1 GRCh38 chr11:49,145,092–49,208,641 minus strand confirmed
-against Ensembl; all three scored CpG-disruption positions are genuine CpG cytosines on the plus
-strand; the nominated element lies inside the gene body 30.3 kb from the TSS.
+Re-run with an API key supplied by the PI, on the AlphaGenome v1 model (client 2.0.0, the same
+model family the authors used). Every element of Figure 5 reproduces:
 
-> **Security issue — act on this today.** A live `ALPHAGENOME_API_KEY` is hard-coded in
-> `execution_trace/psma_folh1_analysis.ipynb`, cell 41, and that notebook has been sent to
-> external collaborators. **Revoke and rotate the key.** Replace it with
-> `os.environ["ALPHAGENOME_API_KEY"]` before the package is circulated again.
+| claim | manuscript | replication |
+|---|---|---|
+| strongest predicted prostate DNase element | chr11:49,177,981–49,178,322 | **identical** (summit 49,178,154, height 0.357; top of 86 called peaks) |
+| second-strongest element | chr11:49,207,936–49,208,734 (promoter/TSS) | **identical** (height 0.310) |
+| gene-body enhancer SNVs | up to +0.12 log2FC | **+0.112** (rs1469060438), +0.103, +0.060 |
+| cg06980460 CpG disruption | −0.007 | **−0.0085** |
+| cg10006235 CpG disruption | −0.001 | **−0.0030** |
+| cg25346915 CpG disruption | +0.29 | **+0.2881** |
+| 4-bp tiling scan, 86 positions | core 49,178,125–49,178,193; strongest at 49,178,165–49,178,181, up to −0.23 with concordant accessibility loss | **identical**: −0.2325 at 49,178,177, −0.2207 at 49,178,181, −0.1630 at 49,178,165, each with ΔDNase −0.05 to −0.06 |
+| enhancer–promoter looping (H1-hESC) | not supported | **not supported** (enrichment 0.54–0.97×, z = 0.03–0.31 across 6 tracks) |
+| TXNRD1/SLC16A3/SLC7A5/PLAUR loci | actively transcribed, open promoters | **confirmed** |
+
+Two audit points in the authors' favour: the strand index used in their scoring function is correct
+(RNA-seq track 1 is the minus strand and carries 91.4% of its signal inside the FOLH1 gene body,
+versus 0.2% for the plus-strand track), and the predictions are fully deterministic (three repeats
+identical to six decimal places), so the 0.001–0.002 differences above reflect the client version,
+not noise.
+
+> **Security issue — still act on this.** The key supplied for this replication is the *same* key
+> that is hard-coded in `execution_trace/psma_folh1_analysis.ipynb`, cell 41, in a package already
+> sent to external collaborators. **Revoke and rotate it**, and read it from
+> `os.environ["ALPHAGENOME_API_KEY"]` in any future version. (No key is stored anywhere in this
+> repository; the replication reads it from a file outside the repository tree.)
 
 ---
 
@@ -326,6 +344,56 @@ deeper dependency (Chronos −0.24 to −1.54) than TXNRD1 (0.00 to −0.70).
 The manuscript already hedges this ("the top of a broader fitness/lineage structure rather than a
 unique mechanism"). The hedge is not sufficient: the direct test points the other way.
 
+### 3.4 The AlphaGenome CpG result is not a CpG result (Results §6)
+
+The manuscript's most eye-catching sequence-level claim is that disrupting the CpG interrogated by
+cg25346915 raises predicted FOLH1 expression by +0.29 log2FC, "directionally concordant with the
+negative methylation–expression correlation at that probe". The number replicates (+0.288). The
+interpretation does not survive two checks.
+
+**(a) It is allele-specific, so it cannot be CpG disruption.** Every substitution at that cytosine
+abolishes the CpG. If the prediction reflected loss of the CpG, all three would behave alike:
+
+| variant at chr11:49,208,484 | predicted log2FC |
+|---|---|
+| C>T (the one scored) | **+0.288** |
+| C>G | +0.086 |
+| C>A | +0.006 |
+
+And all twelve alternate alleles at the four neighbouring bases (±1, ±2) give −0.057 to +0.002.
+So the signal is one specific base substitution at one position, not the loss of a methylatable
+cytosine. This is expected on first principles: AlphaGenome takes DNA sequence as input and has no
+methylation channel, so it cannot represent the quantity the HM450 probe measures. The
+"directional concordance" with the methylation–expression correlation is a coincidence.
+
+**(b) It is not a window artefact — the effect itself is real within the model.** Across four
+prediction windows the estimate is stable (+0.307 at 128 kb, +0.288 at 512 kb, +0.313 at a shifted
+512 kb, +0.282 at 1 Mb) even though the reference expression value moves substantially
+(975 → 820 → 808 → 632), which is the authors' own observation about absolute calibration. So the
+prediction is robust; only its biological label is wrong.
+
+**Recommendation.** Either drop the claim, or restate it without the methylation framing: *a single
+C>T substitution 158 bp inside the FOLH1 5′ end is predicted to increase expression; the effect is
+allele-specific and is not a readout of CpG methylation.* The cohort-level finding that methylation
+adds no incremental predictive power (§2, Model A) then stands on its own, unqualified by an
+in-silico result that does not actually speak to methylation.
+
+**(c) In the authors' favour: the nominated enhancer survives a proper background test.** The
+manuscript tiles 86 synthetic SNVs across the element and reports a sensitive ~70-bp core, but it
+has no control region, so there is no way to know whether those effects are larger than the model
+produces anywhere. Running the identical 4-bp scan over a matched 341-bp gene-body region with no
+predicted DNase peak (chr11:49,190,000–49,190,341):
+
+| | SD of predicted log2FC | max abs. effect | positions with abs. effect > 0.05 |
+|---|---|---|---|
+| nominated element (49,177,981–49,178,322) | **0.0529** | **0.2325** | **13 / 86** |
+| matched control region, no DNase peak | 0.0074 | 0.0285 | 0 / 86 |
+
+A 7.1-fold difference in dispersion (Levene p = 2.3e-8), and no control position reaches the
+threshold that 13 element positions exceed. The element nomination and the CRISPRi prioritisation
+are therefore well supported *as an in-silico hypothesis* — this control should be added to the
+paper, because it converts a descriptive scan into a test.
+
 ---
 
 ## 4. Other issues found
@@ -360,6 +428,10 @@ unique mechanism"). The hedge is not sufficient: the direct test points the othe
   null.
 - The surfaceome differential expression is correct as computed, and the known-target audit
   (DLL3 null, NCAM1 subset-driven, CEACAM5 liver-driven, SSTR2 borderline) is honest and holds.
+- The AlphaGenome enhancer nomination holds, and gets stronger with a control region the paper
+  does not have: the element's tiling effects are 7× more dispersed than a matched peak-free region
+  and no control position comes close to the element's core. The "no enhancer–promoter looping"
+  negative also replicates.
 
 **What does not survive:**
 
@@ -378,6 +450,9 @@ unique mechanism"). The hedge is not sufficient: the direct test points the othe
 - "PSMA-low-like cells are selectively dependent on the selenocysteine/thioredoxin axis" does not
   survive lineage adjustment (axis → TXNRD1 alone, barely above a GAPDH benchmark) and reverses
   sign when tested against FOLH1 expression itself.
+- The CpG-disruption result is not about CpGs: at the same cytosine, C>T gives +0.288 but C>G
+  +0.086 and C>A +0.006, and AlphaGenome has no methylation input channel. The methylation framing
+  has to go; the prediction itself is robust and can be kept as a plain sequence-variant result.
 
 **Assessment of Joe's review.** All three of his concerns are correct, and two of them are more
 serious than he states. He infers the TF circularity conceptually; it is also literal (FOLH1 is a

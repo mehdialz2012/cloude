@@ -1,0 +1,258 @@
+
+====================== determinism ======================
+  repeat 0: ref_expr=820.118 alt_expr=1001.374 log2FC=+0.288077
+  repeat 1: ref_expr=820.118 alt_expr=1001.374 log2FC=+0.288077
+  repeat 2: ref_expr=820.118 alt_expr=1001.374 log2FC=+0.288077
+[B4] spread across repeats = 0.00e+00
+
+====================== window ======================
+[B3] scoring 8 window variants
+  cg25346915@128kb_locus                       log2FC=+0.3065  dDNase=+0.0037
+  cg06980460@128kb_locus                       log2FC=-0.0023  dDNase=-0.0037
+  cg25346915@512kb_common                      log2FC=+0.2881  dDNase=+0.0058
+  cg06980460@512kb_common                      log2FC=-0.0085  dDNase=-0.0036
+  cg25346915@512kb_shifted_+50kb               log2FC=+0.3128  dDNase=+0.0076
+  cg06980460@512kb_shifted_+50kb               log2FC=-0.0066  dDNase=-0.0035
+  cg25346915@1Mb                               log2FC=+0.2818  dDNase=+0.0028
+  cg06980460@1Mb                               log2FC=-0.0031  dDNase=-0.0033
+                         label  ref_expr  alt_expr  expr_log2fc
+        cg25346915@128kb_locus  975.5366 1206.4388       0.3065
+        cg06980460@128kb_locus  975.5366  973.9808      -0.0023
+       cg25346915@512kb_common  820.1180 1001.3741       0.2881
+       cg06980460@512kb_common  820.1180  815.3000      -0.0085
+cg25346915@512kb_shifted_+50kb  808.1240 1003.8126       0.3128
+cg06980460@512kb_shifted_+50kb  808.1240  804.4525      -0.0066
+                cg25346915@1Mb  632.1321  768.5024       0.2818
+                cg06980460@1Mb  632.1321  630.7860      -0.0031
+
+====================== contact ======================
+  Micro-C: enh-promoter=-0.101 bg=-0.186+/-0.273 enrichment=0.54x z=0.31
+  in situ Hi-C: enh-promoter=-0.103 bg=-0.115+/-0.223 enrichment=0.90x z=0.05
+  in situ Hi-C: enh-promoter=-0.120 bg=-0.179+/-0.280 enrichment=0.67x z=0.21
+  in situ Hi-C: enh-promoter=-0.148 bg=-0.154+/-0.226 enrichment=0.96x z=0.03
+  Micro-C: enh-promoter=-0.234 bg=-0.297+/-0.287 enrichment=0.79x z=0.22
+  in situ Hi-C: enh-promoter=-0.194 bg=-0.200+/-0.210 enrichment=0.97x z=0.03
+
+====================== loci ======================
+  TXNRD1: gene-body RNA=1971.7, promoter DNase max=3.719
+  SLC16A3: gene-body RNA=2194.6, promoter DNase max=4.938
+  SLC7A5: gene-body RNA=9000.9, promoter DNase max=10.625
+  PLAUR: gene-body RNA=448.5, promoter DNase max=31.125
+
+====================== ism ======================
+[A3/enhancer] reference sequence 341 nt
+[A3/enhancer] 86 positions
+  ism_enhancer_49177981                        log2FC=-0.0179  dDNase=-0.0029
+  ism_enhancer_49177985                        log2FC=-0.0087  dDNase=-0.0007
+  ism_enhancer_49177989                        log2FC=-0.0080  dDNase=+0.0000
+  ism_enhancer_49177993                        log2FC=+0.0085  dDNase=-0.0020
+  ism_enhancer_49177997                        log2FC=-0.0086  dDNase=-0.0031
+  ism_enhancer_49178001                        log2FC=+0.0136  dDNase=+0.0090
+  ism_enhancer_49178005                        log2FC=+0.0228  dDNase=+0.0051
+  ism_enhancer_49178009                        log2FC=-0.0215  dDNase=-0.0071
+  ism_enhancer_49178013                        log2FC=-0.0087  dDNase=-0.0029
+  ism_enhancer_49178017                        log2FC=-0.0099  dDNase=-0.0062
+  ism_enhancer_49178021                        log2FC=-0.0126  dDNase=+0.0033
+  ism_enhancer_49178025                        log2FC=+0.0534  dDNase=+0.0337
+  ism_enhancer_49178029                        log2FC=+0.0151  dDNase=+0.0020
+  ism_enhancer_49178033                        log2FC=-0.0258  dDNase=-0.0021
+  ism_enhancer_49178037                        log2FC=-0.0074  dDNase=+0.0024
+  ism_enhancer_49178041                        log2FC=-0.0258  dDNase=-0.0036
+  ism_enhancer_49178045                        log2FC=-0.0281  dDNase=-0.0035
+  ism_enhancer_49178049                        log2FC=+0.0360  dDNase=+0.0257
+  ism_enhancer_49178053                        log2FC=+0.0157  dDNase=+0.0030
+  ism_enhancer_49178057                        log2FC=-0.0041  dDNase=+0.0002
+  ism_enhancer_49178061                        log2FC=+0.0347  dDNase=+0.0085
+  ism_enhancer_49178065                        log2FC=-0.0247  dDNase=-0.0059
+  ism_enhancer_49178069                        log2FC=-0.0210  dDNase=+0.0010
+  ism_enhancer_49178073                        log2FC=-0.0268  dDNase=-0.0054
+  ism_enhancer_49178077                        log2FC=+0.0118  dDNase=+0.0076
+  ism_enhancer_49178081                        log2FC=-0.0916  dDNase=-0.0216
+  ism_enhancer_49178085                        log2FC=-0.0936  dDNase=-0.0186
+  ism_enhancer_49178089                        log2FC=+0.0122  dDNase=+0.0009
+  ism_enhancer_49178093                        log2FC=+0.0049  dDNase=-0.0022
+  ism_enhancer_49178097                        log2FC=+0.0034  dDNase=+0.0049
+  ism_enhancer_49178101                        log2FC=-0.0096  dDNase=-0.0074
+  ism_enhancer_49178105                        log2FC=+0.0346  dDNase=+0.0045
+  ism_enhancer_49178109                        log2FC=-0.0071  dDNase=+0.0020
+  ism_enhancer_49178113                        log2FC=-0.0482  dDNase=-0.0045
+  ism_enhancer_49178117                        log2FC=-0.0076  dDNase=+0.0083
+  ism_enhancer_49178121                        log2FC=+0.0231  dDNase=+0.0112
+  ism_enhancer_49178125                        log2FC=-0.0970  dDNase=-0.0302
+  ism_enhancer_49178129                        log2FC=-0.0017  dDNase=+0.0006
+  ism_enhancer_49178133                        log2FC=+0.0390  dDNase=+0.0109
+  ism_enhancer_49178137                        log2FC=-0.0302  dDNase=-0.0052
+  ism_enhancer_49178141                        log2FC=+0.0129  dDNase=+0.0072
+  ism_enhancer_49178145                        log2FC=+0.0468  dDNase=+0.0140
+  ism_enhancer_49178149                        log2FC=+0.0639  dDNase=+0.0363
+  ism_enhancer_49178153                        log2FC=+0.1394  dDNase=+0.0178
+  ism_enhancer_49178157                        log2FC=+0.0612  dDNase=+0.0167
+  ism_enhancer_49178161                        log2FC=+0.0826  dDNase=+0.0207
+  ism_enhancer_49178165                        log2FC=-0.1630  dDNase=-0.0503
+  ism_enhancer_49178169                        log2FC=+0.0006  dDNase=-0.0167
+  ism_enhancer_49178173                        log2FC=+0.0258  dDNase=+0.0246
+  ism_enhancer_49178177                        log2FC=-0.2325  dDNase=-0.0643
+  ism_enhancer_49178181                        log2FC=-0.2207  dDNase=-0.0636
+  ism_enhancer_49178185                        log2FC=-0.0886  dDNase=-0.0248
+  ism_enhancer_49178189                        log2FC=-0.0164  dDNase=-0.0155
+  ism_enhancer_49178193                        log2FC=+0.0890  dDNase=+0.0138
+  ism_enhancer_49178197                        log2FC=-0.0026  dDNase=-0.0084
+  ism_enhancer_49178201                        log2FC=+0.0176  dDNase=+0.0035
+  ism_enhancer_49178205                        log2FC=+0.0208  dDNase=+0.0119
+  ism_enhancer_49178209                        log2FC=+0.0172  dDNase=+0.0059
+  ism_enhancer_49178213                        log2FC=-0.0118  dDNase=+0.0017
+  ism_enhancer_49178217                        log2FC=-0.0390  dDNase=-0.0145
+  ism_enhancer_49178221                        log2FC=-0.0176  dDNase=-0.0027
+  ism_enhancer_49178225                        log2FC=-0.0260  dDNase=-0.0030
+  ism_enhancer_49178229                        log2FC=-0.0452  dDNase=-0.0206
+  ism_enhancer_49178233                        log2FC=-0.0438  dDNase=-0.0165
+  ism_enhancer_49178237                        log2FC=+0.0090  dDNase=+0.0099
+  ism_enhancer_49178241                        log2FC=-0.0016  dDNase=+0.0051
+  ism_enhancer_49178245                        log2FC=+0.0094  dDNase=+0.0076
+  ism_enhancer_49178249                        log2FC=+0.0356  dDNase=+0.0045
+  ism_enhancer_49178253                        log2FC=+0.0052  dDNase=+0.0005
+  ism_enhancer_49178257                        log2FC=+0.0344  dDNase=+0.0170
+  ism_enhancer_49178261                        log2FC=+0.0191  dDNase=+0.0057
+  ism_enhancer_49178265                        log2FC=-0.0330  dDNase=-0.0146
+  ism_enhancer_49178269                        log2FC=-0.0151  dDNase=-0.0038
+  ism_enhancer_49178273                        log2FC=-0.0295  dDNase=-0.0067
+  ism_enhancer_49178277                        log2FC=-0.0028  dDNase=-0.0050
+  ism_enhancer_49178281                        log2FC=+0.0057  dDNase=+0.0092
+  ism_enhancer_49178285                        log2FC=-0.0007  dDNase=+0.0024
+  ism_enhancer_49178289                        log2FC=+0.0150  dDNase=-0.0006
+  ism_enhancer_49178293                        log2FC=+0.0089  dDNase=+0.0029
+  ism_enhancer_49178297                        log2FC=-0.0091  dDNase=-0.0036
+  ism_enhancer_49178301                        log2FC=+0.0039  dDNase=+0.0014
+  ism_enhancer_49178305                        log2FC=-0.0274  dDNase=+0.0066
+  ism_enhancer_49178309                        log2FC=+0.0102  dDNase=+0.0015
+  ism_enhancer_49178313                        log2FC=+0.0031  dDNase=-0.0015
+  ism_enhancer_49178317                        log2FC=-0.0017  dDNase=-0.0015
+  ism_enhancer_49178321                        log2FC=+0.0063  dDNase=+0.0031
+count    86.0000
+mean     -0.0070
+std       0.0529
+min      -0.2325
+25%      -0.0213
+50%      -0.0017
+75%       0.0151
+max       0.1394
+     pos  expr_log2fc  dnase_delta
+49178177      -0.2325      -0.0643
+49178181      -0.2207      -0.0636
+49178165      -0.1630      -0.0503
+49178153       0.1394       0.0178
+49178125      -0.0970      -0.0302
+49178085      -0.0936      -0.0186
+49178081      -0.0916      -0.0216
+49178193       0.0890       0.0138
+49178185      -0.0886      -0.0248
+49178161       0.0826       0.0207
+
+====================== ism_control ======================
+[A3/control] reference sequence 341 nt
+[A3/control] 86 positions
+  ism_control_49190000                         log2FC=-0.0037  dDNase=+0.0000
+  ism_control_49190004                         log2FC=-0.0029  dDNase=+0.0001
+  ism_control_49190008                         log2FC=-0.0014  dDNase=-0.0000
+  ism_control_49190012                         log2FC=-0.0029  dDNase=+0.0001
+  ism_control_49190016                         log2FC=-0.0033  dDNase=+0.0001
+  ism_control_49190020                         log2FC=-0.0009  dDNase=+0.0000
+  ism_control_49190024                         log2FC=-0.0035  dDNase=-0.0000
+  ism_control_49190028                         log2FC=-0.0024  dDNase=-0.0000
+  ism_control_49190032                         log2FC=-0.0021  dDNase=+0.0000
+  ism_control_49190036                         log2FC=-0.0019  dDNase=-0.0002
+  ism_control_49190040                         log2FC=-0.0017  dDNase=+0.0003
+  ism_control_49190044                         log2FC=-0.0011  dDNase=+0.0003
+  ism_control_49190048                         log2FC=-0.0026  dDNase=+0.0000
+  ism_control_49190052                         log2FC=-0.0023  dDNase=-0.0004
+  ism_control_49190056                         log2FC=-0.0011  dDNase=+0.0004
+  ism_control_49190060                         log2FC=-0.0024  dDNase=+0.0003
+  ism_control_49190064                         log2FC=-0.0034  dDNase=+0.0003
+  ism_control_49190068                         log2FC=-0.0025  dDNase=-0.0001
+  ism_control_49190072                         log2FC=-0.0043  dDNase=-0.0000
+  ism_control_49190076                         log2FC=-0.0018  dDNase=-0.0003
+  ism_control_49190080                         log2FC=-0.0035  dDNase=+0.0004
+  ism_control_49190084                         log2FC=-0.0044  dDNase=+0.0006
+  ism_control_49190088                         log2FC=+0.0015  dDNase=+0.0002
+  ism_control_49190092                         log2FC=-0.0012  dDNase=+0.0002
+  ism_control_49190096                         log2FC=-0.0039  dDNase=+0.0002
+  ism_control_49190100                         log2FC=-0.0023  dDNase=-0.0002
+  ism_control_49190104                         log2FC=-0.0031  dDNase=-0.0000
+  ism_control_49190108                         log2FC=-0.0033  dDNase=-0.0001
+  ism_control_49190112                         log2FC=-0.0009  dDNase=+0.0002
+  ism_control_49190116                         log2FC=-0.0019  dDNase=+0.0000
+  ism_control_49190120                         log2FC=-0.0046  dDNase=+0.0000
+  ism_control_49190124                         log2FC=-0.0032  dDNase=-0.0000
+  ism_control_49190128                         log2FC=-0.0056  dDNase=+0.0001
+  ism_control_49190132                         log2FC=-0.0034  dDNase=+0.0001
+  ism_control_49190136                         log2FC=+0.0009  dDNase=+0.0000
+  ism_control_49190140                         log2FC=-0.0049  dDNase=-0.0000
+  ism_control_49190144                         log2FC=-0.0085  dDNase=-0.0000
+  ism_control_49190148                         log2FC=-0.0032  dDNase=+0.0000
+  ism_control_49190152                         log2FC=-0.0011  dDNase=+0.0001
+  ism_control_49190156                         log2FC=+0.0094  dDNase=+0.0000
+  ism_control_49190160                         log2FC=-0.0006  dDNase=-0.0000
+  ism_control_49190164                         log2FC=-0.0046  dDNase=-0.0000
+  ism_control_49190168                         log2FC=-0.0034  dDNase=+0.0003
+  ism_control_49190172                         log2FC=-0.0051  dDNase=-0.0001
+  ism_control_49190176                         log2FC=-0.0226  dDNase=-0.0001
+  ism_control_49190180                         log2FC=-0.0148  dDNase=-0.0000
+  ism_control_49190184                         log2FC=-0.0154  dDNase=+0.0002
+  ism_control_49190188                         log2FC=-0.0013  dDNase=-0.0002
+  ism_control_49190192                         log2FC=-0.0055  dDNase=+0.0002
+  ism_control_49190196                         log2FC=+0.0051  dDNase=+0.0004
+  ism_control_49190200                         log2FC=-0.0034  dDNase=-0.0002
+  ism_control_49190204                         log2FC=+0.0026  dDNase=-0.0003
+  ism_control_49190208                         log2FC=-0.0124  dDNase=-0.0001
+  ism_control_49190212                         log2FC=-0.0058  dDNase=+0.0005
+  ism_control_49190216                         log2FC=+0.0051  dDNase=+0.0005
+  ism_control_49190220                         log2FC=-0.0127  dDNase=-0.0004
+  ism_control_49190224                         log2FC=+0.0066  dDNase=+0.0001
+  ism_control_49190228                         log2FC=-0.0050  dDNase=+0.0000
+  ism_control_49190232                         log2FC=-0.0150  dDNase=+0.0004
+  ism_control_49190236                         log2FC=-0.0128  dDNase=+0.0003
+  ism_control_49190240                         log2FC=+0.0156  dDNase=+0.0003
+  ism_control_49190244                         log2FC=+0.0086  dDNase=+0.0017
+  ism_control_49190248                         log2FC=-0.0050  dDNase=+0.0018
+  ism_control_49190252                         log2FC=+0.0095  dDNase=+0.0010
+  ism_control_49190256                         log2FC=-0.0067  dDNase=+0.0003
+  ism_control_49190260                         log2FC=-0.0075  dDNase=+0.0004
+  ism_control_49190264                         log2FC=-0.0015  dDNase=-0.0001
+  ism_control_49190268                         log2FC=-0.0091  dDNase=-0.0001
+  ism_control_49190272                         log2FC=+0.0049  dDNase=-0.0000
+  ism_control_49190276                         log2FC=-0.0022  dDNase=+0.0006
+  ism_control_49190280                         log2FC=+0.0056  dDNase=-0.0000
+  ism_control_49190284                         log2FC=-0.0123  dDNase=+0.0001
+  ism_control_49190288                         log2FC=-0.0030  dDNase=+0.0004
+  ism_control_49190292                         log2FC=-0.0135  dDNase=-0.0002
+  ism_control_49190296                         log2FC=+0.0033  dDNase=+0.0005
+  ism_control_49190300                         log2FC=-0.0050  dDNase=-0.0006
+  ism_control_49190304                         log2FC=-0.0213  dDNase=+0.0019
+  ism_control_49190308                         log2FC=-0.0033  dDNase=-0.0007
+  ism_control_49190312                         log2FC=+0.0191  dDNase=-0.0006
+  ism_control_49190316                         log2FC=-0.0048  dDNase=-0.0006
+  ism_control_49190320                         log2FC=+0.0152  dDNase=-0.0000
+  ism_control_49190324                         log2FC=-0.0121  dDNase=+0.0014
+  ism_control_49190328                         log2FC=-0.0017  dDNase=-0.0001
+  ism_control_49190332                         log2FC=+0.0035  dDNase=+0.0005
+  ism_control_49190336                         log2FC=-0.0285  dDNase=+0.0001
+  ism_control_49190340                         log2FC=-0.0074  dDNase=+0.0014
+count    86.0000
+mean     -0.0032
+std       0.0074
+min      -0.0285
+25%      -0.0050
+50%      -0.0032
+75%      -0.0012
+max       0.0191
+     pos  expr_log2fc  dnase_delta
+49190336      -0.0285       0.0001
+49190176      -0.0226      -0.0001
+49190304      -0.0213       0.0019
+49190312       0.0191      -0.0006
+49190240       0.0156       0.0003
+49190184      -0.0154       0.0002
+49190320       0.0152      -0.0000
+49190232      -0.0150       0.0004
+49190180      -0.0148      -0.0000
+49190292      -0.0135      -0.0002
